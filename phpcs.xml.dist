@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<ruleset name="Pronamic WordPress Documentor rules">
+<ruleset name="Leantime Documentor rules">
 	<file>.</file>
 
 	<arg name="colors"/>

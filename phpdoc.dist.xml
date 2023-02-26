@@ -6,7 +6,7 @@
 	xmlns="https://www.phpdoc.org"
 	xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
-	<title>Pronamic WordPress Documentor</title>
+	<title>Leantime Documentor</title>
 
 	<paths>
 		<output>build/api</output>

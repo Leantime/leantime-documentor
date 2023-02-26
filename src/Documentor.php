@@ -5,10 +5,10 @@
  * @author    Pronamic <info@pronamic.eu>
  * @copyright 2005-2022 Pronamic
  * @license   GPL-3.0-or-later
- * @package   Pronamic\WordPress\Documentor
+ * @package   DigitalJoeCo\Leantime\Documentor
  */
 
-namespace Pronamic\WordPress\Documentor;
+namespace DigitalJoeCo\Leantime\Documentor;
 
 use PhpParser\Node;
 use PhpParser\NodeFinder;
@@ -169,12 +169,8 @@ class Documentor {
 				return \in_array(
 					\strval( $node->name ),
 					array(
-						'apply_filters',
-						'apply_filters_ref_array',
-						'apply_filters_deprecated',
-						'do_action',
-						'do_action_ref_array',
-						'do_action_deprecated',
+						'dispatch_event',
+						'dispatch_filter'
 					),
 					true
 				);

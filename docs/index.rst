@@ -1,2 +1,2 @@
-Pronamic WordPress Documentor
------------------------------
+Leantime Documentor
+-------------------

@@ -184,7 +184,7 @@ test
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
+| $test | \DigitalJoeCo\Leantime\Documentor\TestClass | Test object. |
 +----------+------+-------------+
 
 test_{$dummy}
@@ -197,7 +197,7 @@ test_{$dummy}
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
+| $test | \DigitalJoeCo\Leantime\Documentor\TestClass | Test object. |
 +----------+------+-------------+
 
 test_{$from}_to_{$to}
@@ -210,7 +210,7 @@ test_{$from}_to_{$to}
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
+| $test | \DigitalJoeCo\Leantime\Documentor\TestClass | Test object. |
 +----------+------+-------------+
 
 test_{$this->dummy}
@@ -223,7 +223,7 @@ test_{$this->dummy}
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
+| $test | \DigitalJoeCo\Leantime\Documentor\TestClass | Test object. |
 +----------+------+-------------+
 
 test_since
@@ -236,7 +236,7 @@ test_since
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
+| $test | \DigitalJoeCo\Leantime\Documentor\TestClass | Test object. |
 +----------+------+-------------+
 
 test_union_types

@@ -255,7 +255,7 @@
         "params": [
             {
                 "name": "$test",
-                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "type": "\\DigitalJoeCo\\Leantime\\Documentor\\TestClass",
                 "description": "Test object."
             }
         ],
@@ -269,7 +269,7 @@
         "params": [
             {
                 "name": "$test",
-                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "type": "\\DigitalJoeCo\\Leantime\\Documentor\\TestClass",
                 "description": "Test object."
             }
         ],
@@ -283,7 +283,7 @@
         "params": [
             {
                 "name": "$test",
-                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "type": "\\DigitalJoeCo\\Leantime\\Documentor\\TestClass",
                 "description": "Test object."
             }
         ],
@@ -297,7 +297,7 @@
         "params": [
             {
                 "name": "$test",
-                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "type": "\\DigitalJoeCo\\Leantime\\Documentor\\TestClass",
                 "description": "Test object."
             }
         ],
@@ -311,7 +311,7 @@
         "params": [
             {
                 "name": "$test",
-                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "type": "\\DigitalJoeCo\\Leantime\\Documentor\\TestClass",
                 "description": "Test object."
             }
         ],

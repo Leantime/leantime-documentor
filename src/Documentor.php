@@ -42,9 +42,10 @@ class Documentor {
 	/**
 	 * Construct documentor.
 	 */
-	public function __construct() {
+	public function __construct($output) {
 		$this->hooks    = array();
 		$this->prefixes = array();
+        $this->output = $output;
 	}
 
 	/**
@@ -153,24 +154,28 @@ class Documentor {
 		$statements = $node_finder->find(
 			$statements,
 			function( Node $node ) {
-				if ( ! $node instanceof Node\Expr\FuncCall ) {
+				if ( ! $node instanceof Node\Expr\StaticCall ) {
 					return false;
 				}
 
-				/**
-				 * Function call can be a name or an expression, for example: `$callback()`.
-				 *
-				 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php#L10-L11
-				 */
-				if ( ! $node->name instanceof Node\Name ) {
-					return false;
-				}
+                $canBeString = function ($value)
+                {
+                    if (is_object($value) and method_exists($value, '__toString')) return true;
+
+                    if (is_null($value)) return true;
+
+                    return is_scalar($value);
+                };
+
+                if ( ! $canBeString($node->name) ) {
+                    return false;
+                }
 
 				return \in_array(
 					\strval( $node->name ),
 					array(
-						'self::dispatch_event',
-						'self::dispatch_filter'
+						'dispatch_event',
+						'dispatch_filter'
 					),
 					true
 				);

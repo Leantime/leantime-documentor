@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#!/usr/local/bin/php
 <?php
 
 namespace DigitalJoeCo\Leantime\Documentor;
@@ -112,7 +112,7 @@ $application->register( 'parse' )
 
 		/**
 		 * Progress Bar.
-		 * 
+		 *
 		 * @link https://symfony.com/doc/current/components/console/helpers/progressbar.html
 		 */
 		$progress_bar = new ProgressBar( $output, \iterator_count( $finder ) );
@@ -124,7 +124,7 @@ $application->register( 'parse' )
 		/**
 		 * Documentor.
 		 */
-		$documentor = new Documentor();
+		$documentor = new Documentor($output);
 
 		$documentor->type = $input->getOption( 'type' );
 
@@ -134,7 +134,7 @@ $application->register( 'parse' )
 
 		/**
 		 * Prefixes.
-		 * 
+		 *
 		 * @link https://github.com/pronamic/wp-documentor/pull/10
 		 */
 		$documentor->prefixes = (array) $input->getOption( 'prefix' );
@@ -173,7 +173,7 @@ $application->register( 'parse' )
 		 */
 		$printer = null;
 
-		$format = $input->getOption( 'format' ); 
+		$format = $input->getOption( 'format' );
 
 		switch ( $format ) {
 			case 'default':

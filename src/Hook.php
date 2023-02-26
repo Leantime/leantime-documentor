@@ -203,7 +203,7 @@ class Hook {
 		return \in_array(
 			\strval( $this->call->name ),
 			array(
-				'dispatch_filter'
+				'self::dispatch_filter'
 			),
 			true
 		);
@@ -218,7 +218,7 @@ class Hook {
 		return \in_array(
 			\strval( $this->call->name ),
 			array(
-				'dispatch_event'
+				'self::dispatch_event'
 			),
 			true
 		);
@@ -233,8 +233,8 @@ class Hook {
 		return \in_array(
 			\strval( $this->call->name ),
 			array(
-				'dispatch_event_deprecated',
-				'dispatch_filter_deprecated',
+				'self::dispatch_event_deprecated',
+				'self::dispatch_filter_deprecated',
 			),
 			true
 		);

@@ -169,8 +169,8 @@ class Documentor {
 				return \in_array(
 					\strval( $node->name ),
 					array(
-						'dispatch_event',
-						'dispatch_filter'
+						'self::dispatch_event',
+						'self::dispatch_filter'
 					),
 					true
 				);

@@ -8,7 +8,7 @@
  * @package   DigitalJoeCo\Leantime\Documentor
  */
 
-echo '### `', $hook->get_tag()->get_name(), '`', $eol;
+echo '### `', $hook->get_hook(), '`', $eol;
 echo $eol;
 
 $summary = $hook->get_summary();
@@ -88,19 +88,21 @@ if ( null !== $changelog && \count( $changelog ) > 0 ) {
 	echo $eol;
 }
 
+$github_link = 'https://github.com/Leantime/leantime/blob/master/app/' . $documentor->relative( $hook->get_file() );
+
 printf(
 	'Source: %s, %s',
 	\sprintf(
 		'[%s](%s)',
 		$hook->get_file()->getPathname(),
-		$documentor->relative( $hook->get_file() )
+		$github_link
 	),
 	\sprintf(
 		'[line %s](%s)',
 		$hook->get_start_line(),
 		\sprintf(
 			'%s#L%d-L%d',
-			$documentor->relative( $hook->get_file() ),
+			$github_link,
 			$hook->get_start_line(),
 			$hook->get_end_line()
 		)

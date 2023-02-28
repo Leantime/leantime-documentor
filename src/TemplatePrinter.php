@@ -21,6 +21,10 @@ use Symfony\Component\Console\Output\OutputInterface;
  * @since   1.0.0
  */
 class TemplatePrinter {
+    public Documentor $documentor;
+    public OutputInterface $output;
+    public $template;
+
 	/**
 	 * Constrcuct default printer.
 	 *

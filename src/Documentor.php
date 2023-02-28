@@ -14,7 +14,10 @@ use PhpParser\Node;
 use PhpParser\NodeFinder;
 use PhpParser\NodeTraverser;
 use PhpParser\ParserFactory;
+use PhpParser\NodeVisitorAbstract;
 use PhpParser\NodeVisitor\NodeConnectingVisitor;
+use PhpParser\NodeVisitor\ParentConnectingVisitor;
+use PhpParser\NodeVisitor\NameResolver;
 use Symfony\Component\Filesystem\Filesystem;
 
 /**
@@ -38,6 +41,12 @@ class Documentor {
 	 * @var string[]
 	 */
 	public $prefixes;
+
+    public $type;
+
+    public $relative;
+
+    public $output;
 
 	/**
 	 * Construct documentor.
@@ -120,6 +129,21 @@ class Documentor {
 		return false;
 	}
 
+    private function findParentMethod( Node $node ): Node\Stmt\ClassMethod|false
+    {
+        if (!$node->hasAttribute('parent')) {
+            return false;
+        }
+
+        $parent = $node->getAttribute('parent');
+
+        if ($parent instanceof Node\Stmt\ClassMethod) {
+            return $parent;
+        }
+
+        return call_user_func_array([$this, __FUNCTION__], [$parent]);
+    }
+
 	/**
 	 * Parse.
 	 *
@@ -137,6 +161,23 @@ class Documentor {
 
 		$traverser->addVisitor( new NodeConnectingVisitor() );
 		$traverser->addVisitor( new NamespaceResolver() );
+        $traverser->addVisitor( new ParentConnectingVisitor() );
+        $traverser->addVisitor( new NameResolver() );
+        $traverser->addVisitor( new class extends NodeVisitorAbstract {
+            private $stack;
+            public function beginTraverse(array $nodes) {
+                $this->stack = [];
+            }
+            public function enterNode(Node $node) {
+                if (!empty($this->stack)) {
+                    $node->setAttribute('parent', $this->stack[count($this->stack)-1]);
+                }
+                $this->stack[] = $node;
+            }
+            public function leaveNode(Node $node) {
+                array_pop($this->stack);
+            }
+        } );
 
 		$tag_printer = new TagPrinter();
 
@@ -154,10 +195,6 @@ class Documentor {
 		$statements = $node_finder->find(
 			$statements,
 			function( Node $node ) {
-				if ( ! $node instanceof Node\Expr\StaticCall ) {
-					return false;
-				}
-
                 $canBeString = function ($value)
                 {
                     if (is_object($value) and method_exists($value, '__toString')) return true;
@@ -167,6 +204,18 @@ class Documentor {
                     return is_scalar($value);
                 };
 
+				if ( (! $node instanceof Node\Expr\StaticCall)
+                    && (! $node instanceof Node\Expr\MethodCall)
+                ) {
+					return false;
+				} else {
+                    if (! isset($node->name)
+                        || ! $canBeString($node->name)
+                    ) {
+                        return false;
+                    }
+                }
+
                 if ( ! $canBeString($node->name) ) {
                     return false;
                 }
@@ -175,7 +224,17 @@ class Documentor {
 					\strval( $node->name ),
 					array(
 						'dispatch_event',
-						'dispatch_filter'
+						'dispatch_filter',
+                        'dispatchTplEvent',
+                        'dispatchTplHook',
+                        'dispatchMailerEvent',
+                        'dispatchMailerFilter',
+                        'dispatch_event_deprecated',
+                        'dispatch_filter_deprecated',
+                        'dispatchTplEventDeprecated',
+                        'dispatchTplFilterDeprecated',
+                        'dispatchMailerEventDeprecated',
+                        'dispatchMailerFilterDeprecated'
 					),
 					true
 				);
@@ -183,6 +242,12 @@ class Documentor {
 		);
 
 		foreach ( $statements as $statement ) {
+            //$this->output->writeln(get_class($statement));
+
+            $method = $this->findParentMethod($statement);
+
+            $method = is_object($method) && isset($method->name) ? $method->name : '';
+
 			$tag_arg = \array_shift( $statement->args );
 
 			if ( null === $tag_arg ) {
@@ -232,7 +297,7 @@ class Documentor {
 				continue;
 			}
 
-			$tag = new Tag( $tag_name, $tag_arg );
+			$tag = new Tag( $tag_name, $method, $tag_arg );
 
 			$arguments = array();
 
@@ -282,6 +347,14 @@ class Documentor {
 					}
 				}
 			}
+
+            // Don't include certain hooks that are handled differently
+            if (str_starts_with($hook->get_hook(), 'core.trait.eventhelpers.')
+                || str_starts_with($hook->get_hook(), 'core.mailer.dispatchMailerHook.')
+                || str_starts_with($hook->get_hook(), 'core.template.dispatchTplHook.')
+            ) {
+                continue;
+            }
 
 			$this->hooks[] = $hook;
 		}

@@ -25,32 +25,61 @@ class Tag {
 	 *
 	 * @var string
 	 */
-	private $name;
+	private string $name;
 
 	/**
 	 * Argument.
 	 *
 	 * @var Arg
 	 */
-	private $arg;
+	private Arg $arg;
+
+    /**
+	 * Method.
+	 *
+	 * @var string
+	 */
+	private string $method;
+
+    /**
+	 * Complete Hook.
+	 *
+	 * @var string
+	 */
+	private string $complete_hook;
 
 	/**
 	 * Construct hook.
 	 *
-	 * @param string $name Name.
-	 * @param Arg    $arg  Argument.
+	 * @param string $name   Name.
+     * @param string $method Method.
+	 * @param Arg    $arg    Argument.
 	 */
-	public function __construct( $name, Arg $arg ) {
+	public function __construct( string $name, string $method, Arg $arg ) {
 		$this->name = $name;
+        $this->method = $method;
 		$this->arg  = $arg;
+
+        $this->constructHook();
 	}
+
+    private function constructHook()
+    {
+        $hook = '';
+
+        if (!empty($this->method)) {
+            $hook .= "{$this->method}.";
+        }
+
+        $this->complete_hook = $hook . $this->name;
+    }
 
 	/**
 	 * Get name.
 	 *
 	 * @return string
 	 */
-	public function get_name() {
-		return $this->name;
+	public function get_hook() {
+		return $this->complete_hook;
 	}
 }

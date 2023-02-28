@@ -67,6 +67,10 @@ class Hook {
 	 */
 	private $changelog;
 
+    public array $arguments;
+
+    public $parent;
+
 	/**
 	 * Construct hook.
 	 *
@@ -203,7 +207,9 @@ class Hook {
 		return \in_array(
 			\strval( $this->call->name ),
 			array(
-				'dispatch_filter'
+				'dispatch_filter',
+                'dispatchTplFilter',
+                'dispatchMailerFilter'
 			),
 			true
 		);
@@ -218,7 +224,9 @@ class Hook {
 		return \in_array(
 			\strval( $this->call->name ),
 			array(
-				'dispatch_event'
+				'dispatch_event',
+                'dispatchTplEvent',
+                'dispatchMailerFilter'
 			),
 			true
 		);
@@ -235,6 +243,10 @@ class Hook {
 			array(
 				'dispatch_event_deprecated',
 				'dispatch_filter_deprecated',
+                'dispatchTplEventDeprecated',
+                'dispatchTplFilterDeprecated',
+                'dispatchMailerEventDeprecated',
+                'dispatchMailerFilterDeprecated'
 			),
 			true
 		);
@@ -306,4 +318,44 @@ class Hook {
 
 		return $since->get_version();
 	}
+
+    public function get_hook(): string
+    {
+        $parts = explode('/', $this->file);
+        $parts = array_map(
+            function ($part) {
+                if (str_contains($part, 'class.')) {
+                    $part = str_replace('class.', '', $part);
+                }
+
+                if (str_contains($part, '.php')) {
+                    $part = str_replace('.php', '', $part);
+                }
+
+                return $part;
+            },
+            $parts
+        );
+        if (($key = array_search('app', $parts)) !== false) {
+            unset($parts[$key]);
+        }
+        $hook_context = implode('.', $parts);
+
+        /** Because of reflection, there are specific hooks for each controller */
+        if ($hook_context == 'core.controller') {
+            $hook_context = 'domain.{$module}.controllers.{$controller}';
+        }
+
+        $specific_hook = $this->tag->get_hook();
+
+        /** Because of reflection, there are specific hooks for each db call */
+        if ($hook_context == 'core.repository') {
+            $hook_context = 'domain.{$module}.repositories.{$repo}';
+
+            $parts = explode('.', $specific_hook);
+            $specific_hook = '{$method}.' . $parts[1];
+        }
+
+        return "$hook_context.$specific_hook";
+    }
 }

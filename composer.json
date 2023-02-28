@@ -1,5 +1,5 @@
 {
-    "name": "digitaljoeco/leantime-documentor",
+    "name": "leantime/leantime-documentor",
     "description": "Documentation Generator for Leantime.",
     "keywords": ["documentation", "api", "dga", "application", "phpdoc", "leantime"],
     "license": "GPL-2.0-or-later",

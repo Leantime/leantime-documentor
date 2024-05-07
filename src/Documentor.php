@@ -49,6 +49,20 @@ class Documentor {
     public $output;
 
 	/**
+	 * Document type 'actions' or 'filters'.
+	 * 
+	 * @var string
+	 */
+	public $type;
+
+	/**
+	 * Relative path.
+	 * 
+	 * @var string
+	 */
+	public $relative;
+
+	/**
 	 * Construct documentor.
 	 */
 	public function __construct($output) {
@@ -143,6 +157,67 @@ class Documentor {
 
         return call_user_func_array([$this, __FUNCTION__], [$parent]);
     }
+
+	/**
+	 * Get statement doc document.
+	 * 
+	 * @param Node $statement Statement.
+	 * @return string|null
+	 */
+	private function get_statement_doc_comment( Node $statement ) {
+		$doc_comment = $statement->getDocComment();
+
+		if ( null !== $doc_comment ) {
+			return $doc_comment;
+		}
+
+		$parent = $statement->getAttribute( 'parent' );
+
+		/**
+		 * This handles a assignment before a hook function call:
+		 * 
+		 * ```php
+		 * $some_variable = apply_filters( 'my_plugin_filter_1', $first_param, $second_param );
+		 * ```
+		 * 
+		 * @link https://github.com/pronamic/wp-documentor/issues/11
+		 */
+		if ( $parent instanceof \PhpParser\Node\Expr\Assign ) {
+			return $this->get_statement_doc_comment( $parent );
+		}
+
+		/**
+		 * This handles a cast before a hook function call:
+		 * 
+		 * ```php
+		 * $should_do = (bool) apply_filters( 'should_we_do_it', true, $some_value );
+		 * ```
+		 * 
+		 * @link https://github.com/pronamic/wp-documentor/issues/18
+		 */
+		if ( $parent instanceof \PhpParser\Node\Expr\Cast ) {
+			return $this->get_statement_doc_comment( $parent );
+		}
+
+		/**
+		 * This handles a hook function call in a `if` statement (`\PhpParser\Node\Stmt\If_`):
+		 * 
+		 * ```php
+		 * if ( (bool) apply_filters( 'some_condition_filter', $some_condition, $some_other_parameter ) )
+		 * ```
+		 * 
+		 * And also a `return` statement (`PhpParser\Node\Stmt\Return_`):
+		 * 
+		 * ```php
+		 * return apply_filters( 'test_issue_13_file_exclude_2', $first_param, $second_param );
+		 * ```
+		 */
+		if ( $parent instanceof \PhpParser\Node\Stmt ) {
+			return $this->get_statement_doc_comment( $parent );
+		}
+
+		return null;
+	}
 
 	/**
 	 * Parse.
@@ -254,15 +329,7 @@ class Documentor {
 				throw new \Exception( 'Tag argument missing from hook call.' );
 			}
 
-			$doc_comment = $statement->getDocComment();
-
-			if ( null === $doc_comment ) {
-				$parent = $statement->getAttribute( 'parent' );
-
-				if ( null !== $parent ) {
-					$doc_comment = $parent->getDocComment();
-				}
-			}
+			$doc_comment = $this->get_statement_doc_comment( $statement );
 
 			$doc_block = null;
 

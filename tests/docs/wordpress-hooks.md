@@ -26,7 +26,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 98](../../wordpress/wp-trackback.php#L98-L110)
+Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 101](../../wordpress/wp-trackback.php#L101-L113)
 
 ### `trackback_post`
 
@@ -44,7 +44,7 @@ Version | Description
 ------- | -----------
 `1.2.0` | 
 
-Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 143](../../wordpress/wp-trackback.php#L143-L150)
+Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 146](../../wordpress/wp-trackback.php#L146-L153)
 
 ### `activate_header`
 
@@ -129,7 +129,7 @@ Version | Description
 ------- | -----------
 `1.2.0` | 
 
-Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 238](../../wordpress/wp-mail.php#L238-L245)
+Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 239](../../wordpress/wp-mail.php#L239-L246)
 
 ### `mu_plugin_loaded`
 
@@ -323,7 +323,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-admin/update.php](../../wordpress/wp-admin/update.php), [line 353](../../wordpress/wp-admin/update.php#L353-L362)
+Source: [wordpress/wp-admin/update.php](../../wordpress/wp-admin/update.php), [line 361](../../wordpress/wp-admin/update.php#L361-L370)
 
 ### `admin_enqueue_scripts`
 
@@ -2892,7 +2892,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3438](../../wordpress/wp-admin/includes/ajax-actions.php#L3438-L3448)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3442](../../wordpress/wp-admin/includes/ajax-actions.php#L3442-L3452)
 
 ### `wp_ajax_crop_image_pre_save`
 
@@ -2914,7 +2914,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3957](../../wordpress/wp-admin/includes/ajax-actions.php#L3957-L3968)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3977](../../wordpress/wp-admin/includes/ajax-actions.php#L3977-L3988)
 
 ### `delete_link`
 
@@ -3418,7 +3418,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 1069](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L1069-L1077)
+Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 1082](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L1082-L1090)
 
 ### `manage_themes_custom_column`
 
@@ -3836,13 +3836,21 @@ Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-adm
 
 ### `pre_user_search`
 
+*Prepares the user search query (legacy).*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array(&$this)` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 557](../../wordpress/wp-admin/includes/deprecated.php#L557-L557)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.1.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 522](../../wordpress/wp-admin/includes/deprecated.php#L522-L557)
 
 ### `wp_create_file_in_uploads`
 
@@ -5613,7 +5621,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5294](../../wordpress/wp-includes/functions.php#L5294-L5303)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5296](../../wordpress/wp-includes/functions.php#L5296-L5305)
 
 ### `deprecated_constructor_run`
 
@@ -5634,7 +5642,7 @@ Version | Description
 `4.5.0` | Added the `$parent_class` parameter.
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5383](../../wordpress/wp-includes/functions.php#L5383-L5393)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5385](../../wordpress/wp-includes/functions.php#L5385-L5395)
 
 ### `deprecated_file_included`
 
@@ -5655,7 +5663,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5481](../../wordpress/wp-includes/functions.php#L5481-L5491)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5483](../../wordpress/wp-includes/functions.php#L5483-L5493)
 
 ### `deprecated_argument_run`
 
@@ -5675,7 +5683,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5578](../../wordpress/wp-includes/functions.php#L5578-L5587)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5580](../../wordpress/wp-includes/functions.php#L5580-L5589)
 
 ### `deprecated_hook_run`
 
@@ -5696,7 +5704,7 @@ Version | Description
 ------- | -----------
 `4.6.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5666](../../wordpress/wp-includes/functions.php#L5666-L5676)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5668](../../wordpress/wp-includes/functions.php#L5668-L5678)
 
 ### `doing_it_wrong_run`
 
@@ -5716,7 +5724,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5732](../../wordpress/wp-includes/functions.php#L5732-L5741)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5734](../../wordpress/wp-includes/functions.php#L5734-L5743)
 
 ### `load_feed_engine`
 
@@ -9510,13 +9518,25 @@ Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.ph
 
 ### `{$hook_name}`
 
+*Fires functions attached to a deprecated action hook.*
+
+When an action hook is deprecated, the do_action() call is replaced with
+do_action_deprecated(), which triggers a deprecation notice and then fires
+the original hook.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` |  | 
+`$args` | `array` | Array of additional function arguments to be passed to do_action().
 
-Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 691](../../wordpress/wp-includes/plugin.php#L691-L691)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.6.0` | 
+
+Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 667](../../wordpress/wp-includes/plugin.php#L667-L691)
 
 ### `begin_fetch_post_thumbnail_html`
 
@@ -10966,7 +10986,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1735](../../wordpress/wp-includes/user.php#L1735-L1743)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1730](../../wordpress/wp-includes/user.php#L1730-L1738)
 
 ### `profile_update`
 
@@ -10987,7 +11007,7 @@ Version | Description
 `5.8.0` | The `$userdata` parameter was added.
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2273](../../wordpress/wp-includes/user.php#L2273-L2283)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2261](../../wordpress/wp-includes/user.php#L2261-L2271)
 
 ### `make_spam_user`
 
@@ -11005,7 +11025,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2287](../../wordpress/wp-includes/user.php#L2287-L2294)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2275](../../wordpress/wp-includes/user.php#L2275-L2282)
 
 ### `make_ham_user`
 
@@ -11023,7 +11043,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2296](../../wordpress/wp-includes/user.php#L2296-L2303)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2284](../../wordpress/wp-includes/user.php#L2284-L2291)
 
 ### `user_register`
 
@@ -11043,7 +11063,7 @@ Version | Description
 `5.8.0` | The `$userdata` parameter was added.
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2307](../../wordpress/wp-includes/user.php#L2307-L2316)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2295](../../wordpress/wp-includes/user.php#L2295-L2304)
 
 ### `retreive_password`
 
@@ -11065,7 +11085,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2687](../../wordpress/wp-includes/user.php#L2687-L2697)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2675](../../wordpress/wp-includes/user.php#L2675-L2685)
 
 ### `retrieve_password`
 
@@ -11083,7 +11103,7 @@ Version | Description
 ------- | -----------
 `1.5.1` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2699](../../wordpress/wp-includes/user.php#L2699-L2706)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2687](../../wordpress/wp-includes/user.php#L2687-L2694)
 
 ### `retrieve_password_key`
 
@@ -11102,7 +11122,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2732](../../wordpress/wp-includes/user.php#L2732-L2740)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2720](../../wordpress/wp-includes/user.php#L2720-L2728)
 
 ### `lostpassword_post`
 
@@ -11123,7 +11143,7 @@ Version | Description
 `4.4.0` | Added the `$errors` parameter.
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2902](../../wordpress/wp-includes/user.php#L2902-L2913)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2890](../../wordpress/wp-includes/user.php#L2890-L2901)
 
 ### `password_reset`
 
@@ -11142,7 +11162,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3043](../../wordpress/wp-includes/user.php#L3043-L3051)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3031](../../wordpress/wp-includes/user.php#L3031-L3039)
 
 ### `after_password_reset`
 
@@ -11161,7 +11181,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3056](../../wordpress/wp-includes/user.php#L3056-L3064)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3044](../../wordpress/wp-includes/user.php#L3044-L3052)
 
 ### `register_post`
 
@@ -11181,7 +11201,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3123](../../wordpress/wp-includes/user.php#L3123-L3134)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3111](../../wordpress/wp-includes/user.php#L3111-L3122)
 
 ### `register_new_user`
 
@@ -11199,7 +11219,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3181](../../wordpress/wp-includes/user.php#L3181-L3188)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3169](../../wordpress/wp-includes/user.php#L3169-L3176)
 
 ### `http_api_curl`
 
@@ -13286,7 +13306,7 @@ Version | Description
 `4.6.0` | Added the `$data` parameter.
 `1.2.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2571](../../wordpress/wp-includes/comment.php#L2571-L2582)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2584](../../wordpress/wp-includes/comment.php#L2584-L2595)
 
 ### `wp_update_comment_count`
 
@@ -13306,7 +13326,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2712](../../wordpress/wp-includes/comment.php#L2712-L2721)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2725](../../wordpress/wp-includes/comment.php#L2725-L2734)
 
 ### `edit_post_{$post->post_type}`
 
@@ -13319,7 +13339,7 @@ Argument | Type | Description
 `$post_id` |  | 
 `$post` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2723](../../wordpress/wp-includes/comment.php#L2723-L2724)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2736](../../wordpress/wp-includes/comment.php#L2736-L2737)
 
 ### `edit_post`
 
@@ -13332,7 +13352,7 @@ Argument | Type | Description
 `$post_id` |  | 
 `$post` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2726](../../wordpress/wp-includes/comment.php#L2726-L2727)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2739](../../wordpress/wp-includes/comment.php#L2739-L2740)
 
 ### `do_all_pings`
 
@@ -13345,7 +13365,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2833](../../wordpress/wp-includes/comment.php#L2833-L2838)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2846](../../wordpress/wp-includes/comment.php#L2846-L2851)
 
 ### `pre_ping`
 
@@ -13363,7 +13383,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3050](../../wordpress/wp-includes/comment.php#L3050-L3059)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3063](../../wordpress/wp-includes/comment.php#L3063-L3072)
 
 ### `clean_comment_cache`
 
@@ -13381,7 +13401,7 @@ Version | Description
 ------- | -----------
 `4.5.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3226](../../wordpress/wp-includes/comment.php#L3226-L3233)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3239](../../wordpress/wp-includes/comment.php#L3239-L3246)
 
 ### `comment_id_not_found`
 
@@ -13399,7 +13419,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3432](../../wordpress/wp-includes/comment.php#L3432-L3439)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3445](../../wordpress/wp-includes/comment.php#L3445-L3452)
 
 ### `comment_closed`
 
@@ -13417,7 +13437,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3456](../../wordpress/wp-includes/comment.php#L3456-L3463)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3469](../../wordpress/wp-includes/comment.php#L3469-L3476)
 
 ### `comment_on_trash`
 
@@ -13435,7 +13455,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3469](../../wordpress/wp-includes/comment.php#L3469-L3476)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3482](../../wordpress/wp-includes/comment.php#L3482-L3489)
 
 ### `comment_on_draft`
 
@@ -13453,7 +13473,7 @@ Version | Description
 ------- | -----------
 `1.5.1` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3482](../../wordpress/wp-includes/comment.php#L3482-L3489)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3495](../../wordpress/wp-includes/comment.php#L3495-L3502)
 
 ### `comment_on_password_protected`
 
@@ -13471,7 +13491,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3498](../../wordpress/wp-includes/comment.php#L3498-L3505)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3511](../../wordpress/wp-includes/comment.php#L3511-L3518)
 
 ### `pre_comment_on_post`
 
@@ -13489,7 +13509,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3511](../../wordpress/wp-includes/comment.php#L3511-L3518)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3524](../../wordpress/wp-includes/comment.php#L3524-L3531)
 
 ### `wp_delete_nav_menu`
 
@@ -13726,7 +13746,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `new WP_Error('wp_mail_failed', $e->getMessage(), $mail_error_data)` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 413](../../wordpress/wp-includes/pluggable.php#L413-L414)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 408](../../wordpress/wp-includes/pluggable.php#L408-L409)
 
 ### `phpmailer_init`
 
@@ -13744,7 +13764,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 531](../../wordpress/wp-includes/pluggable.php#L531-L538)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 526](../../wordpress/wp-includes/pluggable.php#L526-L533)
 
 ### `wp_mail_succeeded`
 
@@ -13766,7 +13786,7 @@ Version | Description
 ------- | -----------
 `5.9.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 546](../../wordpress/wp-includes/pluggable.php#L546-L557)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 541](../../wordpress/wp-includes/pluggable.php#L541-L552)
 
 ### `wp_mail_failed`
 
@@ -13784,7 +13804,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 563](../../wordpress/wp-includes/pluggable.php#L563-L571)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 558](../../wordpress/wp-includes/pluggable.php#L558-L566)
 
 ### `wp_login_failed`
 
@@ -13805,7 +13825,7 @@ Version | Description
 `4.5.0` | The value of `$username` can now be an email address.
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 621](../../wordpress/wp-includes/pluggable.php#L621-L631)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 616](../../wordpress/wp-includes/pluggable.php#L616-L626)
 
 ### `wp_logout`
 
@@ -13824,7 +13844,7 @@ Version | Description
 `5.5.0` | Added the `$user_id` parameter.
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 651](../../wordpress/wp-includes/pluggable.php#L651-L659)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 646](../../wordpress/wp-includes/pluggable.php#L646-L654)
 
 ### `auth_cookie_malformed`
 
@@ -13843,7 +13863,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 684](../../wordpress/wp-includes/pluggable.php#L684-L693)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 679](../../wordpress/wp-includes/pluggable.php#L679-L688)
 
 ### `auth_cookie_expired`
 
@@ -13861,7 +13881,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 711](../../wordpress/wp-includes/pluggable.php#L711-L718)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 706](../../wordpress/wp-includes/pluggable.php#L706-L713)
 
 ### `auth_cookie_bad_username`
 
@@ -13879,7 +13899,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 724](../../wordpress/wp-includes/pluggable.php#L724-L731)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 719](../../wordpress/wp-includes/pluggable.php#L719-L726)
 
 ### `auth_cookie_bad_hash`
 
@@ -13897,7 +13917,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 744](../../wordpress/wp-includes/pluggable.php#L744-L751)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 739](../../wordpress/wp-includes/pluggable.php#L739-L746)
 
 ### `auth_cookie_bad_session_token`
 
@@ -13915,7 +13935,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 757](../../wordpress/wp-includes/pluggable.php#L757-L764)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 752](../../wordpress/wp-includes/pluggable.php#L752-L759)
 
 ### `auth_cookie_valid`
 
@@ -13934,7 +13954,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 773](../../wordpress/wp-includes/pluggable.php#L773-L781)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 768](../../wordpress/wp-includes/pluggable.php#L768-L776)
 
 ### `set_auth_cookie`
 
@@ -13958,7 +13978,7 @@ Version | Description
 `4.9.0` | The `$token` parameter was added.
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 972](../../wordpress/wp-includes/pluggable.php#L972-L987)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 967](../../wordpress/wp-includes/pluggable.php#L967-L982)
 
 ### `set_logged_in_cookie`
 
@@ -13982,7 +14002,7 @@ Version | Description
 `4.9.0` | The `$token` parameter was added.
 `2.6.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 989](../../wordpress/wp-includes/pluggable.php#L989-L1004)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 984](../../wordpress/wp-includes/pluggable.php#L984-L999)
 
 ### `clear_auth_cookie`
 
@@ -13995,7 +14015,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1033](../../wordpress/wp-includes/pluggable.php#L1033-L1038)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1028](../../wordpress/wp-includes/pluggable.php#L1028-L1033)
 
 ### `auth_redirect`
 
@@ -14013,7 +14033,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1138](../../wordpress/wp-includes/pluggable.php#L1138-L1145)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1133](../../wordpress/wp-includes/pluggable.php#L1133-L1140)
 
 ### `check_admin_referer`
 
@@ -14032,7 +14052,7 @@ Version | Description
 ------- | -----------
 `1.5.1` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1201](../../wordpress/wp-includes/pluggable.php#L1201-L1210)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1196](../../wordpress/wp-includes/pluggable.php#L1196-L1205)
 
 ### `check_ajax_referer`
 
@@ -14051,7 +14071,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1254](../../wordpress/wp-includes/pluggable.php#L1254-L1263)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1249](../../wordpress/wp-includes/pluggable.php#L1249-L1258)
 
 ### `wp_verify_nonce_failed`
 
@@ -14072,7 +14092,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2228](../../wordpress/wp-includes/pluggable.php#L2228-L2238)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2223](../../wordpress/wp-includes/pluggable.php#L2223-L2233)
 
 ### `metadata_lazyloader_queued_objects`
 
@@ -14131,7 +14151,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1096](../../wordpress/wp-includes/class-wp-query.php#L1096-L1103)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1103](../../wordpress/wp-includes/class-wp-query.php#L1103-L1110)
 
 ### `parse_tax_query`
 
@@ -14149,7 +14169,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1337](../../wordpress/wp-includes/class-wp-query.php#L1337-L1344)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1344](../../wordpress/wp-includes/class-wp-query.php#L1344-L1351)
 
 ### `set_404`
 
@@ -14167,7 +14187,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1736](../../wordpress/wp-includes/class-wp-query.php#L1736-L1743)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1748](../../wordpress/wp-includes/class-wp-query.php#L1748-L1755)
 
 ### `pre_get_posts`
 
@@ -14189,7 +14209,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1793](../../wordpress/wp-includes/class-wp-query.php#L1793-L1804)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1805](../../wordpress/wp-includes/class-wp-query.php#L1805-L1816)
 
 ### `posts_selection`
 
@@ -14209,7 +14229,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2857](../../wordpress/wp-includes/class-wp-query.php#L2857-L2866)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2883](../../wordpress/wp-includes/class-wp-query.php#L2883-L2892)
 
 ### `loop_start`
 
@@ -14227,7 +14247,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3396](../../wordpress/wp-includes/class-wp-query.php#L3396-L3403)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3422](../../wordpress/wp-includes/class-wp-query.php#L3422-L3429)
 
 ### `loop_end`
 
@@ -14245,7 +14265,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3423](../../wordpress/wp-includes/class-wp-query.php#L3423-L3430)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3449](../../wordpress/wp-includes/class-wp-query.php#L3449-L3456)
 
 ### `loop_no_results`
 
@@ -14263,7 +14283,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3434](../../wordpress/wp-includes/class-wp-query.php#L3434-L3441)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3460](../../wordpress/wp-includes/class-wp-query.php#L3460-L3467)
 
 ### `comment_loop_start`
 
@@ -14276,7 +14296,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3488](../../wordpress/wp-includes/class-wp-query.php#L3488-L3493)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3514](../../wordpress/wp-includes/class-wp-query.php#L3514-L3519)
 
 ### `the_post`
 
@@ -14295,7 +14315,7 @@ Version | Description
 `4.1.0` | Introduced `$query` parameter.
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4390](../../wordpress/wp-includes/class-wp-query.php#L4390-L4399)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4416](../../wordpress/wp-includes/class-wp-query.php#L4416-L4425)
 
 ### `load_textdomain`
 
@@ -14369,7 +14389,7 @@ Version | Description
 ------- | -----------
 `3.9.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2804](../../wordpress/wp-includes/media.php#L2804-L2812)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2826](../../wordpress/wp-includes/media.php#L2826-L2834)
 
 ### `wp_enqueue_media`
 
@@ -14382,7 +14402,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4613](../../wordpress/wp-includes/media.php#L4613-L4618)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4636](../../wordpress/wp-includes/media.php#L4636-L4641)
 
 ### `load-widgets.php`
 
@@ -15163,7 +15183,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 609](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L609-L618)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 612](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L612-L621)
 
 ### `rest_after_insert_user`
 
@@ -15183,7 +15203,7 @@ Version | Description
 ------- | -----------
 `5.0.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 641](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L641-L650)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 644](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L644-L653)
 
 ### `rest_insert_user`
 
@@ -15197,7 +15217,7 @@ Argument | Type | Description
 `$request` |  | 
 `false` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 775](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L775-L776)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 778](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L778-L779)
 
 ### `rest_after_insert_user`
 
@@ -15211,7 +15231,7 @@ Argument | Type | Description
 `$request` |  | 
 `false` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 801](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L801-L802)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 804](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L804-L805)
 
 ### `rest_delete_user`
 
@@ -15231,7 +15251,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 936](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L936-L945)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 939](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L939-L948)
 
 ### `rest_insert_{$this->taxonomy}`
 
@@ -15258,7 +15278,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 487](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L487-L503)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 540](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L540-L556)
 
 ### `rest_after_insert_{$this->taxonomy}`
 
@@ -15285,7 +15305,7 @@ Version | Description
 ------- | -----------
 `5.0.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 522](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L522-L538)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 575](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L575-L591)
 
 ### `rest_insert_{$this->taxonomy}`
 
@@ -15299,7 +15319,7 @@ Argument | Type | Description
 `$request` |  | 
 `false` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 622](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L622-L623)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 675](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L675-L676)
 
 ### `rest_after_insert_{$this->taxonomy}`
 
@@ -15313,7 +15333,7 @@ Argument | Type | Description
 `$request` |  | 
 `false` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 642](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L642-L643)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 695](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L695-L696)
 
 ### `rest_delete_{$this->taxonomy}`
 
@@ -15340,7 +15360,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 724](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L724-L740)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 777](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L777-L793)
 
 ### `rest_insert_comment`
 
@@ -15885,68 +15905,126 @@ Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.ph
 
 ### `delete_usermeta`
 
+*Remove user meta data.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID.
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Optional. Metadata value. Default empty.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2239](../../wordpress/wp-includes/deprecated.php#L2239-L2239)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2213](../../wordpress/wp-includes/deprecated.php#L2213-L2239)
 
 ### `deleted_usermeta`
 
+*Remove user meta data.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID.
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Optional. Metadata value. Default empty.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2250](../../wordpress/wp-includes/deprecated.php#L2250-L2250)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2213](../../wordpress/wp-includes/deprecated.php#L2213-L2250)
 
 ### `update_usermeta`
 
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2343](../../wordpress/wp-includes/deprecated.php#L2343-L2343)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2343)
 
 ### `added_usermeta`
+
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$wpdb->insert_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2356](../../wordpress/wp-includes/deprecated.php#L2356-L2356)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2356)
 
 ### `updated_usermeta`
+
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2358](../../wordpress/wp-includes/deprecated.php#L2358-L2358)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2358)
 
 ### `login_enqueue_scripts`
 
@@ -16201,175 +16279,6 @@ Version | Description
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1405](../../wordpress/wp-login.php#L1405-L1410)
 
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/template-tags.php](../../wordpress/wp-content/themes/twentyseventeen/inc/template-tags.php), [line 219](../../wordpress/wp-content/themes/twentyseventeen/inc/template-tags.php#L219-L224)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentysixteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentysixteen/inc/template-tags.php), [line 279](../../wordpress/wp-content/themes/twentysixteen/inc/template-tags.php#L279-L284)
-
-### `twentysixteen_credits`
-
-*Fires before the twentysixteen footer text for footer customization.*
-
-
-Source: [wordpress/wp-content/themes/twentysixteen/footer.php](../../wordpress/wp-content/themes/twentysixteen/footer.php), [line 47](../../wordpress/wp-content/themes/twentysixteen/footer.php#L47-L52)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentyeleven/functions.php](../../wordpress/wp-content/themes/twentyeleven/functions.php), [line 911](../../wordpress/wp-content/themes/twentyeleven/functions.php#L911-L916)
-
-### `twentyeleven_enqueue_color_scheme`
-
-*Fires after the styles for the Twenty Eleven color scheme are enqueued.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$color_scheme` | `string` | The color scheme.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 425](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L425-L432)
-
-### `twentyeleven_credits`
-
-
-Source: [wordpress/wp-content/themes/twentyeleven/footer.php](../../wordpress/wp-content/themes/twentyeleven/footer.php), [line 28](../../wordpress/wp-content/themes/twentyeleven/footer.php#L28-L28)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentythirteen/functions.php](../../wordpress/wp-content/themes/twentythirteen/functions.php), [line 830](../../wordpress/wp-content/themes/twentythirteen/functions.php#L830-L835)
-
-### `twentythirteen_credits`
-
-
-Source: [wordpress/wp-content/themes/twentythirteen/footer.php](../../wordpress/wp-content/themes/twentythirteen/footer.php), [line 18](../../wordpress/wp-content/themes/twentythirteen/footer.php#L18-L18)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentynineteen/inc/template-tags.php), [line 250](../../wordpress/wp-content/themes/twentynineteen/inc/template-tags.php#L250-L255)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php), [line 283](../../wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php#L283-L288)
-
-### `twentyfifteen_credits`
-
-*Fires before the Twenty Fifteen footer text for footer customization.*
-
-
-Source: [wordpress/wp-content/themes/twentyfifteen/footer.php](../../wordpress/wp-content/themes/twentyfifteen/footer.php), [line 18](../../wordpress/wp-content/themes/twentyfifteen/footer.php#L18-L23)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentyfourteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentyfourteen/inc/template-tags.php), [line 246](../../wordpress/wp-content/themes/twentyfourteen/inc/template-tags.php#L246-L251)
-
-### `twentyfourteen_featured_posts_before`
-
-*Fires before the Twenty Fourteen featured content.*
-
-
-Source: [wordpress/wp-content/themes/twentyfourteen/featured-content.php](../../wordpress/wp-content/themes/twentyfourteen/featured-content.php), [line 14](../../wordpress/wp-content/themes/twentyfourteen/featured-content.php#L14-L19)
-
-### `twentyfourteen_featured_posts_after`
-
-*Fires after the Twenty Fourteen featured content.*
-
-
-Source: [wordpress/wp-content/themes/twentyfourteen/featured-content.php](../../wordpress/wp-content/themes/twentyfourteen/featured-content.php), [line 29](../../wordpress/wp-content/themes/twentyfourteen/featured-content.php#L29-L34)
-
-### `twentyfourteen_credits`
-
-
-Source: [wordpress/wp-content/themes/twentyfourteen/footer.php](../../wordpress/wp-content/themes/twentyfourteen/footer.php), [line 20](../../wordpress/wp-content/themes/twentyfourteen/footer.php#L20-L20)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentytwelve/functions.php](../../wordpress/wp-content/themes/twentytwelve/functions.php), [line 721](../../wordpress/wp-content/themes/twentytwelve/functions.php#L721-L726)
-
-### `twentytwelve_credits`
-
-
-Source: [wordpress/wp-content/themes/twentytwelve/footer.php](../../wordpress/wp-content/themes/twentytwelve/footer.php), [line 15](../../wordpress/wp-content/themes/twentytwelve/footer.php#L15-L15)
-
-### `wp_body_open`
-
-*Triggered after the opening <body> tag.*
-
-
-Source: [wordpress/wp-content/themes/twentyten/functions.php](../../wordpress/wp-content/themes/twentyten/functions.php), [line 754](../../wordpress/wp-content/themes/twentyten/functions.php#L754-L759)
-
-### `twentyten_credits`
-
-*Fires before the Twenty Ten credits in the footer.*
-
-
-Source: [wordpress/wp-content/themes/twentyten/footer.php](../../wordpress/wp-content/themes/twentyten/footer.php), [line 39](../../wordpress/wp-content/themes/twentyten/footer.php#L39-L44)
-
-### `wp_body_open`
-
-*This action is documented in wp-includes/general-template.php*
-
-
-Source: [wordpress/wp-content/themes/twentytwenty/functions.php](../../wordpress/wp-content/themes/twentytwenty/functions.php), [line 351](../../wordpress/wp-content/themes/twentytwenty/functions.php#L351-L352)
-
-### `twentytwenty_start_of_post_meta_list`
-
-*Fires before post meta HTML display.*
-
-Allow output of additional post meta info to be added by child themes and plugins.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$post_id` | `int` | Post ID.
-`$post_meta` | `array` | An array of post meta information.
-`$location` | `string` | The location where the meta is shown.<br>Accepts 'single-top' or 'single-bottom'.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 346](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L346-L359)
-
-### `twentytwenty_end_of_post_meta_list`
-
-*Fires after post meta HTML display.*
-
-Allow output of additional post meta info to be added by child themes and plugins.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$post_id` | `int` | Post ID.
-`$post_meta` | `array` | An array of post meta information.
-`$location` | `string` | The location where the meta is shown.<br>Accepts 'single-top' or 'single-bottom'.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 473](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L473-L486)
-
 ### `signup_header`
 
 *Fires within the head section of the site sign-up screen.*
@@ -16613,7 +16522,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 182](../../wordpress/wp-mail.php#L182-L192)
+Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 183](../../wordpress/wp-mail.php#L183-L193)
 
 ### `phone_content`
 
@@ -16631,7 +16540,7 @@ Version | Description
 ------- | -----------
 `1.2.0` | 
 
-Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 208](../../wordpress/wp-mail.php#L208-L215)
+Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 209](../../wordpress/wp-mail.php#L209-L216)
 
 ### `enable_loading_advanced_cache_dropin`
 
@@ -16847,13 +16756,15 @@ Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edi
 
 ### `admin_email_remind_interval`
 
+*This filter is documented in wp-login.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `3 * DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-admin/index.php](../../wordpress/wp-admin/index.php), [line 146](../../wordpress/wp-admin/index.php#L146-L146)
+Source: [wordpress/wp-admin/index.php](../../wordpress/wp-admin/index.php), [line 145](../../wordpress/wp-admin/index.php#L145-L146)
 
 ### `theme_auto_update_setting_template`
 
@@ -17383,23 +17294,15 @@ Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpr
 
 ### `manage_users_custom_column`
 
-*Filters the display output of custom columns in the Users list table.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `''` |  | 
-`$column_name` | `string` | Column name.
+`$column_name` |  | 
 `$user_object->ID` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.8.0` | 
-
-Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 583](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L583-L592)
+Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 592](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L592-L592)
 
 ### `get_role_list`
 
@@ -17974,25 +17877,15 @@ Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/inc
 
 ### `dashboard_primary_link`
 
-*Filters the primary link URL for the 'WordPress Events and News' dashboard widget.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `__('https://wordpress.org/news/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.5.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1495](../../wordpress/wp-admin/includes/dashboard.php#L1495-L1502)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1512](../../wordpress/wp-admin/includes/dashboard.php#L1512-L1512)
 
 ### `dashboard_primary_feed`
-
-*Filters the primary feed URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18000,17 +17893,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://wordpress.org/news/feed/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1504](../../wordpress/wp-admin/includes/dashboard.php#L1504-L1511)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1521](../../wordpress/wp-admin/includes/dashboard.php#L1521-L1521)
 
 ### `dashboard_primary_title`
-
-*Filters the primary link title for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18018,17 +17903,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('WordPress Blog')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1513](../../wordpress/wp-admin/includes/dashboard.php#L1513-L1520)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1530](../../wordpress/wp-admin/includes/dashboard.php#L1530-L1530)
 
 ### `dashboard_secondary_link`
-
-*Filters the secondary link URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18036,17 +17913,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://planet.wordpress.org/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1528](../../wordpress/wp-admin/includes/dashboard.php#L1528-L1535)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1545](../../wordpress/wp-admin/includes/dashboard.php#L1545-L1545)
 
 ### `dashboard_secondary_feed`
-
-*Filters the secondary feed URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18054,17 +17923,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://planet.wordpress.org/feed/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1537](../../wordpress/wp-admin/includes/dashboard.php#L1537-L1544)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1554](../../wordpress/wp-admin/includes/dashboard.php#L1554-L1554)
 
 ### `dashboard_secondary_title`
-
-*Filters the secondary link title for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18072,17 +17933,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('Other WordPress News')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1546](../../wordpress/wp-admin/includes/dashboard.php#L1546-L1553)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1563](../../wordpress/wp-admin/includes/dashboard.php#L1563-L1563)
 
 ### `dashboard_secondary_items`
-
-*Filters the number of secondary link items for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -18090,13 +17943,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `3` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.4.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1555](../../wordpress/wp-admin/includes/dashboard.php#L1555-L1562)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1572](../../wordpress/wp-admin/includes/dashboard.php#L1572-L1572)
 
 ### `browse-happy-notice`
 
@@ -18115,7 +17962,17 @@ Version | Description
 ------- | -----------
 `3.2.0` | 
 
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1725](../../wordpress/wp-admin/includes/dashboard.php#L1725-L1734)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1735](../../wordpress/wp-admin/includes/dashboard.php#L1735-L1744)
+
+### `unzip_file_use_ziparchive`
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`true` |  | 
+
+Source: [wordpress/wp-admin/includes/class-file-upload-upgrader.php](../../wordpress/wp-admin/includes/class-file-upload-upgrader.php), [line 75](../../wordpress/wp-admin/includes/class-file-upload-upgrader.php#L75-L75)
 
 ### `attachment_fields_to_save`
 
@@ -18132,36 +17989,60 @@ Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes
 
 ### `default_content`
 
+*Filters the default post content initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_content` |  | 
-`$post` |  | 
+`$post_content` | `string` | Default post content.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 742](../../wordpress/wp-admin/includes/post.php#L742-L742)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 734](../../wordpress/wp-admin/includes/post.php#L734-L742)
 
 ### `default_title`
 
+*Filters the default post title initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_title` |  | 
-`$post` |  | 
+`$post_title` | `string` | Default post title.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 752](../../wordpress/wp-admin/includes/post.php#L752-L752)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 744](../../wordpress/wp-admin/includes/post.php#L744-L752)
 
 ### `default_excerpt`
 
+*Filters the default post excerpt initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_excerpt` |  | 
-`$post` |  | 
+`$post_excerpt` | `string` | Default post excerpt.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 762](../../wordpress/wp-admin/includes/post.php#L762-L762)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 754](../../wordpress/wp-admin/includes/post.php#L754-L762)
 
 ### `edit_{$post_type}_per_page`
 
@@ -18579,14 +18460,23 @@ Source: [wordpress/wp-admin/includes/class-plugin-installer-skin.php](../../word
 
 ### `editable_extensions`
 
+*Filters the list of file types allowed for editing in the plugin file editor.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$default_types` |  | 
-`$plugin` |  | 
+`$default_types` | `string[]` | An array of editable plugin file extensions.
+`$plugin` | `string` | Path to the plugin file relative to the plugins directory.
 
-Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 234](../../wordpress/wp-admin/includes/file.php#L234-L234)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | Added the `$plugin` parameter.
+`2.8.0` | 
+
+Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 225](../../wordpress/wp-admin/includes/file.php#L225-L234)
 
 ### `wp_theme_editor_filetypes`
 
@@ -19156,13 +19046,21 @@ Source: [wordpress/wp-admin/includes/export.php](../../wordpress/wp-admin/includ
 
 ### `plugin_files_exclusions`
 
+*Filters the array of excluded directories and files while scanning the folder.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array('CVS', 'node_modules', 'vendor', 'bower_components')` |  | 
 
-Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 240](../../wordpress/wp-admin/includes/plugin.php#L240-L240)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | 
+
+Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 233](../../wordpress/wp-admin/includes/plugin.php#L233-L240)
 
 ### `themes_api_args`
 
@@ -19232,15 +19130,26 @@ Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/include
 
 ### `pre_prepare_themes_for_js`
 
+*Filters theme data before it is prepared for JavaScript.*
+
+Passing a non-empty array will result in wp_prepare_themes_for_js() returning
+early with that value instead.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$themes` |  | 
-`$current_theme` |  | 
+`$themes` | `\WP_Theme[]\|null` | An array of theme objects to prepare, if any.
+`$current_theme` | `string` | The current theme slug.
 
-Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 658](../../wordpress/wp-admin/includes/theme.php#L658-L658)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.2.0` | 
+
+Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 646](../../wordpress/wp-admin/includes/theme.php#L646-L658)
 
 ### `wp_prepare_themes_for_js`
 
@@ -19264,13 +19173,15 @@ Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/include
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 193](../../wordpress/wp-admin/includes/user.php#L193-L193)
+Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 192](../../wordpress/wp-admin/includes/user.php#L192-L193)
 
 ### `editable_roles`
 
@@ -19326,6 +19237,17 @@ Version | Description
 `3.4.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 380](../../wordpress/wp-admin/includes/user.php#L380-L388)
+
+### `wp_authorize_application_redirect_url_invalid_protocols`
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$bad_protocols` |  | 
+`$url` |  | 
+
+Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 696](../../wordpress/wp-admin/includes/user.php#L696-L696)
 
 ### `update_feedback`
 
@@ -19859,13 +19781,15 @@ Source: [wordpress/wp-admin/includes/class-walker-category-checklist.php](../../
 
 ### `user_request_key_expiration`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 197](../../wordpress/wp-admin/includes/privacy-tools.php#L197-L197)
+Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 196](../../wordpress/wp-admin/includes/privacy-tools.php#L196-L197)
 
 ### `wp_privacy_export_expiration`
 
@@ -20607,15 +20531,23 @@ Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/
 
 ### `term_search_min_chars`
 
+*Filters the minimum number of characters required to fire a tag search via Ajax.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `2` |  | 
-`$tax` |  | 
-`$s` |  | 
+`$tax` | `\WP_Taxonomy` | The taxonomy object.
+`$s` | `string` | The search term.
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 145](../../wordpress/wp-admin/includes/ajax-actions.php#L145-L145)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.0.0` | 
+
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 136](../../wordpress/wp-admin/includes/ajax-actions.php#L136-L145)
 
 ### `autocomplete_users_for_site_admins`
 
@@ -20672,7 +20604,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `150` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2868](../../wordpress/wp-admin/includes/ajax-actions.php#L2868-L2868)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2872](../../wordpress/wp-admin/includes/ajax-actions.php#L2872-L2872)
 
 ### `ajax_query_attachments_args`
 
@@ -20691,7 +20623,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2990](../../wordpress/wp-admin/includes/ajax-actions.php#L2990-L3000)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2994](../../wordpress/wp-admin/includes/ajax-actions.php#L2994-L3004)
 
 ### `attachment_fields_to_save`
 
@@ -20704,7 +20636,7 @@ Argument | Type | Description
 `$post` |  | 
 `$attachment_data` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3145](../../wordpress/wp-admin/includes/ajax-actions.php#L3145-L3146)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3149](../../wordpress/wp-admin/includes/ajax-actions.php#L3149-L3150)
 
 ### `media_send_to_editor`
 
@@ -20718,7 +20650,7 @@ Argument | Type | Description
 `$id` |  | 
 `$attachment` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3291](../../wordpress/wp-admin/includes/ajax-actions.php#L3291-L3292)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3295](../../wordpress/wp-admin/includes/ajax-actions.php#L3295-L3296)
 
 ### `{$type}_send_to_editor_url`
 
@@ -20732,7 +20664,7 @@ Argument | Type | Description
 `$src` |  | 
 `$link_text` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3363](../../wordpress/wp-admin/includes/ajax-actions.php#L3363-L3364)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3367](../../wordpress/wp-admin/includes/ajax-actions.php#L3367-L3368)
 
 ### `wp_refresh_nonces`
 
@@ -20752,7 +20684,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3397](../../wordpress/wp-admin/includes/ajax-actions.php#L3397-L3406)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3401](../../wordpress/wp-admin/includes/ajax-actions.php#L3401-L3410)
 
 ### `heartbeat_received`
 
@@ -20772,7 +20704,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3416](../../wordpress/wp-admin/includes/ajax-actions.php#L3416-L3425)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3420](../../wordpress/wp-admin/includes/ajax-actions.php#L3420-L3429)
 
 ### `heartbeat_send`
 
@@ -20791,7 +20723,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3428](../../wordpress/wp-admin/includes/ajax-actions.php#L3428-L3436)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3432](../../wordpress/wp-admin/includes/ajax-actions.php#L3432-L3440)
 
 ### `install_themes_table_api_args_{$old_filter}`
 
@@ -20803,7 +20735,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$args` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3560](../../wordpress/wp-admin/includes/ajax-actions.php#L3560-L3561)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3564](../../wordpress/wp-admin/includes/ajax-actions.php#L3564-L3565)
 
 ### `wp_create_file_in_uploads`
 
@@ -20816,7 +20748,7 @@ Argument | Type | Description
 `$cropped` |  | 
 `$attachment_id` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3942](../../wordpress/wp-admin/includes/ajax-actions.php#L3942-L3943)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3962](../../wordpress/wp-admin/includes/ajax-actions.php#L3962-L3963)
 
 ### `wp_create_file_in_uploads`
 
@@ -20829,7 +20761,7 @@ Argument | Type | Description
 `$cropped` |  | 
 `$attachment_id` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3970](../../wordpress/wp-admin/includes/ajax-actions.php#L3970-L3971)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3990](../../wordpress/wp-admin/includes/ajax-actions.php#L3990-L3991)
 
 ### `wp_ajax_cropped_attachment_metadata`
 
@@ -20847,7 +20779,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3990](../../wordpress/wp-admin/includes/ajax-actions.php#L3990-L3999)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4010](../../wordpress/wp-admin/includes/ajax-actions.php#L4010-L4019)
 
 ### `wp_ajax_cropped_attachment_id`
 
@@ -20866,7 +20798,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4002](../../wordpress/wp-admin/includes/ajax-actions.php#L4002-L4010)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4022](../../wordpress/wp-admin/includes/ajax-actions.php#L4022-L4030)
 
 ### `wp_privacy_personal_data_exporters`
 
@@ -20884,7 +20816,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4829](../../wordpress/wp-admin/includes/ajax-actions.php#L4829-L4848)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4849](../../wordpress/wp-admin/includes/ajax-actions.php#L4849-L4868)
 
 ### `wp_privacy_personal_data_export_page`
 
@@ -20910,7 +20842,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4946](../../wordpress/wp-admin/includes/ajax-actions.php#L4946-L4961)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4966](../../wordpress/wp-admin/includes/ajax-actions.php#L4966-L4981)
 
 ### `wp_privacy_personal_data_erasers`
 
@@ -20928,7 +20860,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5019](../../wordpress/wp-admin/includes/ajax-actions.php#L5019-L5039)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5039](../../wordpress/wp-admin/includes/ajax-actions.php#L5039-L5059)
 
 ### `wp_privacy_personal_data_erasure_page`
 
@@ -20953,7 +20885,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5176](../../wordpress/wp-admin/includes/ajax-actions.php#L5176-L5190)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5196](../../wordpress/wp-admin/includes/ajax-actions.php#L5196-L5210)
 
 ### `all_plugins`
 
@@ -20965,7 +20897,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `get_plugins()` |  | 
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5422](../../wordpress/wp-admin/includes/ajax-actions.php#L5422-L5423)
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5442](../../wordpress/wp-admin/includes/ajax-actions.php#L5442-L5443)
 
 ### `update_feedback`
 
@@ -21797,7 +21729,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1280](../../wordpress/wp-admin/includes/schema.php#L1280-L1288)
+Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1278](../../wordpress/wp-admin/includes/schema.php#L1278-L1286)
 
 ### `populate_site_meta`
 
@@ -21816,7 +21748,7 @@ Version | Description
 ------- | -----------
 `5.2.0` | 
 
-Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1326](../../wordpress/wp-admin/includes/schema.php#L1326-L1334)
+Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1324](../../wordpress/wp-admin/includes/schema.php#L1324-L1332)
 
 ### `term_updated_messages`
 
@@ -22319,7 +22251,7 @@ Argument | Type | Description
 `array_filter($actions)` |  | 
 `$comment` |  | 
 
-Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 824](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L824-L825)
+Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 837](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L837-L838)
 
 ### `comment_edit_pre`
 
@@ -22331,7 +22263,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_content` |  | 
 
-Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 915](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L915-L916)
+Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 928](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L928-L929)
 
 ### `comment_email`
 
@@ -22344,12 +22276,9 @@ Argument | Type | Description
 `$comment->comment_author_email` |  | 
 `$comment` |  | 
 
-Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 960](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L960-L961)
+Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 973](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L973-L974)
 
 ### `all_themes`
-
-*Filters the full array of WP_Theme objects to list in the Multisite
-themes list table.*
 
 **Arguments**
 
@@ -22357,13 +22286,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `wp_get_themes()` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`3.1.0` | 
-
-Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 106](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L106-L114)
+Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 114](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L114-L114)
 
 ### `theme_action_links`
 
@@ -23223,13 +23146,38 @@ Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp
 
 ### `{$option}`
 
+*Filters the number of items to be displayed on each page of the list table.*
+
+The dynamic hook name, `$option`, refers to the `per_page` option depending
+on the type of list table in use. Possible filter names include:
+
+ - `edit_comments_per_page`
+ - `sites_network_per_page`
+ - `site_themes_network_per_page`
+ - `themes_network_per_page'`
+ - `users_network_per_page`
+ - `edit_post_per_page`
+ - `edit_page_per_page'`
+ - `edit_{$post_type}_per_page`
+ - `edit_post_tag_per_page`
+ - `edit_category_per_page`
+ - `edit_{$taxonomy}_per_page`
+ - `site_users_network_per_page`
+ - `users_per_page`
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$per_page` |  | 
+`$per_page` | `int` | Number of items to be displayed. Default 20.
 
-Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 860](../../wordpress/wp-admin/includes/class-wp-list-table.php#L860-L860)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.9.0` | 
+
+Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 850](../../wordpress/wp-admin/includes/class-wp-list-table.php#L850-L874)
 
 ### `list_table_primary_column`
 
@@ -23248,7 +23196,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1085](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1085-L1093)
+Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1099](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1099-L1107)
 
 ### `manage_{$screen->id}_sortable_columns`
 
@@ -23269,7 +23217,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1131](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1131-L1141)
+Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1145](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1145-L1155)
 
 ### `got_rewrite`
 
@@ -23463,14 +23411,27 @@ Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes
 
 ### `wp_is_php_version_acceptable`
 
+*Filters whether the active PHP version is considered acceptable by WordPress.*
+
+Returning false will trigger a PHP version warning to show up in the admin dashboard to administrators.
+
+This filter is only run if the wordpress.org Serve Happy API considers the PHP version acceptable, ensuring
+that this filter can only make this check stricter, but not loosen it.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
-`$version` |  | 
+`$version` | `string` | PHP version checked.
 
-Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1498](../../wordpress/wp-admin/includes/misc.php#L1498-L1498)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.1.1` | 
+
+Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1485](../../wordpress/wp-admin/includes/misc.php#L1485-L1498)
 
 ### `all_plugins`
 
@@ -23858,16 +23819,30 @@ Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/include
 
 ### `big_image_size_threshold`
 
+*Filters the "BIG image" threshold value.*
+
+If the original image width or height is above the threshold, it will be scaled down. The threshold is
+used as max width and max height. The scaled down image will be used as the largest available size, including
+the `_wp_attached_file` post meta value.
+
+Returning `false` from the filter callback will disable the scaling.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `2560` |  | 
-`$imagesize` |  | 
-`$file` |  | 
-`$attachment_id` |  | 
+`$imagesize` | `array` | {<br>    Indexed array of the image width and height in pixels.<br><br>    @type int $0 The image width.<br>    @type int $1 The image height.<br>}
+`$file` | `string` | Full path to the uploaded image file.
+`$attachment_id` | `int` | Attachment post ID.
 
-Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 275](../../wordpress/wp-admin/includes/image.php#L275-L275)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 254](../../wordpress/wp-admin/includes/image.php#L254-L275)
 
 ### `intermediate_image_sizes_advanced`
 
@@ -24417,15 +24392,19 @@ Source: [wordpress/wp-admin/includes/class-wp-debug-data.php](../../wordpress/wp
 
 ### `get_editable_authors`
 
+*Gets author users who can edit posts.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$authors` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 270](../../wordpress/wp-admin/includes/deprecated.php#L270-L270)
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 246](../../wordpress/wp-admin/includes/deprecated.php#L246-L270)
 
 ### `get_others_drafts`
+
+*Retrieves editable posts from other users.*
 
 **Arguments**
 
@@ -24433,9 +24412,17 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$other_unpubs` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 710](../../wordpress/wp-admin/includes/deprecated.php#L710-L710)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.3.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 675](../../wordpress/wp-admin/includes/deprecated.php#L675-L710)
 
 ### `wp_create_thumbnail`
+
+*This was once used to create a thumbnail from an Image given a maximum side size.*
 
 **Arguments**
 
@@ -24443,7 +24430,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `image_resize($file, $max_side, $max_side)` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 1132](../../wordpress/wp-admin/includes/deprecated.php#L1132-L1132)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.2.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 1118](../../wordpress/wp-admin/includes/deprecated.php#L1118-L1132)
 
 ### `image_size_names_choose`
 
@@ -24655,8 +24648,6 @@ Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.ph
 
 ### `the_category`
 
-*This filter is documented in wp-includes/category-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -24665,7 +24656,7 @@ Argument | Type | Description
 `''` |  | 
 `''` |  | 
 
-Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 624](../../wordpress/wp-admin/edit-tags.php#L624-L625)
+Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 625](../../wordpress/wp-admin/edit-tags.php#L625-L625)
 
 ### `async_upload_{$type}`
 
@@ -24750,14 +24741,23 @@ Source: [wordpress/wp-admin/options-writing.php](../../wordpress/wp-admin/option
 
 ### `users_have_additional_content`
 
+*Filters whether the users being deleted have additional content
+associated with them outside of the `post_author` and `link_owner` relationships.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$userids` |  | 
+`$userids` | `int[]` | Array of IDs for users being deleted.
 
-Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [line 299](../../wordpress/wp-admin/users.php#L299-L299)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [line 290](../../wordpress/wp-admin/users.php#L290-L299)
 
 ### `handle_bulk_actions-{$screen}`
 
@@ -24775,13 +24775,21 @@ Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [lin
 
 ### `thread_comments_depth_max`
 
+*Filters the maximum depth of threaded/nested comments.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `10` |  | 
 
-Source: [wordpress/wp-admin/options-discussion.php](../../wordpress/wp-admin/options-discussion.php), [line 107](../../wordpress/wp-admin/options-discussion.php#L107-L107)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.7.0` | 
+
+Source: [wordpress/wp-admin/options-discussion.php](../../wordpress/wp-admin/options-discussion.php), [line 100](../../wordpress/wp-admin/options-discussion.php#L100-L107)
 
 ### `avatar_defaults`
 
@@ -25140,8 +25148,6 @@ Source: [wordpress/wp-admin/site-health.php](../../wordpress/wp-admin/site-healt
 
 ### `default_page_template_title`
 
-*This filter is documented in wp-admin/includes/meta-boxes.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -25149,7 +25155,7 @@ Argument | Type | Description
 `__('Default template')` |  | 
 `'rest-api'` |  | 
 
-Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 134](../../wordpress/wp-admin/edit-form-blocks.php#L134-L135)
+Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 135](../../wordpress/wp-admin/edit-form-blocks.php#L135-L135)
 
 ### `show_post_locked_dialog`
 
@@ -25187,8 +25193,6 @@ Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-
 
 ### `enter_title_here`
 
-*This filter is documented in wp-admin/edit-form-advanced.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -25196,7 +25200,7 @@ Argument | Type | Description
 `__('Add title')` |  | 
 `$post` |  | 
 
-Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 190](../../wordpress/wp-admin/edit-form-blocks.php#L190-L191)
+Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 191](../../wordpress/wp-admin/edit-form-blocks.php#L191-L191)
 
 ### `block_editor_no_javascript_message`
 
@@ -25496,13 +25500,21 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 ### `nocache_headers`
 
+*Filters the cache-controlling headers.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$headers` |  | 
+`$headers` | `array` | {<br>    Header names and field values.<br><br>    @type string $Expires       Expires header.<br>    @type string $Cache-Control Cache-Control header.<br>}
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1484](../../wordpress/wp-includes/functions.php#L1484-L1484)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1470](../../wordpress/wp-includes/functions.php#L1470-L1484)
 
 ### `robots_txt`
 
@@ -25857,7 +25869,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3602](../../wordpress/wp-includes/functions.php#L3602-L3609)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3604](../../wordpress/wp-includes/functions.php#L3604-L3611)
 
 ### `wp_die_json_handler`
 
@@ -25875,7 +25887,7 @@ Version | Description
 ------- | -----------
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3611](../../wordpress/wp-includes/functions.php#L3611-L3618)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3613](../../wordpress/wp-includes/functions.php#L3613-L3620)
 
 ### `wp_die_jsonp_handler`
 
@@ -25893,7 +25905,7 @@ Version | Description
 ------- | -----------
 `5.2.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3620](../../wordpress/wp-includes/functions.php#L3620-L3627)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3622](../../wordpress/wp-includes/functions.php#L3622-L3629)
 
 ### `wp_die_xmlrpc_handler`
 
@@ -25911,7 +25923,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3629](../../wordpress/wp-includes/functions.php#L3629-L3636)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3631](../../wordpress/wp-includes/functions.php#L3631-L3638)
 
 ### `wp_die_xml_handler`
 
@@ -25929,7 +25941,7 @@ Version | Description
 ------- | -----------
 `5.2.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3642](../../wordpress/wp-includes/functions.php#L3642-L3649)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3644](../../wordpress/wp-includes/functions.php#L3644-L3651)
 
 ### `wp_die_handler`
 
@@ -25947,7 +25959,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3651](../../wordpress/wp-includes/functions.php#L3651-L3658)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3653](../../wordpress/wp-includes/functions.php#L3653-L3660)
 
 ### `smilies`
 
@@ -25968,7 +25980,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 4674](../../wordpress/wp-includes/functions.php#L4674-L4684)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 4676](../../wordpress/wp-includes/functions.php#L4676-L4686)
 
 ### `load_default_widgets`
 
@@ -25978,7 +25990,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5175](../../wordpress/wp-includes/functions.php#L5175-L5175)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5177](../../wordpress/wp-includes/functions.php#L5177-L5177)
 
 ### `deprecated_function_trigger_error`
 
@@ -25988,7 +26000,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5312](../../wordpress/wp-includes/functions.php#L5312-L5312)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5314](../../wordpress/wp-includes/functions.php#L5314-L5314)
 
 ### `deprecated_constructor_trigger_error`
 
@@ -25998,7 +26010,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5404](../../wordpress/wp-includes/functions.php#L5404-L5404)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5406](../../wordpress/wp-includes/functions.php#L5406-L5406)
 
 ### `deprecated_file_trigger_error`
 
@@ -26008,7 +26020,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5500](../../wordpress/wp-includes/functions.php#L5500-L5500)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5502](../../wordpress/wp-includes/functions.php#L5502-L5502)
 
 ### `deprecated_argument_trigger_error`
 
@@ -26018,7 +26030,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5596](../../wordpress/wp-includes/functions.php#L5596-L5596)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5598](../../wordpress/wp-includes/functions.php#L5598-L5598)
 
 ### `deprecated_hook_trigger_error`
 
@@ -26028,7 +26040,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5686](../../wordpress/wp-includes/functions.php#L5686-L5686)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5688](../../wordpress/wp-includes/functions.php#L5688-L5688)
 
 ### `doing_it_wrong_trigger_error`
 
@@ -26041,7 +26053,7 @@ Argument | Type | Description
 `$message` |  | 
 `$version` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5754](../../wordpress/wp-includes/functions.php#L5754-L5754)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5756](../../wordpress/wp-includes/functions.php#L5756-L5756)
 
 ### `iis7_supports_permalinks`
 
@@ -26059,17 +26071,25 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5875](../../wordpress/wp-includes/functions.php#L5875-L5882)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5877](../../wordpress/wp-includes/functions.php#L5877-L5884)
 
 ### `get_main_network_id`
+
+*Filters the main network ID.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$main_network_id` |  | 
+`$main_network_id` | `int` | The ID of the main network.
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6155](../../wordpress/wp-includes/functions.php#L6155-L6155)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.3.0` | 
+
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6150](../../wordpress/wp-includes/functions.php#L6150-L6157)
 
 ### `global_terms_enabled`
 
@@ -26090,7 +26110,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6173](../../wordpress/wp-includes/functions.php#L6173-L6183)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6175](../../wordpress/wp-includes/functions.php#L6175-L6185)
 
 ### `extra_{$context}_headers`
 
@@ -26100,7 +26120,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6602](../../wordpress/wp-includes/functions.php#L6602-L6602)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6604](../../wordpress/wp-includes/functions.php#L6604-L6604)
 
 ### `kses_allowed_protocols`
 
@@ -26110,7 +26130,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$protocols` |  | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6864](../../wordpress/wp-includes/functions.php#L6864-L6864)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6866](../../wordpress/wp-includes/functions.php#L6866-L6866)
 
 ### `wp_checkdate`
 
@@ -26129,7 +26149,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7011](../../wordpress/wp-includes/functions.php#L7011-L7019)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7013](../../wordpress/wp-includes/functions.php#L7013-L7021)
 
 ### `wp_auth_check_load`
 
@@ -26151,7 +26171,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7046](../../wordpress/wp-includes/functions.php#L7046-L7057)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7048](../../wordpress/wp-includes/functions.php#L7048-L7059)
 
 ### `wp_auth_check_same_domain`
 
@@ -26169,7 +26189,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7076](../../wordpress/wp-includes/functions.php#L7076-L7083)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7078](../../wordpress/wp-includes/functions.php#L7078-L7085)
 
 ### `wp_delete_file`
 
@@ -26187,7 +26207,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7278](../../wordpress/wp-includes/functions.php#L7278-L7285)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7280](../../wordpress/wp-includes/functions.php#L7280-L7287)
 
 ### `admin_memory_limit`
 
@@ -26215,7 +26235,7 @@ Version | Description
 `4.6.0` | The default now takes the original `memory_limit` into account.
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7412](../../wordpress/wp-includes/functions.php#L7412-L7430)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7414](../../wordpress/wp-includes/functions.php#L7414-L7432)
 
 ### `image_memory_limit`
 
@@ -26234,7 +26254,7 @@ Version | Description
 `4.6.0` | The default now takes the original `memory_limit` into account.
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7434](../../wordpress/wp-includes/functions.php#L7434-L7446)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7436](../../wordpress/wp-includes/functions.php#L7436-L7448)
 
 ### `{$context}_memory_limit`
 
@@ -26256,7 +26276,7 @@ Version | Description
 ------- | -----------
 `4.6.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7450](../../wordpress/wp-includes/functions.php#L7450-L7464)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7452](../../wordpress/wp-includes/functions.php#L7452-L7466)
 
 ### `send_site_admin_email_change_email`
 
@@ -26276,7 +26296,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7591](../../wordpress/wp-includes/functions.php#L7591-L7600)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7593](../../wordpress/wp-includes/functions.php#L7593-L7602)
 
 ### `site_admin_email_change_email`
 
@@ -26296,7 +26316,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7632](../../wordpress/wp-includes/functions.php#L7632-L7653)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7634](../../wordpress/wp-includes/functions.php#L7634-L7655)
 
 ### `wp_privacy_anonymize_data`
 
@@ -26316,7 +26336,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7782](../../wordpress/wp-includes/functions.php#L7782-L7791)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7784](../../wordpress/wp-includes/functions.php#L7784-L7793)
 
 ### `wp_privacy_exports_dir`
 
@@ -26336,7 +26356,7 @@ Version | Description
 via this filter should be reflected on the server.
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7807](../../wordpress/wp-includes/functions.php#L7807-L7816)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7809](../../wordpress/wp-includes/functions.php#L7809-L7818)
 
 ### `wp_privacy_exports_url`
 
@@ -26356,7 +26376,7 @@ Version | Description
 via this filter should be reflected on the server.
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7832](../../wordpress/wp-includes/functions.php#L7832-L7841)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7834](../../wordpress/wp-includes/functions.php#L7834-L7843)
 
 ### `wp_privacy_export_expiration`
 
@@ -26377,7 +26397,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7879](../../wordpress/wp-includes/functions.php#L7879-L7889)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7881](../../wordpress/wp-includes/functions.php#L7881-L7891)
 
 ### `wp_update_php_url`
 
@@ -26398,7 +26418,7 @@ Version | Description
 ------- | -----------
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7920](../../wordpress/wp-includes/functions.php#L7920-L7930)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7922](../../wordpress/wp-includes/functions.php#L7922-L7932)
 
 ### `wp_direct_php_update_url`
 
@@ -26416,7 +26436,7 @@ Version | Description
 ------- | -----------
 `5.1.1` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8020](../../wordpress/wp-includes/functions.php#L8020-L8027)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8022](../../wordpress/wp-includes/functions.php#L8022-L8029)
 
 ### `wp_update_https_url`
 
@@ -26437,7 +26457,7 @@ Version | Description
 ------- | -----------
 `5.7.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8079](../../wordpress/wp-includes/functions.php#L8079-L8089)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8081](../../wordpress/wp-includes/functions.php#L8081-L8091)
 
 ### `wp_direct_update_https_url`
 
@@ -26455,7 +26475,7 @@ Version | Description
 ------- | -----------
 `5.7.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8132](../../wordpress/wp-includes/functions.php#L8132-L8139)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8134](../../wordpress/wp-includes/functions.php#L8134-L8141)
 
 ### `pre_recurse_dirsize`
 
@@ -26480,7 +26500,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8230](../../wordpress/wp-includes/functions.php#L8230-L8245)
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 8232](../../wordpress/wp-includes/functions.php#L8232-L8247)
 
 ### `widget_archives_dropdown_args`
 
@@ -26569,7 +26589,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 336](../../wordpress/wp-includes/shortcodes.php#L336-L349)
+Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 374](../../wordpress/wp-includes/shortcodes.php#L374-L387)
 
 ### `do_shortcode_tag`
 
@@ -26590,7 +26610,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 358](../../wordpress/wp-includes/shortcodes.php#L358-L368)
+Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 396](../../wordpress/wp-includes/shortcodes.php#L396-L406)
 
 ### `shortcode_atts_{$shortcode}`
 
@@ -26615,7 +26635,7 @@ Version | Description
 `4.4.0` | Added the `$shortcode` parameter.
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 596](../../wordpress/wp-includes/shortcodes.php#L596-L610)
+Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 634](../../wordpress/wp-includes/shortcodes.php#L634-L648)
 
 ### `strip_shortcodes_tagnames`
 
@@ -26634,7 +26654,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 642](../../wordpress/wp-includes/shortcodes.php#L642-L650)
+Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 680](../../wordpress/wp-includes/shortcodes.php#L680-L688)
 
 ### `customize_sanitize_{$this->id}`
 
@@ -26780,7 +26800,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 731](../../wordpress/wp-includes/blocks.php#L731-L739)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 748](../../wordpress/wp-includes/blocks.php#L748-L756)
 
 ### `excerpt_allowed_blocks`
 
@@ -26801,7 +26821,7 @@ Version | Description
 ------- | -----------
 `5.0.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 743](../../wordpress/wp-includes/blocks.php#L743-L753)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 760](../../wordpress/wp-includes/blocks.php#L760-L770)
 
 ### `pre_render_block`
 
@@ -26822,7 +26842,7 @@ Version | Description
 `5.9.0` | The `$parent_block` parameter was added.
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 826](../../wordpress/wp-includes/blocks.php#L826-L836)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 843](../../wordpress/wp-includes/blocks.php#L843-L853)
 
 ### `render_block_data`
 
@@ -26843,7 +26863,7 @@ Version | Description
 `5.9.0` | The `$parent_block` parameter was added.
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 843](../../wordpress/wp-includes/blocks.php#L843-L853)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 860](../../wordpress/wp-includes/blocks.php#L860-L870)
 
 ### `render_block_context`
 
@@ -26864,7 +26884,7 @@ Version | Description
 `5.9.0` | The `$parent_block` parameter was added.
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 869](../../wordpress/wp-includes/blocks.php#L869-L879)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 886](../../wordpress/wp-includes/blocks.php#L886-L896)
 
 ### `block_parser_class`
 
@@ -26882,7 +26902,7 @@ Version | Description
 ------- | -----------
 `5.0.0` | 
 
-Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 895](../../wordpress/wp-includes/blocks.php#L895-L902)
+Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 912](../../wordpress/wp-includes/blocks.php#L912-L919)
 
 ### `register_sidebar_defaults`
 
@@ -28001,15 +28021,26 @@ Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revisio
 
 ### `wp_save_post_revision_post_has_changed`
 
+*Filters whether a post has changed.*
+
+By default a revision is saved only if one of the revisioned fields has changed.
+This filter allows for additional checks to determine if there were changes.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_has_changed` |  | 
-`$last_revision` |  | 
-`$post` |  | 
+`$post_has_changed` | `bool` | Whether the post has changed.
+`$last_revision` | `\WP_Post` | The last revision post object.
+`$post` | `\WP_Post` | The post object.
 
-Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 181](../../wordpress/wp-includes/revision.php#L181-L181)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.1.0` | 
+
+Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 169](../../wordpress/wp-includes/revision.php#L169-L181)
 
 ### `wp_revisions_to_keep`
 
@@ -28563,17 +28594,27 @@ Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonom
 
 ### `wp_update_term_parent`
 
+*Filters the term parent.*
+
+Hook to this filter to see if it will cause a hierarchy loop.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$args['parent']` |  | 
-`$term_id` |  | 
-`$taxonomy` |  | 
-`$parsed_args` |  | 
-`$args` |  | 
+`$term_id` | `int` | Term ID.
+`$taxonomy` | `string` | Taxonomy slug.
+`$parsed_args` | `array` | An array of potentially altered update arguments for the given term.
+`$args` | `array` | An array of update arguments for the given term.
 
-Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3210](../../wordpress/wp-includes/taxonomy.php#L3210-L3210)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3197](../../wordpress/wp-includes/taxonomy.php#L3197-L3210)
 
 ### `wp_update_term_data`
 
@@ -29279,7 +29320,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$valid_columns` |  | 
 
-Source: [wordpress/wp-includes/class-wp-date-query.php](../../wordpress/wp-includes/class-wp-date-query.php), [line 504](../../wordpress/wp-includes/class-wp-date-query.php#L504-L504)
+Source: [wordpress/wp-includes/class-wp-date-query.php](../../wordpress/wp-includes/class-wp-date-query.php), [line 507](../../wordpress/wp-includes/class-wp-date-query.php#L507-L507)
 
 ### `get_date_sql`
 
@@ -29298,7 +29339,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/class-wp-date-query.php](../../wordpress/wp-includes/class-wp-date-query.php), [line 553](../../wordpress/wp-includes/class-wp-date-query.php#L553-L561)
+Source: [wordpress/wp-includes/class-wp-date-query.php](../../wordpress/wp-includes/class-wp-date-query.php), [line 556](../../wordpress/wp-includes/class-wp-date-query.php#L556-L564)
 
 ### `core_version_check_locale`
 
@@ -29453,23 +29494,45 @@ Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), 
 
 ### `is_protected_endpoint`
 
+*Filters whether the current request is against a protected endpoint.*
+
+This filter is only fired when an endpoint is requested which is not already protected by
+WordPress core. As such, it exclusively allows providing further protected endpoints in
+addition to the admin backend, login pages and protected Ajax actions.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1001](../../wordpress/wp-includes/load.php#L1001-L1001)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 989](../../wordpress/wp-includes/load.php#L989-L1001)
 
 ### `wp_protected_ajax_actions`
+
+*Filters the array of protected Ajax actions.*
+
+This filter is only fired when doing Ajax and the Ajax request has an 'action' property.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions_to_protect` |  | 
+`$actions_to_protect` | `string[]` | Array of strings with Ajax actions to protect.
 
-Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1040](../../wordpress/wp-includes/load.php#L1040-L1040)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1031](../../wordpress/wp-includes/load.php#L1031-L1040)
 
 ### `wp_doing_ajax`
 
@@ -30325,6 +30388,25 @@ Version | Description
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2399](../../wordpress/wp-includes/formatting.php#L2399-L2408)
 
+### `sanitize_locale_name`
+
+*Filters a sanitized locale name string.*
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$sanitized` | `string` | The sanitized locale name.
+`$locale_name` | `string` | The locale name before sanitization.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`6.2.1` | 
+
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2423](../../wordpress/wp-includes/formatting.php#L2423-L2431)
+
 ### `format_to_edit`
 
 *Filters the text to be formatted for editing.*
@@ -30341,7 +30423,7 @@ Version | Description
 ------- | -----------
 `1.2.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2681](../../wordpress/wp-includes/formatting.php#L2681-L2688)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2704](../../wordpress/wp-includes/formatting.php#L2704-L2711)
 
 ### `make_clickable_rel`
 
@@ -30360,7 +30442,7 @@ Version | Description
 ------- | -----------
 `5.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2904](../../wordpress/wp-includes/formatting.php#L2904-L2912)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2927](../../wordpress/wp-includes/formatting.php#L2927-L2935)
 
 ### `make_clickable_rel`
 
@@ -30373,7 +30455,7 @@ Argument | Type | Description
 `$rel` |  | 
 `$dest` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2952](../../wordpress/wp-includes/formatting.php#L2952-L2953)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2975](../../wordpress/wp-includes/formatting.php#L2975-L2976)
 
 ### `wp_targeted_link_rel`
 
@@ -30392,7 +30474,7 @@ Version | Description
 ------- | -----------
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3260](../../wordpress/wp-includes/formatting.php#L3260-L3268)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3283](../../wordpress/wp-includes/formatting.php#L3283-L3291)
 
 ### `smilies_src`
 
@@ -30412,7 +30494,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3370](../../wordpress/wp-includes/formatting.php#L3370-L3379)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3393](../../wordpress/wp-includes/formatting.php#L3393-L3402)
 
 ### `is_email`
 
@@ -30436,7 +30518,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3454](../../wordpress/wp-includes/formatting.php#L3454-L3467)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3477](../../wordpress/wp-includes/formatting.php#L3477-L3490)
 
 ### `is_email`
 
@@ -30450,7 +30532,7 @@ Argument | Type | Description
 `$email` |  | 
 `'email_no_at'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3472](../../wordpress/wp-includes/formatting.php#L3472-L3473)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3495](../../wordpress/wp-includes/formatting.php#L3495-L3496)
 
 ### `is_email`
 
@@ -30464,7 +30546,7 @@ Argument | Type | Description
 `$email` |  | 
 `'local_invalid_chars'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3482](../../wordpress/wp-includes/formatting.php#L3482-L3483)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3505](../../wordpress/wp-includes/formatting.php#L3505-L3506)
 
 ### `is_email`
 
@@ -30478,7 +30560,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_period_sequence'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3489](../../wordpress/wp-includes/formatting.php#L3489-L3490)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3512](../../wordpress/wp-includes/formatting.php#L3512-L3513)
 
 ### `is_email`
 
@@ -30492,7 +30574,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_period_limits'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3495](../../wordpress/wp-includes/formatting.php#L3495-L3496)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3518](../../wordpress/wp-includes/formatting.php#L3518-L3519)
 
 ### `is_email`
 
@@ -30506,7 +30588,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_no_periods'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3504](../../wordpress/wp-includes/formatting.php#L3504-L3505)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3527](../../wordpress/wp-includes/formatting.php#L3527-L3528)
 
 ### `is_email`
 
@@ -30520,7 +30602,7 @@ Argument | Type | Description
 `$email` |  | 
 `'sub_hyphen_limits'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3512](../../wordpress/wp-includes/formatting.php#L3512-L3513)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3535](../../wordpress/wp-includes/formatting.php#L3535-L3536)
 
 ### `is_email`
 
@@ -30534,7 +30616,7 @@ Argument | Type | Description
 `$email` |  | 
 `'sub_invalid_chars'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3518](../../wordpress/wp-includes/formatting.php#L3518-L3519)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3541](../../wordpress/wp-includes/formatting.php#L3541-L3542)
 
 ### `is_email`
 
@@ -30548,7 +30630,7 @@ Argument | Type | Description
 `$email` |  | 
 `null` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3524](../../wordpress/wp-includes/formatting.php#L3524-L3525)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3547](../../wordpress/wp-includes/formatting.php#L3547-L3548)
 
 ### `sanitize_email`
 
@@ -30572,7 +30654,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3664](../../wordpress/wp-includes/formatting.php#L3664-L3677)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3687](../../wordpress/wp-includes/formatting.php#L3687-L3700)
 
 ### `sanitize_email`
 
@@ -30586,7 +30668,7 @@ Argument | Type | Description
 `$email` |  | 
 `'email_no_at'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3682](../../wordpress/wp-includes/formatting.php#L3682-L3683)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3705](../../wordpress/wp-includes/formatting.php#L3705-L3706)
 
 ### `sanitize_email`
 
@@ -30600,7 +30682,7 @@ Argument | Type | Description
 `$email` |  | 
 `'local_invalid_chars'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3693](../../wordpress/wp-includes/formatting.php#L3693-L3694)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3716](../../wordpress/wp-includes/formatting.php#L3716-L3717)
 
 ### `sanitize_email`
 
@@ -30614,7 +30696,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_period_sequence'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3701](../../wordpress/wp-includes/formatting.php#L3701-L3702)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3724](../../wordpress/wp-includes/formatting.php#L3724-L3725)
 
 ### `sanitize_email`
 
@@ -30628,7 +30710,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_period_limits'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3708](../../wordpress/wp-includes/formatting.php#L3708-L3709)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3731](../../wordpress/wp-includes/formatting.php#L3731-L3732)
 
 ### `sanitize_email`
 
@@ -30642,7 +30724,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_no_periods'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3717](../../wordpress/wp-includes/formatting.php#L3717-L3718)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3740](../../wordpress/wp-includes/formatting.php#L3740-L3741)
 
 ### `sanitize_email`
 
@@ -30656,7 +30738,7 @@ Argument | Type | Description
 `$email` |  | 
 `'domain_no_valid_subs'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3740](../../wordpress/wp-includes/formatting.php#L3740-L3741)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3763](../../wordpress/wp-includes/formatting.php#L3763-L3764)
 
 ### `sanitize_email`
 
@@ -30670,7 +30752,7 @@ Argument | Type | Description
 `$email` |  | 
 `null` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3751](../../wordpress/wp-includes/formatting.php#L3751-L3752)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3774](../../wordpress/wp-includes/formatting.php#L3774-L3775)
 
 ### `human_time_diff`
 
@@ -30691,7 +30773,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3826](../../wordpress/wp-includes/formatting.php#L3826-L3836)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3849](../../wordpress/wp-includes/formatting.php#L3849-L3859)
 
 ### `the_content`
 
@@ -30703,9 +30785,11 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$text` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3864](../../wordpress/wp-includes/formatting.php#L3864-L3865)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3887](../../wordpress/wp-includes/formatting.php#L3887-L3888)
 
 ### `excerpt_length`
+
+*Filters the maximum number of words in a post excerpt.*
 
 **Arguments**
 
@@ -30713,7 +30797,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$excerpt_length` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3878](../../wordpress/wp-includes/formatting.php#L3878-L3878)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.7.0` | 
+
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3894](../../wordpress/wp-includes/formatting.php#L3894-L3901)
 
 ### `excerpt_more`
 
@@ -30731,7 +30821,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3880](../../wordpress/wp-includes/formatting.php#L3880-L3887)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3903](../../wordpress/wp-includes/formatting.php#L3903-L3910)
 
 ### `wp_trim_excerpt`
 
@@ -30750,7 +30840,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3891](../../wordpress/wp-includes/formatting.php#L3891-L3899)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3914](../../wordpress/wp-includes/formatting.php#L3914-L3922)
 
 ### `wp_trim_words`
 
@@ -30771,7 +30861,7 @@ Version | Description
 ------- | -----------
 `3.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3948](../../wordpress/wp-includes/formatting.php#L3948-L3958)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3971](../../wordpress/wp-includes/formatting.php#L3971-L3981)
 
 ### `pre_ent2ncr`
 
@@ -30792,7 +30882,7 @@ Version | Description
 ------- | -----------
 `3.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3971](../../wordpress/wp-includes/formatting.php#L3971-L3981)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3994](../../wordpress/wp-includes/formatting.php#L3994-L4004)
 
 ### `format_for_editor`
 
@@ -30811,7 +30901,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4271](../../wordpress/wp-includes/formatting.php#L4271-L4280)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4294](../../wordpress/wp-includes/formatting.php#L4294-L4303)
 
 ### `clean_url`
 
@@ -30831,7 +30921,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4436](../../wordpress/wp-includes/formatting.php#L4436-L4445)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4459](../../wordpress/wp-includes/formatting.php#L4459-L4468)
 
 ### `js_escape`
 
@@ -30853,7 +30943,7 @@ Version | Description
 ------- | -----------
 `2.0.6` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4518](../../wordpress/wp-includes/formatting.php#L4518-L4529)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4541](../../wordpress/wp-includes/formatting.php#L4541-L4552)
 
 ### `esc_html`
 
@@ -30875,7 +30965,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4543](../../wordpress/wp-includes/formatting.php#L4543-L4554)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4566](../../wordpress/wp-includes/formatting.php#L4566-L4577)
 
 ### `attribute_escape`
 
@@ -30897,7 +30987,7 @@ Version | Description
 ------- | -----------
 `2.0.6` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4568](../../wordpress/wp-includes/formatting.php#L4568-L4579)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4591](../../wordpress/wp-includes/formatting.php#L4591-L4602)
 
 ### `esc_textarea`
 
@@ -30916,7 +31006,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4592](../../wordpress/wp-includes/formatting.php#L4592-L4600)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4615](../../wordpress/wp-includes/formatting.php#L4615-L4623)
 
 ### `esc_xml`
 
@@ -30939,7 +31029,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4645](../../wordpress/wp-includes/formatting.php#L4645-L4657)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4668](../../wordpress/wp-includes/formatting.php#L4668-L4680)
 
 ### `tag_escape`
 
@@ -30958,7 +31048,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4670](../../wordpress/wp-includes/formatting.php#L4670-L4678)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4693](../../wordpress/wp-includes/formatting.php#L4693-L4701)
 
 ### `sanitize_option_{$option}`
 
@@ -30979,7 +31069,7 @@ Version | Description
 `4.3.0` | Added the `$original_value` parameter.
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4966](../../wordpress/wp-includes/formatting.php#L4966-L4976)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4989](../../wordpress/wp-includes/formatting.php#L4989-L4999)
 
 ### `wp_parse_str`
 
@@ -30997,7 +31087,7 @@ Version | Description
 ------- | -----------
 `2.2.1` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5018](../../wordpress/wp-includes/formatting.php#L5018-L5025)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5041](../../wordpress/wp-includes/formatting.php#L5041-L5048)
 
 ### `wp_sprintf`
 
@@ -31018,7 +31108,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5133](../../wordpress/wp-includes/formatting.php#L5133-L5143)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5156](../../wordpress/wp-includes/formatting.php#L5156-L5166)
 
 ### `wp_sprintf_l`
 
@@ -31048,7 +31138,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5183](../../wordpress/wp-includes/formatting.php#L5183-L5204)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5206](../../wordpress/wp-includes/formatting.php#L5206-L5227)
 
 ### `sanitize_text_field`
 
@@ -31067,7 +31157,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5404](../../wordpress/wp-includes/formatting.php#L5404-L5412)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5427](../../wordpress/wp-includes/formatting.php#L5427-L5435)
 
 ### `sanitize_textarea_field`
 
@@ -31086,7 +31176,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5432](../../wordpress/wp-includes/formatting.php#L5432-L5440)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5455](../../wordpress/wp-includes/formatting.php#L5455-L5463)
 
 ### `sanitize_mime_type`
 
@@ -31105,7 +31195,7 @@ Version | Description
 ------- | -----------
 `3.1.3` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5544](../../wordpress/wp-includes/formatting.php#L5544-L5552)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5567](../../wordpress/wp-includes/formatting.php#L5567-L5575)
 
 ### `sanitize_trackback_urls`
 
@@ -31127,7 +31217,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5572](../../wordpress/wp-includes/formatting.php#L5572-L5583)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5595](../../wordpress/wp-includes/formatting.php#L5595-L5606)
 
 ### `wp_spaces_regexp`
 
@@ -31150,11 +31240,9 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5660](../../wordpress/wp-includes/formatting.php#L5660-L5672)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5683](../../wordpress/wp-includes/formatting.php#L5683-L5695)
 
 ### `emoji_url`
-
-*Filters the URL where emoji png images are hosted.*
 
 **Arguments**
 
@@ -31162,17 +31250,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'https://s.w.org/images/core/emoji/13.1.0/72x72/'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.2.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5737](../../wordpress/wp-includes/formatting.php#L5737-L5744)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5767](../../wordpress/wp-includes/formatting.php#L5767-L5767)
 
 ### `emoji_ext`
-
-*Filters the extension of the emoji png files.*
 
 **Arguments**
 
@@ -31180,17 +31260,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'.png'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.2.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5746](../../wordpress/wp-includes/formatting.php#L5746-L5753)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5776](../../wordpress/wp-includes/formatting.php#L5776-L5776)
 
 ### `emoji_svg_url`
-
-*Filters the URL where emoji SVG images are hosted.*
 
 **Arguments**
 
@@ -31198,17 +31270,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'https://s.w.org/images/core/emoji/13.1.0/svg/'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.6.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5755](../../wordpress/wp-includes/formatting.php#L5755-L5762)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5785](../../wordpress/wp-includes/formatting.php#L5785-L5785)
 
 ### `emoji_svg_ext`
-
-*Filters the extension of the emoji SVG files.*
 
 **Arguments**
 
@@ -31216,17 +31280,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'.svg'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.6.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5764](../../wordpress/wp-includes/formatting.php#L5764-L5771)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5794](../../wordpress/wp-includes/formatting.php#L5794-L5794)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31235,11 +31291,9 @@ Argument | Type | Description
 `includes_url("js/wp-emoji.js?{$version}")` |  | 
 `'wpemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5778](../../wordpress/wp-includes/formatting.php#L5778-L5779)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5802](../../wordpress/wp-includes/formatting.php#L5802-L5802)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31248,11 +31302,9 @@ Argument | Type | Description
 `includes_url("js/twemoji.js?{$version}")` |  | 
 `'twemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5780](../../wordpress/wp-includes/formatting.php#L5780-L5781)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5804](../../wordpress/wp-includes/formatting.php#L5804-L5804)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31261,7 +31313,7 @@ Argument | Type | Description
 `includes_url("js/wp-emoji-release.min.js?{$version}")` |  | 
 `'concatemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5785](../../wordpress/wp-includes/formatting.php#L5785-L5786)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5809](../../wordpress/wp-includes/formatting.php#L5809-L5809)
 
 ### `emoji_url`
 
@@ -31273,7 +31325,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'https://s.w.org/images/core/emoji/13.1.0/72x72/'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5856](../../wordpress/wp-includes/formatting.php#L5856-L5857)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5879](../../wordpress/wp-includes/formatting.php#L5879-L5880)
 
 ### `emoji_ext`
 
@@ -31285,7 +31337,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'.png'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5859](../../wordpress/wp-includes/formatting.php#L5859-L5860)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5882](../../wordpress/wp-includes/formatting.php#L5882-L5883)
 
 ### `wp_mail_content_type`
 
@@ -31297,7 +31349,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$content_type` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5971](../../wordpress/wp-includes/formatting.php#L5971-L5972)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5994](../../wordpress/wp-includes/formatting.php#L5994-L5995)
 
 ### `oembed_default_width`
 
@@ -31415,13 +31467,15 @@ Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 500](../../wordpress/wp-includes/ms-functions.php#L500-L500)
+Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 499](../../wordpress/wp-includes/ms-functions.php#L499-L500)
 
 ### `wpmu_validate_user_signup`
 
@@ -32474,7 +32528,7 @@ Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`array('background', 'background-color', 'background-image', 'background-position', 'background-size', 'background-attachment', 'background-blend-mode', 'border', 'border-radius', 'border-width', 'border-color', 'border-style', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-bottom-right-radius', 'border-bottom-left-radius', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-top-left-radius', 'border-top-right-radius', 'border-spacing', 'border-collapse', 'caption-side', 'columns', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-span', 'column-width', 'color', 'filter', 'font', 'font-family', 'font-size', 'font-style', 'font-variant', 'font-weight', 'letter-spacing', 'line-height', 'text-align', 'text-decoration', 'text-indent', 'text-transform', 'height', 'min-height', 'max-height', 'width', 'min-width', 'max-width', 'margin', 'margin-right', 'margin-bottom', 'margin-left', 'margin-top', 'padding', 'padding-right', 'padding-bottom', 'padding-left', 'padding-top', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'grid-template-columns', 'grid-auto-columns', 'grid-column-start', 'grid-column-end', 'grid-column-gap', 'grid-template-rows', 'grid-auto-rows', 'grid-row-start', 'grid-row-end', 'grid-row-gap', 'grid-gap', 'justify-content', 'justify-items', 'justify-self', 'align-content', 'align-items', 'align-self', 'clear', 'cursor', 'direction', 'float', 'list-style-type', 'object-position', 'overflow', 'vertical-align')` |  | 
+`array('background', 'background-color', 'background-image', 'background-position', 'background-size', 'background-attachment', 'background-blend-mode', 'border', 'border-radius', 'border-width', 'border-color', 'border-style', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-bottom-right-radius', 'border-bottom-left-radius', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-top-left-radius', 'border-top-right-radius', 'border-spacing', 'border-collapse', 'caption-side', 'columns', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-span', 'column-width', 'color', 'filter', 'font', 'font-family', 'font-size', 'font-style', 'font-variant', 'font-weight', 'letter-spacing', 'line-height', 'text-align', 'text-decoration', 'text-indent', 'text-transform', 'height', 'min-height', 'max-height', 'width', 'min-width', 'max-width', 'margin', 'margin-right', 'margin-bottom', 'margin-left', 'margin-top', 'padding', 'padding-right', 'padding-bottom', 'padding-left', 'padding-top', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'grid-template-columns', 'grid-auto-columns', 'grid-column-start', 'grid-column-end', 'grid-column-gap', 'grid-template-rows', 'grid-auto-rows', 'grid-row-start', 'grid-row-end', 'grid-row-gap', 'grid-gap', 'justify-content', 'justify-items', 'justify-self', 'align-content', 'align-items', 'align-self', 'clear', 'cursor', 'direction', 'float', 'list-style-type', 'object-fit', 'object-position', 'overflow', 'vertical-align')` |  | 
 
 **Changelog**
 
@@ -32482,7 +32536,7 @@ Version | Description
 ------- | -----------
 `2.8.1` | 
 
-Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2292](../../wordpress/wp-includes/kses.php#L2292-L2422)
+Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2292](../../wordpress/wp-includes/kses.php#L2292-L2423)
 
 ### `safecss_filter_attr_allow_css`
 
@@ -32505,7 +32559,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2523](../../wordpress/wp-includes/kses.php#L2523-L2535)
+Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2524](../../wordpress/wp-includes/kses.php#L2524-L2536)
 
 ### `get_attached_file`
 
@@ -32698,14 +32752,27 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `edit_post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
-`$post_id` |  | 
+`$value` | `mixed` | The Post Object value.
+`$post_id` | `int` | Post ID.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2809](../../wordpress/wp-includes/post.php#L2809-L2809)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2809)
 
 ### `pre_{$field}`
 
@@ -32751,13 +32818,26 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `pre_post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
+`$value` | `mixed` | The Post Object value.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2848](../../wordpress/wp-includes/post.php#L2848-L2848)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2848)
 
 ### `{$field}_pre`
 
@@ -32805,15 +32885,28 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
-`$post_id` |  | 
-`$context` |  | 
+`$value` | `mixed` | The Post Object value.
+`$post_id` | `int` | Post ID.
+`$context` | `string` | Optional. How to sanitize the field. Possible values are 'raw', 'edit',<br>'db', 'display', 'attribute' and 'js'. Default 'display'.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2883](../../wordpress/wp-includes/post.php#L2883-L2883)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2883)
 
 ### `wp_count_posts`
 
@@ -33653,7 +33746,7 @@ Version | Description
 ------- | -----------
 `5.3.0` | 
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 8014](../../wordpress/wp-includes/post.php#L8014-L8022)
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7984](../../wordpress/wp-includes/post.php#L7984-L7992)
 
 ### `wp_get_original_image_url`
 
@@ -33672,7 +33765,7 @@ Version | Description
 ------- | -----------
 `5.3.0` | 
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 8056](../../wordpress/wp-includes/post.php#L8056-L8064)
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 8026](../../wordpress/wp-includes/post.php#L8026-L8034)
 
 ### `get_terms_defaults`
 
@@ -33905,7 +33998,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 1207](../../wordpress/wp-includes/rest-api.php#L1207-L1218)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 1208](../../wordpress/wp-includes/rest-api.php#L1208-L1219)
 
 ### `rest_route_for_post`
 
@@ -33924,7 +34017,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3076](../../wordpress/wp-includes/rest-api.php#L3076-L3084)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3077](../../wordpress/wp-includes/rest-api.php#L3077-L3085)
 
 ### `rest_route_for_post_type_items`
 
@@ -33943,7 +34036,7 @@ Version | Description
 ------- | -----------
 `5.9.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3110](../../wordpress/wp-includes/rest-api.php#L3110-L3118)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3111](../../wordpress/wp-includes/rest-api.php#L3111-L3119)
 
 ### `rest_route_for_term`
 
@@ -33962,7 +34055,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3144](../../wordpress/wp-includes/rest-api.php#L3144-L3152)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3145](../../wordpress/wp-includes/rest-api.php#L3145-L3153)
 
 ### `rest_route_for_taxonomy_items`
 
@@ -33981,7 +34074,7 @@ Version | Description
 ------- | -----------
 `5.9.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3177](../../wordpress/wp-includes/rest-api.php#L3177-L3185)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3178](../../wordpress/wp-includes/rest-api.php#L3178-L3186)
 
 ### `rest_queried_resource_route`
 
@@ -33999,7 +34092,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3206](../../wordpress/wp-includes/rest-api.php#L3206-L3213)
+Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 3207](../../wordpress/wp-includes/rest-api.php#L3207-L3214)
 
 ### `wp_http_cookie_value`
 
@@ -34509,22 +34602,14 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `the_content_more_link`
 
-*Filters the Read More link text.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `' <a href="' . get_permalink($_post) . "#more-{$_post->ID}\" class=\"more-link\">{$more_link_text}</a>"` |  | 
-`$more_link_text` | `string` | Read More text.
+`$more_link_text` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.8.0` | 
-
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 361](../../wordpress/wp-includes/post-template.php#L361-L369)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 369](../../wordpress/wp-includes/post-template.php#L369-L369)
 
 ### `the_excerpt`
 
@@ -34687,8 +34772,6 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `wp_link_pages_link`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -34696,11 +34779,9 @@ Argument | Type | Description
 `$link` |  | 
 `$prev` |  | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 986](../../wordpress/wp-includes/post-template.php#L986-L987)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 987](../../wordpress/wp-includes/post-template.php#L987-L987)
 
 ### `wp_link_pages_link`
-
-*This filter is documented in wp-includes/post-template.php*
 
 **Arguments**
 
@@ -34709,7 +34790,7 @@ Argument | Type | Description
 `$link` |  | 
 `$next` |  | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 996](../../wordpress/wp-includes/post-template.php#L996-L997)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 997](../../wordpress/wp-includes/post-template.php#L997-L997)
 
 ### `wp_link_pages`
 
@@ -34732,23 +34813,15 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `the_meta_key`
 
-*Filters the HTML output of the li element in the post custom fields list.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$html` | `string` | The HTML output for the li element.
-`$key` | `string` | Meta key.
-`$value` | `string` | Meta value.
+`$html` |  | 
+`$key` |  | 
+`$value` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.2.0` | 
-
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1113](../../wordpress/wp-includes/post-template.php#L1113-L1122)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1123](../../wordpress/wp-includes/post-template.php#L1123-L1123)
 
 ### `wp_dropdown_pages`
 
@@ -34769,7 +34842,7 @@ Version | Description
 `4.4.0` | `$parsed_args` and `$pages` added as arguments.
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1206](../../wordpress/wp-includes/post-template.php#L1206-L1217)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1207](../../wordpress/wp-includes/post-template.php#L1207-L1218)
 
 ### `wp_list_pages_excludes`
 
@@ -34779,7 +34852,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$exclude_array` |  | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1306](../../wordpress/wp-includes/post-template.php#L1306-L1306)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1307](../../wordpress/wp-includes/post-template.php#L1307-L1307)
 
 ### `wp_list_pages`
 
@@ -34800,7 +34873,7 @@ Version | Description
 `4.4.0` | `$pages` added as arguments.
 `1.5.1` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1334](../../wordpress/wp-includes/post-template.php#L1334-L1347)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1335](../../wordpress/wp-includes/post-template.php#L1335-L1348)
 
 ### `wp_page_menu_args`
 
@@ -34818,7 +34891,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1417](../../wordpress/wp-includes/post-template.php#L1417-L1427)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1418](../../wordpress/wp-includes/post-template.php#L1418-L1428)
 
 ### `wp_page_menu`
 
@@ -34837,7 +34910,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1491](../../wordpress/wp-includes/post-template.php#L1491-L1502)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1492](../../wordpress/wp-includes/post-template.php#L1492-L1503)
 
 ### `wp_get_attachment_link`
 
@@ -34862,7 +34935,7 @@ Version | Description
 `5.1.0` | Added the `$attr` parameter.
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1642](../../wordpress/wp-includes/post-template.php#L1642-L1657)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1643](../../wordpress/wp-includes/post-template.php#L1643-L1658)
 
 ### `prepend_attachment`
 
@@ -34880,7 +34953,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1695](../../wordpress/wp-includes/post-template.php#L1695-L1704)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1696](../../wordpress/wp-includes/post-template.php#L1696-L1705)
 
 ### `the_password_form`
 
@@ -34904,7 +34977,7 @@ Version | Description
 `5.8.0` | Added the `$post` parameter.
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1729](../../wordpress/wp-includes/post-template.php#L1729-L1742)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1730](../../wordpress/wp-includes/post-template.php#L1730-L1743)
 
 ### `wp_post_revision_title_expanded`
 
@@ -34924,7 +34997,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1907](../../wordpress/wp-includes/post-template.php#L1907-L1917)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1908](../../wordpress/wp-includes/post-template.php#L1908-L1918)
 
 ### `customize_loaded_components`
 
@@ -35807,13 +35880,34 @@ Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.ph
 
 ### `{$hook_name}`
 
+*Fires functions attached to a deprecated filter hook.*
+
+When a filter hook is deprecated, the apply_filters() call is replaced with
+apply_filters_deprecated(), which triggers a deprecation notice and then fires
+the original filter hook.
+
+Note: the value and extra arguments passed to the original apply_filters() call
+must be passed here to `$args` as an array. For example:
+
+    // Old filter.
+    return apply_filters( 'wpdocs_filter', $value, $extra_arg );
+
+    // Deprecated.
+    return apply_filters_deprecated( 'wpdocs_filter', array( $value, $extra_arg ), '4.9.0', 'wpdocs_new_filter' );
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` |  | 
+`$args` | `array` | Array of additional function arguments to be passed to apply_filters().
 
-Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 664](../../wordpress/wp-includes/plugin.php#L664-L664)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.6.0` | 
+
+Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 631](../../wordpress/wp-includes/plugin.php#L631-L664)
 
 ### `get_the_categories`
 
@@ -36232,26 +36326,42 @@ Source: [wordpress/wp-includes/class-wp-text-diff-renderer-table.php](../../word
 
 ### `has_post_thumbnail`
 
+*Filters whether a post has a post thumbnail.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$has_thumbnail` |  | 
-`$post` |  | 
-`$thumbnail_id` |  | 
+`$has_thumbnail` | `bool` | true if the post has a post thumbnail, otherwise false.
+`$post` | `int\|\WP_Post\|null` | Post ID or WP_Post object. Default is global `$post`.
+`$thumbnail_id` | `int\|false` | Post thumbnail ID or false if the post does not exist.
 
-Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 38](../../wordpress/wp-includes/post-thumbnail-template.php#L38-L38)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.1.0` | 
+
+Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 29](../../wordpress/wp-includes/post-thumbnail-template.php#L29-L38)
 
 ### `post_thumbnail_id`
 
+*Filters post thumbnail ID.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$thumbnail_id` |  | 
-`$post` |  | 
+`$thumbnail_id` | `int\|false` | Post thumbnail ID or false if the post does not exist.
+`$post` | `int\|\WP_Post\|null` | Post ID or WP_Post object. Default is global `$post`.
 
-Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 70](../../wordpress/wp-includes/post-thumbnail-template.php#L70-L70)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.9.0` | 
+
+Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 62](../../wordpress/wp-includes/post-thumbnail-template.php#L62-L70)
 
 ### `post_thumbnail_size`
 
@@ -36355,15 +36465,31 @@ Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-in
 
 ### `pre_option_enable_xmlrpc`
 
+*Set wp_xmlrpc_server::$is_enabled property.*
+
+Determine whether the xmlrpc server is enabled on this WordPress install
+and set the is_enabled property accordingly.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 191](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L191-L191)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.7.3` | 
+
+Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 178](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L178-L191)
 
 ### `option_enable_xmlrpc`
+
+*Set wp_xmlrpc_server::$is_enabled property.*
+
+Determine whether the xmlrpc server is enabled on this WordPress install
+and set the is_enabled property accordingly.
 
 **Arguments**
 
@@ -36371,7 +36497,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 193](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L193-L193)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.7.3` | 
+
+Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 178](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L178-L193)
 
 ### `xmlrpc_enabled`
 
@@ -37437,31 +37569,59 @@ Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/c
 
 ### `theme_templates`
 
+*Filters list of page templates for a theme.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_templates` |  | 
+`$post_templates` | `string[]` | Array of template header names keyed by the template file name.
 `$this` |  | 
-`$post` |  | 
-`$post_type` |  | 
+`$post` | `\WP_Post\|null` | The post being edited, provided for context, or null.
+`$post_type` | `string` | Post type to get the templates for.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1312](../../wordpress/wp-includes/class-wp-theme.php#L1312-L1312)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.6` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1324](../../wordpress/wp-includes/class-wp-theme.php#L1324-L1334)
 
 ### `theme_{$post_type}_templates`
 
+*Filters list of page templates for a theme.*
+
+The dynamic portion of the hook name, `$post_type`, refers to the post type.
+
+Possible hook names include:
+
+ - `theme_post_templates`
+ - `theme_page_templates`
+ - `theme_attachment_templates`
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_templates` |  | 
+`$post_templates` | `string[]` | Array of template header names keyed by the template file name.
 `$this` |  | 
-`$post` |  | 
-`$post_type` |  | 
+`$post` | `\WP_Post\|null` | The post being edited, provided for context, or null.
+`$post_type` | `string` | Post type to get the templates for.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1334](../../wordpress/wp-includes/class-wp-theme.php#L1334-L1334)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.7.0` | Added the `$post_type` parameter.
+`4.4.0` | Converted to allow complete control over the `$page_templates` array.
+`3.9.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1336](../../wordpress/wp-includes/class-wp-theme.php#L1336-L1356)
 
 ### `theme_scandir_exclusions`
+
+*Filters the array of excluded directories and files while scanning theme folder.*
 
 **Arguments**
 
@@ -37469,7 +37629,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('CVS', 'node_modules', 'vendor', 'bower_components')` |  | 
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1380](../../wordpress/wp-includes/class-wp-theme.php#L1380-L1380)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.7.4` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1395](../../wordpress/wp-includes/class-wp-theme.php#L1395-L1402)
 
 ### `theme_file_path`
 
@@ -37482,18 +37648,29 @@ Argument | Type | Description
 `$path` |  | 
 `$file` |  | 
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1518](../../wordpress/wp-includes/class-wp-theme.php#L1518-L1519)
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1540](../../wordpress/wp-includes/class-wp-theme.php#L1540-L1541)
 
 ### `network_allowed_themes`
+
+*Filters the array of themes allowed on the network.*
+
+Site is provided as context so that a list of network allowed themes can
+be filtered further.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `self::get_allowed_on_network()` |  | 
-`$blog_id` |  | 
+`$blog_id` | `int` | ID of the site.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1561](../../wordpress/wp-includes/class-wp-theme.php#L1561-L1561)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.5.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1572](../../wordpress/wp-includes/class-wp-theme.php#L1572-L1583)
 
 ### `allowed_themes`
 
@@ -37505,9 +37682,30 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$allowed_themes` | `string[]` | An array of theme stylesheet names.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1578](../../wordpress/wp-includes/class-wp-theme.php#L1578-L1585)
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1600](../../wordpress/wp-includes/class-wp-theme.php#L1600-L1607)
 
 ### `site_allowed_themes`
+
+*Filters the array of themes allowed on the site.*
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$allowed_themes[$blog_id]` |  | 
+`$blog_id` | `int` | ID of the site. Defaults to current site.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.5.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1628](../../wordpress/wp-includes/class-wp-theme.php#L1628-L1636)
+
+### `site_allowed_themes`
+
+*This filter is documented in wp-includes/class-wp-theme.php*
 
 **Arguments**
 
@@ -37516,20 +37714,11 @@ Argument | Type | Description
 `$allowed_themes[$blog_id]` |  | 
 `$blog_id` |  | 
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1614](../../wordpress/wp-includes/class-wp-theme.php#L1614-L1614)
-
-### `site_allowed_themes`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$allowed_themes[$blog_id]` |  | 
-`$blog_id` |  | 
-
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1665](../../wordpress/wp-includes/class-wp-theme.php#L1665-L1665)
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1686](../../wordpress/wp-includes/class-wp-theme.php#L1686-L1687)
 
 ### `incompatible_sql_modes`
+
+*Filters the list of incompatible SQL modes to exclude.*
 
 **Arguments**
 
@@ -37537,7 +37726,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$this->incompatible_modes` |  | 
 
-Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 956](../../wordpress/wp-includes/wp-db.php#L956-L956)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.9.0` | 
+
+Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 949](../../wordpress/wp-includes/wp-db.php#L949-L956)
 
 ### `query`
 
@@ -37983,7 +38178,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1773](../../wordpress/wp-includes/user.php#L1773-L1782)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1761](../../wordpress/wp-includes/user.php#L1761-L1770)
 
 ### `email_exists`
 
@@ -38002,7 +38197,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1805](../../wordpress/wp-includes/user.php#L1805-L1814)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1793](../../wordpress/wp-includes/user.php#L1793-L1802)
 
 ### `validate_username`
 
@@ -38021,7 +38216,7 @@ Version | Description
 ------- | -----------
 `2.0.1` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1830](../../wordpress/wp-includes/user.php#L1830-L1838)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1818](../../wordpress/wp-includes/user.php#L1818-L1826)
 
 ### `pre_user_login`
 
@@ -38041,9 +38236,11 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1936](../../wordpress/wp-includes/user.php#L1936-L1945)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1924](../../wordpress/wp-includes/user.php#L1924-L1933)
 
 ### `illegal_user_logins`
+
+*Filters the list of disallowed usernames.*
 
 **Arguments**
 
@@ -38051,7 +38248,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1968](../../wordpress/wp-includes/user.php#L1968-L1968)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | 
+
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1949](../../wordpress/wp-includes/user.php#L1949-L1956)
 
 ### `pre_user_nicename`
 
@@ -38069,7 +38272,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1989](../../wordpress/wp-includes/user.php#L1989-L1996)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1977](../../wordpress/wp-includes/user.php#L1977-L1984)
 
 ### `pre_user_email`
 
@@ -38087,7 +38290,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2014](../../wordpress/wp-includes/user.php#L2014-L2021)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2002](../../wordpress/wp-includes/user.php#L2002-L2009)
 
 ### `pre_user_url`
 
@@ -38105,7 +38308,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2037](../../wordpress/wp-includes/user.php#L2037-L2044)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2025](../../wordpress/wp-includes/user.php#L2025-L2032)
 
 ### `pre_user_nickname`
 
@@ -38123,7 +38326,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2061](../../wordpress/wp-includes/user.php#L2061-L2068)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2049](../../wordpress/wp-includes/user.php#L2049-L2056)
 
 ### `pre_user_first_name`
 
@@ -38141,7 +38344,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2072](../../wordpress/wp-includes/user.php#L2072-L2079)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2060](../../wordpress/wp-includes/user.php#L2060-L2067)
 
 ### `pre_user_last_name`
 
@@ -38159,7 +38362,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2083](../../wordpress/wp-includes/user.php#L2083-L2090)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2071](../../wordpress/wp-includes/user.php#L2071-L2078)
 
 ### `pre_user_display_name`
 
@@ -38177,7 +38380,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2109](../../wordpress/wp-includes/user.php#L2109-L2116)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2097](../../wordpress/wp-includes/user.php#L2097-L2104)
 
 ### `pre_user_description`
 
@@ -38195,7 +38398,7 @@ Version | Description
 ------- | -----------
 `2.0.3` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2120](../../wordpress/wp-includes/user.php#L2120-L2127)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2108](../../wordpress/wp-includes/user.php#L2108-L2115)
 
 ### `wp_pre_insert_user_data`
 
@@ -38219,7 +38422,7 @@ Version | Description
 `5.8.0` | The `$userdata` parameter was added.
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2155](../../wordpress/wp-includes/user.php#L2155-L2179)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2143](../../wordpress/wp-includes/user.php#L2143-L2167)
 
 ### `insert_user_meta`
 
@@ -38246,7 +38449,7 @@ Version | Description
 `5.8.0` | The `$userdata` parameter was added.
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2197](../../wordpress/wp-includes/user.php#L2197-L2229)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2185](../../wordpress/wp-includes/user.php#L2185-L2217)
 
 ### `insert_custom_user_meta`
 
@@ -38270,7 +38473,7 @@ Version | Description
 ------- | -----------
 `5.9.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2236](../../wordpress/wp-includes/user.php#L2236-L2249)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2224](../../wordpress/wp-includes/user.php#L2224-L2237)
 
 ### `send_password_change_email`
 
@@ -38290,7 +38493,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2371](../../wordpress/wp-includes/user.php#L2371-L2382)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2359](../../wordpress/wp-includes/user.php#L2359-L2370)
 
 ### `send_email_change_email`
 
@@ -38310,7 +38513,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2386](../../wordpress/wp-includes/user.php#L2386-L2397)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2374](../../wordpress/wp-includes/user.php#L2374-L2385)
 
 ### `password_change_email`
 
@@ -38330,7 +38533,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2442](../../wordpress/wp-includes/user.php#L2442-L2464)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2430](../../wordpress/wp-includes/user.php#L2430-L2452)
 
 ### `email_change_email`
 
@@ -38350,7 +38553,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2500](../../wordpress/wp-includes/user.php#L2500-L2523)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2488](../../wordpress/wp-includes/user.php#L2488-L2511)
 
 ### `auth_cookie_expiration`
 
@@ -38364,7 +38567,7 @@ Argument | Type | Description
 `$user_id` |  | 
 `false` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2548](../../wordpress/wp-includes/user.php#L2548-L2549)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2536](../../wordpress/wp-includes/user.php#L2536-L2537)
 
 ### `user_contactmethods`
 
@@ -38383,7 +38586,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2624](../../wordpress/wp-includes/user.php#L2624-L2632)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2612](../../wordpress/wp-includes/user.php#L2612-L2620)
 
 ### `password_hint`
 
@@ -38401,7 +38604,7 @@ Version | Description
 ------- | -----------
 `4.1.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2660](../../wordpress/wp-includes/user.php#L2660-L2667)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2648](../../wordpress/wp-includes/user.php#L2648-L2655)
 
 ### `allow_password_reset`
 
@@ -38420,7 +38623,7 @@ Version | Description
 ------- | -----------
 `2.7.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2713](../../wordpress/wp-includes/user.php#L2713-L2721)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2701](../../wordpress/wp-includes/user.php#L2701-L2709)
 
 ### `password_reset_expiration`
 
@@ -38438,7 +38641,7 @@ Version | Description
 ------- | -----------
 `4.3.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2805](../../wordpress/wp-includes/user.php#L2805-L2812)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2793](../../wordpress/wp-includes/user.php#L2793-L2800)
 
 ### `password_reset_key_expired`
 
@@ -38459,7 +38662,7 @@ Version | Description
 `4.3.0` | Previously key hashes were stored without an expiration time.
 `3.7.0` | Previously plain-text keys were stored in the database.
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2839](../../wordpress/wp-includes/user.php#L2839-L2850)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2827](../../wordpress/wp-includes/user.php#L2827-L2838)
 
 ### `lostpassword_user_data`
 
@@ -38480,7 +38683,7 @@ Version | Description
 ------- | -----------
 `5.7.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2889](../../wordpress/wp-includes/user.php#L2889-L2900)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2877](../../wordpress/wp-includes/user.php#L2877-L2888)
 
 ### `lostpassword_errors`
 
@@ -38505,7 +38708,7 @@ Version | Description
 ------- | -----------
 `5.5.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2915](../../wordpress/wp-includes/user.php#L2915-L2930)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2903](../../wordpress/wp-includes/user.php#L2903-L2918)
 
 ### `retrieve_password_title`
 
@@ -38526,7 +38729,7 @@ Version | Description
 `4.4.0` | Added the `$user_login` and `$user_data` parameters.
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2988](../../wordpress/wp-includes/user.php#L2988-L2998)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2976](../../wordpress/wp-includes/user.php#L2976-L2986)
 
 ### `retrieve_password_message`
 
@@ -38550,7 +38753,7 @@ Version | Description
 `4.1.0` | Added `$user_login` and `$user_data` parameters.
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3000](../../wordpress/wp-includes/user.php#L3000-L3013)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2988](../../wordpress/wp-includes/user.php#L2988-L3001)
 
 ### `user_registration_email`
 
@@ -38568,9 +38771,11 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3080](../../wordpress/wp-includes/user.php#L3080-L3087)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3068](../../wordpress/wp-includes/user.php#L3068-L3075)
 
 ### `illegal_user_logins`
+
+*This filter is documented in wp-includes/user.php*
 
 **Arguments**
 
@@ -38578,7 +38783,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3100](../../wordpress/wp-includes/user.php#L3100-L3100)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3087](../../wordpress/wp-includes/user.php#L3087-L3088)
 
 ### `registration_errors`
 
@@ -38604,7 +38809,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3136](../../wordpress/wp-includes/user.php#L3136-L3152)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3124](../../wordpress/wp-includes/user.php#L3124-L3140)
 
 ### `determine_current_user`
 
@@ -38628,7 +38833,7 @@ Version | Description
 ------- | -----------
 `3.9.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3360](../../wordpress/wp-includes/user.php#L3360-L3373)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3348](../../wordpress/wp-includes/user.php#L3348-L3361)
 
 ### `new_user_email_content`
 
@@ -38654,7 +38859,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | This filter is no longer Multisite specific.
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3458](../../wordpress/wp-includes/user.php#L3458-L3479)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3446](../../wordpress/wp-includes/user.php#L3446-L3467)
 
 ### `wp_privacy_additional_user_profile_data`
 
@@ -38674,7 +38879,7 @@ Version | Description
 ------- | -----------
 `5.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3621](../../wordpress/wp-includes/user.php#L3621-L3636)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3609](../../wordpress/wp-includes/user.php#L3609-L3624)
 
 ### `user_request_confirmed_email_to`
 
@@ -38699,7 +38904,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3803](../../wordpress/wp-includes/user.php#L3803-L3817)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3791](../../wordpress/wp-includes/user.php#L3791-L3805)
 
 ### `user_request_confirmed_email_subject`
 
@@ -38719,7 +38924,7 @@ Version | Description
 ------- | -----------
 `4.9.8` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3836](../../wordpress/wp-includes/user.php#L3836-L3855)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3824](../../wordpress/wp-includes/user.php#L3824-L3843)
 
 ### `user_confirmed_action_email_content`
 
@@ -38754,7 +38959,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3875](../../wordpress/wp-includes/user.php#L3875-L3917)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3863](../../wordpress/wp-includes/user.php#L3863-L3905)
 
 ### `user_request_confirmed_email_content`
 
@@ -38782,7 +38987,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3919](../../wordpress/wp-includes/user.php#L3919-L3946)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3907](../../wordpress/wp-includes/user.php#L3907-L3934)
 
 ### `user_request_confirmed_email_headers`
 
@@ -38804,7 +39009,7 @@ Version | Description
 ------- | -----------
 `5.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3956](../../wordpress/wp-includes/user.php#L3956-L3977)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3944](../../wordpress/wp-includes/user.php#L3944-L3965)
 
 ### `user_erasure_fulfillment_email_to`
 
@@ -38823,7 +39028,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4017](../../wordpress/wp-includes/user.php#L4017-L4025)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4005](../../wordpress/wp-includes/user.php#L4005-L4013)
 
 ### `user_erasure_complete_email_subject`
 
@@ -38843,7 +39048,7 @@ Version | Description
 ------- | -----------
 `4.9.8` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4041](../../wordpress/wp-includes/user.php#L4041-L4066)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4029](../../wordpress/wp-includes/user.php#L4029-L4054)
 
 ### `user_erasure_fulfillment_email_subject`
 
@@ -38863,7 +39068,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4068](../../wordpress/wp-includes/user.php#L4068-L4087)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4056](../../wordpress/wp-includes/user.php#L4056-L4075)
 
 ### `user_confirmed_action_email_content`
 
@@ -38897,7 +39102,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4119](../../wordpress/wp-includes/user.php#L4119-L4159)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4107](../../wordpress/wp-includes/user.php#L4107-L4147)
 
 ### `user_erasure_fulfillment_email_content`
 
@@ -38925,7 +39130,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4161](../../wordpress/wp-includes/user.php#L4161-L4188)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4149](../../wordpress/wp-includes/user.php#L4149-L4176)
 
 ### `user_erasure_complete_email_headers`
 
@@ -38945,7 +39150,7 @@ Version | Description
 ------- | -----------
 `5.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4196](../../wordpress/wp-includes/user.php#L4196-L4223)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4184](../../wordpress/wp-includes/user.php#L4184-L4211)
 
 ### `user_erasure_fulfillment_email_headers`
 
@@ -38967,7 +39172,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4225](../../wordpress/wp-includes/user.php#L4225-L4246)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4213](../../wordpress/wp-includes/user.php#L4213-L4234)
 
 ### `user_request_action_confirmed_message`
 
@@ -38986,7 +39191,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4284](../../wordpress/wp-includes/user.php#L4284-L4292)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4272](../../wordpress/wp-includes/user.php#L4272-L4280)
 
 ### `user_request_action_description`
 
@@ -39005,7 +39210,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4390](../../wordpress/wp-includes/user.php#L4390-L4398)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4378](../../wordpress/wp-includes/user.php#L4378-L4386)
 
 ### `user_request_action_email_subject`
 
@@ -39025,7 +39230,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4447](../../wordpress/wp-includes/user.php#L4447-L4465)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4435](../../wordpress/wp-includes/user.php#L4435-L4453)
 
 ### `user_request_action_email_content`
 
@@ -39051,7 +39256,7 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4486](../../wordpress/wp-includes/user.php#L4486-L4510)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4474](../../wordpress/wp-includes/user.php#L4474-L4498)
 
 ### `user_request_action_email_headers`
 
@@ -39073,9 +39278,11 @@ Version | Description
 ------- | -----------
 `5.4.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4520](../../wordpress/wp-includes/user.php#L4520-L4540)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4508](../../wordpress/wp-includes/user.php#L4508-L4528)
 
 ### `user_request_key_expiration`
+
+*Filters the expiration time of confirm keys.*
 
 **Arguments**
 
@@ -39083,7 +39290,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4627](../../wordpress/wp-includes/user.php#L4627-L4627)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.6` | 
+
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4608](../../wordpress/wp-includes/user.php#L4608-L4615)
 
 ### `wp_is_application_passwords_available`
 
@@ -39101,7 +39314,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4685](../../wordpress/wp-includes/user.php#L4685-L4692)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4673](../../wordpress/wp-includes/user.php#L4673-L4680)
 
 ### `wp_is_application_passwords_available_for_user`
 
@@ -39120,7 +39333,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4719](../../wordpress/wp-includes/user.php#L4719-L4727)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4707](../../wordpress/wp-includes/user.php#L4707-L4715)
 
 ### `http_origin`
 
@@ -39813,14 +40026,26 @@ Source: [wordpress/wp-includes/ms-blogs.php](../../wordpress/wp-includes/ms-blog
 
 ### `wp_should_handle_php_error`
 
+*Filters whether a given thrown error should be handled by the fatal error handler.*
+
+This filter is only fired if the error is not already configured to be handled by WordPress core. As such,
+it exclusively allows adding further rules for which errors should be handled, but not removing existing
+ones.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$error` |  | 
+`$error` | `array` | Error information retrieved from error_get_last().
 
-Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 121](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L121-L121)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 109](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L109-L121)
 
 ### `wp_php_error_message`
 
@@ -39986,15 +40211,19 @@ Source: [wordpress/wp-includes/class-wp-site.php](../../wordpress/wp-includes/cl
 
 ### `graceful_fail`
 
+*Deprecated functionality to gracefully fail.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$message` |  | 
 
-Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 91](../../wordpress/wp-includes/ms-deprecated.php#L91-L91)
+Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 82](../../wordpress/wp-includes/ms-deprecated.php#L82-L91)
 
 ### `graceful_fail_template`
+
+*Deprecated functionality to gracefully fail.*
 
 **Arguments**
 
@@ -40024,7 +40253,7 @@ text-align: center;
 </body>
 </html>'` |  | 
 
-Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 92](../../wordpress/wp-includes/ms-deprecated.php#L92-L115)
+Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 82](../../wordpress/wp-includes/ms-deprecated.php#L82-L115)
 
 ### `get_network`
 
@@ -42621,15 +42850,13 @@ Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), 
 
 ### `https_local_ssl_verify`
 
-*This filter is documented in wp-includes/class-wp-http-streams.php*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 925](../../wordpress/wp-includes/cron.php#L925-L926)
+Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 926](../../wordpress/wp-includes/cron.php#L926-L926)
 
 ### `cron_schedules`
 
@@ -42925,13 +43152,24 @@ Source: [wordpress/wp-includes/bookmark.php](../../wordpress/wp-includes/bookmar
 
 ### `wp_sitemaps_enabled`
 
+*Filters whether XML Sitemaps are enabled or not.*
+
+When XML Sitemaps are disabled via this filter, rewrite rules are still
+in place to ensure a 404 is returned.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$is_enabled` |  | 
+`$is_enabled` | `bool` | Whether XML Sitemaps are enabled or not. Defaults<br>to true for public sites.
 
-Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php), [line 104](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php#L104-L104)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php), [line 91](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php#L91-L104)
 
 ### `wp_sitemaps_post_types`
 
@@ -44451,7 +44689,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2502](../../wordpress/wp-includes/comment.php#L2502-L2509)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2515](../../wordpress/wp-includes/comment.php#L2515-L2522)
 
 ### `wp_update_comment_data`
 
@@ -44475,7 +44713,7 @@ Version | Description
 and allow skipping further processing.
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2524](../../wordpress/wp-includes/comment.php#L2524-L2537)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2537](../../wordpress/wp-includes/comment.php#L2537-L2550)
 
 ### `pre_wp_update_comment_count_now`
 
@@ -44495,7 +44733,7 @@ Version | Description
 ------- | -----------
 `4.5.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2691](../../wordpress/wp-includes/comment.php#L2691-L2700)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2704](../../wordpress/wp-includes/comment.php#L2704-L2713)
 
 ### `the_content`
 
@@ -44508,7 +44746,7 @@ Argument | Type | Description
 `$post->post_content` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2932](../../wordpress/wp-includes/comment.php#L2932-L2933)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2945](../../wordpress/wp-includes/comment.php#L2945-L2946)
 
 ### `the_excerpt`
 
@@ -44520,7 +44758,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post->post_excerpt` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2935](../../wordpress/wp-includes/comment.php#L2935-L2936)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2948](../../wordpress/wp-includes/comment.php#L2948-L2949)
 
 ### `the_title`
 
@@ -44533,7 +44771,7 @@ Argument | Type | Description
 `$post->post_title` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2942](../../wordpress/wp-includes/comment.php#L2942-L2943)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2955](../../wordpress/wp-includes/comment.php#L2955-L2956)
 
 ### `pingback_useragent`
 
@@ -44555,7 +44793,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3072](../../wordpress/wp-includes/comment.php#L3072-L3084)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3085](../../wordpress/wp-includes/comment.php#L3085-L3097)
 
 ### `close_comments_for_post_types`
 
@@ -44573,7 +44811,7 @@ Version | Description
 ------- | -----------
 `3.2.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3309](../../wordpress/wp-includes/comment.php#L3309-L3316)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3322](../../wordpress/wp-includes/comment.php#L3322-L3329)
 
 ### `close_comments_for_post_types`
 
@@ -44585,7 +44823,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('post')` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3360](../../wordpress/wp-includes/comment.php#L3360-L3361)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3373](../../wordpress/wp-includes/comment.php#L3373-L3374)
 
 ### `allow_empty_comment`
 
@@ -44604,7 +44842,7 @@ Version | Description
 ------- | -----------
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3569](../../wordpress/wp-includes/comment.php#L3569-L3577)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3582](../../wordpress/wp-includes/comment.php#L3582-L3590)
 
 ### `wp_anonymize_comment`
 
@@ -44624,9 +44862,11 @@ Version | Description
 ------- | -----------
 `4.9.6` | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3779](../../wordpress/wp-includes/comment.php#L3779-L3789)
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3792](../../wordpress/wp-includes/comment.php#L3792-L3802)
 
 ### `wp_update_comment_type_batch_size`
+
+*Filters the comment batch size for updating the comment type.*
 
 **Arguments**
 
@@ -44634,7 +44874,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `100` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3889](../../wordpress/wp-includes/comment.php#L3889-L3889)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3895](../../wordpress/wp-includes/comment.php#L3895-L3902)
 
 ### `wp_get_nav_menu_object`
 
@@ -45032,28 +45278,16 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 
 ### `walker_nav_menu_start_el`
 
-*Filters a menu item's starting output.*
-
-The menu item's starting output only includes `$args->before`, the opening `<a>`,
-the menu item's title, the closing `</a>`, and `$args->after`. Currently, there is
-no filter for modifying the opening and closing `<li>` for a menu item.
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$item_output` | `string` | The menu item's starting HTML output.
-`$menu_item` | `\WP_Post` | Menu item data object.
-`$depth` | `int` | Depth of menu item. Used for padding.
-`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
+`$item_output` |  | 
+`$menu_item` |  | 
+`$depth` |  | 
+`$args` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`3.0.0` | 
-
-Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 238](../../wordpress/wp-includes/class-walker-nav-menu.php#L238-L252)
+Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 252](../../wordpress/wp-includes/class-walker-nav-menu.php#L252-L252)
 
 ### `recovery_email_support_info`
 
@@ -45841,7 +46075,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 185](../../wordpress/wp-includes/pluggable.php#L185-L200)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 178](../../wordpress/wp-includes/pluggable.php#L178-L193)
 
 ### `pre_wp_mail`
 
@@ -45864,7 +46098,7 @@ Version | Description
 ------- | -----------
 `5.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 202](../../wordpress/wp-includes/pluggable.php#L202-L222)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 195](../../wordpress/wp-includes/pluggable.php#L195-L215)
 
 ### `wp_mail_from`
 
@@ -45882,7 +46116,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 389](../../wordpress/wp-includes/pluggable.php#L389-L396)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 384](../../wordpress/wp-includes/pluggable.php#L384-L391)
 
 ### `wp_mail_from_name`
 
@@ -45900,7 +46134,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 398](../../wordpress/wp-includes/pluggable.php#L398-L405)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 393](../../wordpress/wp-includes/pluggable.php#L393-L400)
 
 ### `wp_mail_content_type`
 
@@ -45918,7 +46152,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 473](../../wordpress/wp-includes/pluggable.php#L473-L480)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 468](../../wordpress/wp-includes/pluggable.php#L468-L475)
 
 ### `wp_mail_charset`
 
@@ -45936,7 +46170,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 494](../../wordpress/wp-includes/pluggable.php#L494-L501)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 489](../../wordpress/wp-includes/pluggable.php#L489-L496)
 
 ### `authenticate`
 
@@ -45960,7 +46194,7 @@ Version | Description
 `4.5.0` | `$username` now accepts an email address.
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 594](../../wordpress/wp-includes/pluggable.php#L594-L608)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 589](../../wordpress/wp-includes/pluggable.php#L589-L603)
 
 ### `auth_cookie`
 
@@ -45983,7 +46217,7 @@ Version | Description
 `4.0.0` | The `$token` parameter was added.
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 822](../../wordpress/wp-includes/pluggable.php#L822-L834)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 817](../../wordpress/wp-includes/pluggable.php#L817-L829)
 
 ### `auth_cookie_expiration`
 
@@ -45995,7 +46229,7 @@ Argument | Type | Description
 `$user_id` |  | 
 `$remember` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 915](../../wordpress/wp-includes/pluggable.php#L915-L915)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 910](../../wordpress/wp-includes/pluggable.php#L910-L910)
 
 ### `auth_cookie_expiration`
 
@@ -46007,7 +46241,7 @@ Argument | Type | Description
 `$user_id` |  | 
 `$remember` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 924](../../wordpress/wp-includes/pluggable.php#L924-L924)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 919](../../wordpress/wp-includes/pluggable.php#L919-L919)
 
 ### `secure_auth_cookie`
 
@@ -46026,7 +46260,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 935](../../wordpress/wp-includes/pluggable.php#L935-L943)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 930](../../wordpress/wp-includes/pluggable.php#L930-L938)
 
 ### `secure_logged_in_cookie`
 
@@ -46046,7 +46280,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 945](../../wordpress/wp-includes/pluggable.php#L945-L954)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 940](../../wordpress/wp-includes/pluggable.php#L940-L949)
 
 ### `send_auth_cookies`
 
@@ -46056,7 +46290,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1013](../../wordpress/wp-includes/pluggable.php#L1013-L1013)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1008](../../wordpress/wp-includes/pluggable.php#L1008-L1008)
 
 ### `send_auth_cookies`
 
@@ -46066,7 +46300,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1041](../../wordpress/wp-includes/pluggable.php#L1041-L1041)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1036](../../wordpress/wp-includes/pluggable.php#L1036-L1036)
 
 ### `secure_auth_redirect`
 
@@ -46084,7 +46318,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1107](../../wordpress/wp-includes/pluggable.php#L1107-L1114)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1102](../../wordpress/wp-includes/pluggable.php#L1102-L1109)
 
 ### `auth_redirect_scheme`
 
@@ -46102,7 +46336,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1127](../../wordpress/wp-includes/pluggable.php#L1127-L1134)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1122](../../wordpress/wp-includes/pluggable.php#L1122-L1129)
 
 ### `wp_redirect`
 
@@ -46121,7 +46355,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1308](../../wordpress/wp-includes/pluggable.php#L1308-L1316)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1303](../../wordpress/wp-includes/pluggable.php#L1303-L1311)
 
 ### `wp_redirect_status`
 
@@ -46140,7 +46374,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1318](../../wordpress/wp-includes/pluggable.php#L1318-L1326)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1313](../../wordpress/wp-includes/pluggable.php#L1313-L1321)
 
 ### `x_redirect_by`
 
@@ -46162,7 +46396,7 @@ Version | Description
 ------- | -----------
 `5.1.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1342](../../wordpress/wp-includes/pluggable.php#L1342-L1353)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1337](../../wordpress/wp-includes/pluggable.php#L1337-L1348)
 
 ### `wp_safe_redirect_fallback`
 
@@ -46173,9 +46407,11 @@ Argument | Type | Description
 `admin_url()` |  | 
 `$status` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1461](../../wordpress/wp-includes/pluggable.php#L1461-L1461)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1456](../../wordpress/wp-includes/pluggable.php#L1456-L1456)
 
 ### `allowed_redirect_hosts`
+
+*Filters the list of allowed hosts to redirect to.*
 
 **Arguments**
 
@@ -46184,7 +46420,13 @@ Argument | Type | Description
 `array($wpp['host'])` |  | 
 `isset($lp['host']) ? $lp['host'] : ''` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1539](../../wordpress/wp-includes/pluggable.php#L1539-L1539)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1526](../../wordpress/wp-includes/pluggable.php#L1526-L1534)
 
 ### `comment_notification_recipients`
 
@@ -46206,7 +46448,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1578](../../wordpress/wp-includes/pluggable.php#L1578-L1589)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1573](../../wordpress/wp-includes/pluggable.php#L1573-L1584)
 
 ### `comment_notification_notify_author`
 
@@ -46228,7 +46470,7 @@ Version | Description
 ------- | -----------
 `3.8.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1600](../../wordpress/wp-includes/pluggable.php#L1600-L1612)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1595](../../wordpress/wp-includes/pluggable.php#L1595-L1607)
 
 ### `comment_notification_text`
 
@@ -46247,7 +46489,7 @@ Version | Description
 ------- | -----------
 `1.5.2` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1737](../../wordpress/wp-includes/pluggable.php#L1737-L1745)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1732](../../wordpress/wp-includes/pluggable.php#L1732-L1740)
 
 ### `comment_notification_subject`
 
@@ -46266,7 +46508,7 @@ Version | Description
 ------- | -----------
 `1.5.2` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1747](../../wordpress/wp-includes/pluggable.php#L1747-L1755)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1742](../../wordpress/wp-includes/pluggable.php#L1742-L1750)
 
 ### `comment_notification_headers`
 
@@ -46285,7 +46527,7 @@ Version | Description
 ------- | -----------
 `1.5.2` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1757](../../wordpress/wp-includes/pluggable.php#L1757-L1765)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1752](../../wordpress/wp-includes/pluggable.php#L1752-L1760)
 
 ### `notify_moderator`
 
@@ -46304,7 +46546,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1798](../../wordpress/wp-includes/pluggable.php#L1798-L1806)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1793](../../wordpress/wp-includes/pluggable.php#L1793-L1801)
 
 ### `comment_moderation_recipients`
 
@@ -46323,7 +46565,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1910](../../wordpress/wp-includes/pluggable.php#L1910-L1918)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1905](../../wordpress/wp-includes/pluggable.php#L1905-L1913)
 
 ### `comment_moderation_text`
 
@@ -46342,7 +46584,7 @@ Version | Description
 ------- | -----------
 `1.5.2` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1920](../../wordpress/wp-includes/pluggable.php#L1920-L1928)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1915](../../wordpress/wp-includes/pluggable.php#L1915-L1923)
 
 ### `comment_moderation_subject`
 
@@ -46361,7 +46603,7 @@ Version | Description
 ------- | -----------
 `1.5.2` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1930](../../wordpress/wp-includes/pluggable.php#L1930-L1938)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1925](../../wordpress/wp-includes/pluggable.php#L1925-L1933)
 
 ### `comment_moderation_headers`
 
@@ -46380,7 +46622,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1940](../../wordpress/wp-includes/pluggable.php#L1940-L1948)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1935](../../wordpress/wp-includes/pluggable.php#L1935-L1943)
 
 ### `wp_password_change_notification_email`
 
@@ -46400,7 +46642,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1988](../../wordpress/wp-includes/pluggable.php#L1988-L2004)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1983](../../wordpress/wp-includes/pluggable.php#L1983-L1999)
 
 ### `wp_new_user_notification_email_admin`
 
@@ -46420,7 +46662,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2066](../../wordpress/wp-includes/pluggable.php#L2066-L2082)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2061](../../wordpress/wp-includes/pluggable.php#L2061-L2077)
 
 ### `wp_new_user_notification_email`
 
@@ -46440,7 +46682,7 @@ Version | Description
 ------- | -----------
 `4.9.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2123](../../wordpress/wp-includes/pluggable.php#L2123-L2139)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2118](../../wordpress/wp-includes/pluggable.php#L2118-L2134)
 
 ### `nonce_life`
 
@@ -46458,7 +46700,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2166](../../wordpress/wp-includes/pluggable.php#L2166-L2173)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2161](../../wordpress/wp-includes/pluggable.php#L2161-L2168)
 
 ### `nonce_user_logged_out`
 
@@ -46477,7 +46719,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2198](../../wordpress/wp-includes/pluggable.php#L2198-L2206)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2193](../../wordpress/wp-includes/pluggable.php#L2193-L2201)
 
 ### `nonce_user_logged_out`
 
@@ -46490,7 +46732,7 @@ Argument | Type | Description
 `$uid` |  | 
 `$action` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2260](../../wordpress/wp-includes/pluggable.php#L2260-L2261)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2255](../../wordpress/wp-includes/pluggable.php#L2255-L2256)
 
 ### `salt`
 
@@ -46509,7 +46751,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2307](../../wordpress/wp-includes/pluggable.php#L2307-L2316)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2302](../../wordpress/wp-includes/pluggable.php#L2302-L2311)
 
 ### `salt`
 
@@ -46522,7 +46764,7 @@ Argument | Type | Description
 `$cached_salts[$scheme]` |  | 
 `$scheme` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2370](../../wordpress/wp-includes/pluggable.php#L2370-L2371)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2365](../../wordpress/wp-includes/pluggable.php#L2365-L2366)
 
 ### `check_password`
 
@@ -46543,7 +46785,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2454](../../wordpress/wp-includes/pluggable.php#L2454-L2464)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2449](../../wordpress/wp-includes/pluggable.php#L2449-L2459)
 
 ### `check_password`
 
@@ -46558,7 +46800,7 @@ Argument | Type | Description
 `$hash` |  | 
 `$user_id` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2477](../../wordpress/wp-includes/pluggable.php#L2477-L2478)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2472](../../wordpress/wp-includes/pluggable.php#L2472-L2473)
 
 ### `random_password`
 
@@ -46580,7 +46822,7 @@ Version | Description
 `5.3.0` | Added the `$length`, `$special_chars`, and `$extra_special_chars` parameters.
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2512](../../wordpress/wp-includes/pluggable.php#L2512-L2523)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2507](../../wordpress/wp-includes/pluggable.php#L2507-L2518)
 
 ### `pre_get_avatar`
 
@@ -46603,7 +46845,7 @@ Version | Description
 ------- | -----------
 `4.2.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2720](../../wordpress/wp-includes/pluggable.php#L2720-L2733)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2715](../../wordpress/wp-includes/pluggable.php#L2715-L2728)
 
 ### `get_avatar`
 
@@ -46620,7 +46862,7 @@ Argument | Type | Description
 `$args['alt']` |  | 
 `$args` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2736](../../wordpress/wp-includes/pluggable.php#L2736-L2737)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2731](../../wordpress/wp-includes/pluggable.php#L2731-L2732)
 
 ### `get_avatar`
 
@@ -46644,7 +46886,7 @@ Version | Description
 `4.2.0` | The `$args` parameter was added.
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2791](../../wordpress/wp-includes/pluggable.php#L2791-L2806)
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2786](../../wordpress/wp-includes/pluggable.php#L2786-L2801)
 
 ### `wp_http_accept_encoding`
 
@@ -46668,6 +46910,10 @@ Source: [wordpress/wp-includes/class-wp-http-encoding.php](../../wordpress/wp-in
 
 ### `pre_get_main_site_id`
 
+*Filters the main site ID.*
+
+Returning a positive integer will effectively short-circuit the function.
+
 **Arguments**
 
 Argument | Type | Description
@@ -46675,7 +46921,13 @@ Argument | Type | Description
 `null` |  | 
 `$this` |  | 
 
-Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 229](../../wordpress/wp-includes/class-wp-network.php#L229-L229)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | 
+
+Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 219](../../wordpress/wp-includes/class-wp-network.php#L219-L229)
 
 ### `network_by_path_segments_count`
 
@@ -46823,7 +47075,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1389](../../wordpress/wp-includes/class-wp-query.php#L1389-L1397)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1396](../../wordpress/wp-includes/class-wp-query.php#L1396-L1404)
 
 ### `wp_search_stopwords`
 
@@ -46841,7 +47093,25 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1505](../../wordpress/wp-includes/class-wp-query.php#L1505-L1512)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1517](../../wordpress/wp-includes/class-wp-query.php#L1517-L1524)
+
+### `wp_allow_query_attachment_by_filename`
+
+*Filters whether an attachment query should include filenames or not.*
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`false` |  | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`6.0.3` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1824](../../wordpress/wp-includes/class-wp-query.php#L1824-L1831)
 
 ### `posts_search`
 
@@ -46859,7 +47129,7 @@ Version | Description
 ------- | -----------
 `3.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2143](../../wordpress/wp-includes/class-wp-query.php#L2143-L2151)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2165](../../wordpress/wp-includes/class-wp-query.php#L2165-L2173)
 
 ### `posts_search_orderby`
 
@@ -46878,7 +47148,7 @@ Version | Description
 ------- | -----------
 `3.7.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2398](../../wordpress/wp-includes/class-wp-query.php#L2398-L2406)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2424](../../wordpress/wp-includes/class-wp-query.php#L2424-L2432)
 
 ### `posts_where`
 
@@ -46896,7 +47166,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2617](../../wordpress/wp-includes/class-wp-query.php#L2617-L2625)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2643](../../wordpress/wp-includes/class-wp-query.php#L2643-L2651)
 
 ### `posts_join`
 
@@ -46914,7 +47184,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2627](../../wordpress/wp-includes/class-wp-query.php#L2627-L2635)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2653](../../wordpress/wp-includes/class-wp-query.php#L2653-L2661)
 
 ### `comment_feed_join`
 
@@ -46932,7 +47202,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2668](../../wordpress/wp-includes/class-wp-query.php#L2668-L2676)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2694](../../wordpress/wp-includes/class-wp-query.php#L2694-L2702)
 
 ### `comment_feed_where`
 
@@ -46950,7 +47220,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2678](../../wordpress/wp-includes/class-wp-query.php#L2678-L2686)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2704](../../wordpress/wp-includes/class-wp-query.php#L2704-L2712)
 
 ### `comment_feed_groupby`
 
@@ -46968,7 +47238,7 @@ Version | Description
 ------- | -----------
 `2.2.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2688](../../wordpress/wp-includes/class-wp-query.php#L2688-L2696)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2714](../../wordpress/wp-includes/class-wp-query.php#L2714-L2722)
 
 ### `comment_feed_orderby`
 
@@ -46986,7 +47256,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2698](../../wordpress/wp-includes/class-wp-query.php#L2698-L2706)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2724](../../wordpress/wp-includes/class-wp-query.php#L2724-L2732)
 
 ### `comment_feed_limits`
 
@@ -47004,7 +47274,7 @@ Version | Description
 ------- | -----------
 `2.8.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2708](../../wordpress/wp-includes/class-wp-query.php#L2708-L2716)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2734](../../wordpress/wp-includes/class-wp-query.php#L2734-L2742)
 
 ### `posts_where_paged`
 
@@ -47024,7 +47294,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2751](../../wordpress/wp-includes/class-wp-query.php#L2751-L2761)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2777](../../wordpress/wp-includes/class-wp-query.php#L2777-L2787)
 
 ### `posts_groupby`
 
@@ -47042,7 +47312,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2763](../../wordpress/wp-includes/class-wp-query.php#L2763-L2771)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2789](../../wordpress/wp-includes/class-wp-query.php#L2789-L2797)
 
 ### `posts_join_paged`
 
@@ -47062,7 +47332,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2773](../../wordpress/wp-includes/class-wp-query.php#L2773-L2783)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2799](../../wordpress/wp-includes/class-wp-query.php#L2799-L2809)
 
 ### `posts_orderby`
 
@@ -47080,7 +47350,7 @@ Version | Description
 ------- | -----------
 `1.5.1` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2785](../../wordpress/wp-includes/class-wp-query.php#L2785-L2793)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2811](../../wordpress/wp-includes/class-wp-query.php#L2811-L2819)
 
 ### `posts_distinct`
 
@@ -47098,7 +47368,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2795](../../wordpress/wp-includes/class-wp-query.php#L2795-L2803)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2821](../../wordpress/wp-includes/class-wp-query.php#L2821-L2829)
 
 ### `post_limits`
 
@@ -47116,7 +47386,7 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2805](../../wordpress/wp-includes/class-wp-query.php#L2805-L2813)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2831](../../wordpress/wp-includes/class-wp-query.php#L2831-L2839)
 
 ### `posts_fields`
 
@@ -47134,9 +47404,14 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2815](../../wordpress/wp-includes/class-wp-query.php#L2815-L2823)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2841](../../wordpress/wp-includes/class-wp-query.php#L2841-L2849)
 
 ### `posts_clauses`
+
+*Filters all query clauses at once, for convenience.*
+
+Covers the WHERE, GROUP BY, JOIN, ORDER BY, DISTINCT,
+fields (SELECT), and LIMIT clauses.
 
 **Arguments**
 
@@ -47144,7 +47419,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array(compact($pieces), &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2846](../../wordpress/wp-includes/class-wp-query.php#L2846-L2846)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2851](../../wordpress/wp-includes/class-wp-query.php#L2851-L2872)
 
 ### `posts_where_request`
 
@@ -47164,7 +47445,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2873](../../wordpress/wp-includes/class-wp-query.php#L2873-L2883)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2899](../../wordpress/wp-includes/class-wp-query.php#L2899-L2909)
 
 ### `posts_groupby_request`
 
@@ -47184,7 +47465,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2885](../../wordpress/wp-includes/class-wp-query.php#L2885-L2895)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2911](../../wordpress/wp-includes/class-wp-query.php#L2911-L2921)
 
 ### `posts_join_request`
 
@@ -47204,7 +47485,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2897](../../wordpress/wp-includes/class-wp-query.php#L2897-L2907)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2923](../../wordpress/wp-includes/class-wp-query.php#L2923-L2933)
 
 ### `posts_orderby_request`
 
@@ -47224,7 +47505,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2909](../../wordpress/wp-includes/class-wp-query.php#L2909-L2919)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2935](../../wordpress/wp-includes/class-wp-query.php#L2935-L2945)
 
 ### `posts_distinct_request`
 
@@ -47244,7 +47525,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2921](../../wordpress/wp-includes/class-wp-query.php#L2921-L2931)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2947](../../wordpress/wp-includes/class-wp-query.php#L2947-L2957)
 
 ### `posts_fields_request`
 
@@ -47264,7 +47545,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2933](../../wordpress/wp-includes/class-wp-query.php#L2933-L2943)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2959](../../wordpress/wp-includes/class-wp-query.php#L2959-L2969)
 
 ### `post_limits_request`
 
@@ -47284,9 +47565,16 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2945](../../wordpress/wp-includes/class-wp-query.php#L2945-L2955)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2971](../../wordpress/wp-includes/class-wp-query.php#L2971-L2981)
 
 ### `posts_clauses_request`
+
+*Filters all query clauses at once, for convenience.*
+
+For use by caching plugins.
+
+Covers the WHERE, GROUP BY, JOIN, ORDER BY, DISTINCT,
+fields (SELECT), and LIMIT clauses.
 
 **Arguments**
 
@@ -47294,7 +47582,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array(compact($pieces), &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2980](../../wordpress/wp-includes/class-wp-query.php#L2980-L2980)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2983](../../wordpress/wp-includes/class-wp-query.php#L2983-L3006)
 
 ### `posts_request`
 
@@ -47312,7 +47606,7 @@ Version | Description
 ------- | -----------
 `2.0.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3007](../../wordpress/wp-includes/class-wp-query.php#L3007-L3015)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3033](../../wordpress/wp-includes/class-wp-query.php#L3033-L3041)
 
 ### `posts_pre_query`
 
@@ -47337,7 +47631,7 @@ Version | Description
 ------- | -----------
 `4.6.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3018](../../wordpress/wp-includes/class-wp-query.php#L3018-L3034)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3044](../../wordpress/wp-includes/class-wp-query.php#L3044-L3060)
 
 ### `split_the_query`
 
@@ -47360,7 +47654,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3072](../../wordpress/wp-includes/class-wp-query.php#L3072-L3084)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3098](../../wordpress/wp-includes/class-wp-query.php#L3098-L3110)
 
 ### `posts_request_ids`
 
@@ -47379,7 +47673,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3091](../../wordpress/wp-includes/class-wp-query.php#L3091-L3099)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3117](../../wordpress/wp-includes/class-wp-query.php#L3117-L3125)
 
 ### `posts_results`
 
@@ -47397,7 +47691,7 @@ Version | Description
 ------- | -----------
 `2.3.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3123](../../wordpress/wp-includes/class-wp-query.php#L3123-L3131)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3149](../../wordpress/wp-includes/class-wp-query.php#L3149-L3157)
 
 ### `comment_feed_join`
 
@@ -47409,7 +47703,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('', &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3135](../../wordpress/wp-includes/class-wp-query.php#L3135-L3136)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3161](../../wordpress/wp-includes/class-wp-query.php#L3161-L3162)
 
 ### `comment_feed_where`
 
@@ -47421,7 +47715,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array("WHERE comment_post_ID = '{$this->posts[0]->ID}' AND comment_approved = '1'", &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3138](../../wordpress/wp-includes/class-wp-query.php#L3138-L3139)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3164](../../wordpress/wp-includes/class-wp-query.php#L3164-L3165)
 
 ### `comment_feed_groupby`
 
@@ -47433,7 +47727,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('', &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3141](../../wordpress/wp-includes/class-wp-query.php#L3141-L3142)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3167](../../wordpress/wp-includes/class-wp-query.php#L3167-L3168)
 
 ### `comment_feed_orderby`
 
@@ -47445,7 +47739,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('comment_date_gmt DESC', &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3145](../../wordpress/wp-includes/class-wp-query.php#L3145-L3146)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3171](../../wordpress/wp-includes/class-wp-query.php#L3171-L3172)
 
 ### `comment_feed_limits`
 
@@ -47457,7 +47751,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('LIMIT ' . get_option('posts_per_rss'), &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3149](../../wordpress/wp-includes/class-wp-query.php#L3149-L3150)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3175](../../wordpress/wp-includes/class-wp-query.php#L3175-L3176)
 
 ### `the_preview`
 
@@ -47467,7 +47761,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array($this->posts[0], &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3214](../../wordpress/wp-includes/class-wp-query.php#L3214-L3214)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3240](../../wordpress/wp-includes/class-wp-query.php#L3240-L3240)
 
 ### `the_posts`
 
@@ -47486,7 +47780,7 @@ Version | Description
 ------- | -----------
 `1.5.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3268](../../wordpress/wp-includes/class-wp-query.php#L3268-L3277)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3294](../../wordpress/wp-includes/class-wp-query.php#L3294-L3303)
 
 ### `found_posts_query`
 
@@ -47504,9 +47798,11 @@ Version | Description
 ------- | -----------
 `2.1.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3327](../../wordpress/wp-includes/class-wp-query.php#L3327-L3335)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3353](../../wordpress/wp-includes/class-wp-query.php#L3353-L3361)
 
 ### `found_posts`
+
+*Filters the number of found posts for the query.*
 
 **Arguments**
 
@@ -47514,7 +47810,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array($this->found_posts, &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3358](../../wordpress/wp-includes/class-wp-query.php#L3358-L3358)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3376](../../wordpress/wp-includes/class-wp-query.php#L3376-L3384)
 
 ### `content_pagination`
 
@@ -47536,7 +47838,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4467](../../wordpress/wp-includes/class-wp-query.php#L4467-L4478)
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4493](../../wordpress/wp-includes/class-wp-query.php#L4493-L4504)
 
 ### `locale`
 
@@ -48334,15 +48636,24 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `wp_image_resize_identical_dimensions`
 
+*Filters whether to proceed with making an image sub-size with identical dimensions
+with the original/source image. Differences of 1px may be due to rounding and are ignored.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$orig_w` |  | 
-`$orig_h` |  | 
+`$orig_w` | `int` | Original image width.
+`$orig_h` | `int` | Original image height.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 648](../../wordpress/wp-includes/media.php#L648-L648)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 638](../../wordpress/wp-includes/media.php#L638-L648)
 
 ### `image_get_intermediate_size`
 
@@ -48585,15 +48896,23 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `wp_lazy_loading_enabled`
 
+*Filters whether to add the `loading` attribute to the specified tag in the specified context.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$default` |  | 
-`$tag_name` |  | 
-`$context` |  | 
+`$default` | `bool` | Default value.
+`$tag_name` | `string` | The tag name.
+`$context` | `string` | Additional context, like the current filter name<br>or the function name from where this was called.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1747](../../wordpress/wp-includes/media.php#L1747-L1747)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1737](../../wordpress/wp-includes/media.php#L1737-L1747)
 
 ### `wp_img_tag_add_loading_attr`
 
@@ -48773,7 +49092,7 @@ Version | Description
 ------- | -----------
 `3.1.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2424](../../wordpress/wp-includes/media.php#L2424-L2433)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2437](../../wordpress/wp-includes/media.php#L2437-L2446)
 
 ### `gallery_style`
 
@@ -48791,7 +49110,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2460](../../wordpress/wp-includes/media.php#L2460-L2468)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2473](../../wordpress/wp-includes/media.php#L2473-L2481)
 
 ### `post_playlist`
 
@@ -48815,7 +49134,7 @@ Version | Description
 `4.2.0` | The `$instance` parameter was added.
 `3.9.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2639](../../wordpress/wp-includes/media.php#L2639-L2652)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2652](../../wordpress/wp-includes/media.php#L2652-L2665)
 
 ### `wp_mediaelement_fallback`
 
@@ -48834,7 +49153,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2853](../../wordpress/wp-includes/media.php#L2853-L2861)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2875](../../wordpress/wp-includes/media.php#L2875-L2883)
 
 ### `wp_audio_extensions`
 
@@ -48852,7 +49171,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2872](../../wordpress/wp-includes/media.php#L2872-L2880)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2894](../../wordpress/wp-includes/media.php#L2894-L2902)
 
 ### `wp_get_attachment_id3_keys`
 
@@ -48872,7 +49191,7 @@ Version | Description
 ------- | -----------
 `3.9.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2907](../../wordpress/wp-includes/media.php#L2907-L2916)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2929](../../wordpress/wp-includes/media.php#L2929-L2938)
 
 ### `wp_audio_shortcode_override`
 
@@ -48895,7 +49214,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2945](../../wordpress/wp-includes/media.php#L2945-L2957)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2967](../../wordpress/wp-includes/media.php#L2967-L2979)
 
 ### `wp_audio_shortcode_library`
 
@@ -48913,7 +49232,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3019](../../wordpress/wp-includes/media.php#L3019-L3026)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3041](../../wordpress/wp-includes/media.php#L3041-L3048)
 
 ### `wp_audio_shortcode_class`
 
@@ -48933,7 +49252,7 @@ Version | Description
 `4.9.0` | The `$atts` parameter was added.
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3033](../../wordpress/wp-includes/media.php#L3033-L3042)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3055](../../wordpress/wp-includes/media.php#L3055-L3064)
 
 ### `wp_audio_shortcode`
 
@@ -48955,7 +49274,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3095](../../wordpress/wp-includes/media.php#L3095-L3106)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3117](../../wordpress/wp-includes/media.php#L3117-L3128)
 
 ### `wp_video_extensions`
 
@@ -48973,7 +49292,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3118](../../wordpress/wp-includes/media.php#L3118-L3126)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3140](../../wordpress/wp-includes/media.php#L3140-L3148)
 
 ### `wp_video_shortcode_override`
 
@@ -48997,7 +49316,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3163](../../wordpress/wp-includes/media.php#L3163-L3178)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3185](../../wordpress/wp-includes/media.php#L3185-L3200)
 
 ### `wp_video_shortcode_library`
 
@@ -49015,7 +49334,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3268](../../wordpress/wp-includes/media.php#L3268-L3275)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3290](../../wordpress/wp-includes/media.php#L3290-L3297)
 
 ### `wp_video_shortcode_class`
 
@@ -49035,7 +49354,7 @@ Version | Description
 `4.9.0` | The `$atts` parameter was added.
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3300](../../wordpress/wp-includes/media.php#L3300-L3309)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3322](../../wordpress/wp-includes/media.php#L3322-L3331)
 
 ### `wp_video_shortcode`
 
@@ -49057,7 +49376,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3380](../../wordpress/wp-includes/media.php#L3380-L3391)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3402](../../wordpress/wp-includes/media.php#L3402-L3413)
 
 ### `{$adjacent}_image_link`
 
@@ -49086,7 +49405,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3502](../../wordpress/wp-includes/media.php#L3502-L3521)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3524](../../wordpress/wp-includes/media.php#L3524-L3543)
 
 ### `upload_size_limit`
 
@@ -49106,7 +49425,7 @@ Version | Description
 ------- | -----------
 `2.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3719](../../wordpress/wp-includes/media.php#L3719-L3728)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3741](../../wordpress/wp-includes/media.php#L3741-L3750)
 
 ### `wp_image_editors`
 
@@ -49124,7 +49443,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3798](../../wordpress/wp-includes/media.php#L3798-L3806)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3820](../../wordpress/wp-includes/media.php#L3820-L3828)
 
 ### `plupload_default_settings`
 
@@ -49142,7 +49461,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3882](../../wordpress/wp-includes/media.php#L3882-L3889)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3904](../../wordpress/wp-includes/media.php#L3904-L3911)
 
 ### `plupload_default_params`
 
@@ -49160,7 +49479,7 @@ Version | Description
 ------- | -----------
 `3.4.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3895](../../wordpress/wp-includes/media.php#L3895-L3902)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3917](../../wordpress/wp-includes/media.php#L3917-L3924)
 
 ### `image_size_names_choose`
 
@@ -49172,7 +49491,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('thumbnail' => __('Thumbnail'), 'medium' => __('Medium'), 'large' => __('Large'), 'full' => __('Full Size'))` |  | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4075](../../wordpress/wp-includes/media.php#L4075-L4084)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4097](../../wordpress/wp-includes/media.php#L4097-L4106)
 
 ### `image_downsize`
 
@@ -49186,7 +49505,7 @@ Argument | Type | Description
 `$attachment->ID` |  | 
 `$size` |  | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4095](../../wordpress/wp-includes/media.php#L4095-L4096)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4117](../../wordpress/wp-includes/media.php#L4117-L4118)
 
 ### `wp_prepare_attachment_for_js`
 
@@ -49206,7 +49525,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4203](../../wordpress/wp-includes/media.php#L4203-L4212)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4225](../../wordpress/wp-includes/media.php#L4225-L4234)
 
 ### `media_upload_tabs`
 
@@ -49218,7 +49537,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$tabs` |  | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4254](../../wordpress/wp-includes/media.php#L4254-L4255)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4276](../../wordpress/wp-includes/media.php#L4276-L4277)
 
 ### `media_library_show_audio_playlist`
 
@@ -49243,7 +49562,7 @@ Version | Description
 `4.8.0` | The filter's default value is `true` rather than `null`.
 `4.7.4` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4276](../../wordpress/wp-includes/media.php#L4276-L4293)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4298](../../wordpress/wp-includes/media.php#L4298-L4315)
 
 ### `media_library_show_video_playlist`
 
@@ -49268,7 +49587,7 @@ Version | Description
 `4.8.0` | The filter's default value is `true` rather than `null`.
 `4.7.4` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4306](../../wordpress/wp-includes/media.php#L4306-L4323)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4328](../../wordpress/wp-includes/media.php#L4328-L4345)
 
 ### `media_library_months_with_files`
 
@@ -49291,7 +49610,7 @@ Version | Description
 ------- | -----------
 `4.7.4` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4336](../../wordpress/wp-includes/media.php#L4336-L4352)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4358](../../wordpress/wp-includes/media.php#L4358-L4374)
 
 ### `media_library_infinite_scrolling`
 
@@ -49309,7 +49628,7 @@ Version | Description
 ------- | -----------
 `5.8.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4375](../../wordpress/wp-includes/media.php#L4375-L4382)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4397](../../wordpress/wp-includes/media.php#L4397-L4404)
 
 ### `disable_captions`
 
@@ -49319,7 +49638,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `''` |  | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4389](../../wordpress/wp-includes/media.php#L4389-L4389)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4411](../../wordpress/wp-includes/media.php#L4411-L4411)
 
 ### `media_view_settings`
 
@@ -49338,7 +49657,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4572](../../wordpress/wp-includes/media.php#L4572-L4580)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4595](../../wordpress/wp-includes/media.php#L4595-L4603)
 
 ### `media_view_strings`
 
@@ -49357,7 +49676,7 @@ Version | Description
 ------- | -----------
 `3.5.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4582](../../wordpress/wp-includes/media.php#L4582-L4590)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4605](../../wordpress/wp-includes/media.php#L4605-L4613)
 
 ### `get_attached_media_args`
 
@@ -49377,19 +49696,27 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4646](../../wordpress/wp-includes/media.php#L4646-L4655)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4669](../../wordpress/wp-includes/media.php#L4669-L4678)
 
 ### `get_attached_media`
+
+*Filters the list of media attached to the given post.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$children` |  | 
-`$type` |  | 
-`$post` |  | 
+`$children` | `\WP_Post[]` | Array of media attached to the given post.
+`$type` | `string` | Mime type of the media desired.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4668](../../wordpress/wp-includes/media.php#L4668-L4668)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.6.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4682](../../wordpress/wp-includes/media.php#L4682-L4691)
 
 ### `media_embedded_in_content_allowed_types`
 
@@ -49407,7 +49734,7 @@ Version | Description
 ------- | -----------
 `4.2.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4683](../../wordpress/wp-includes/media.php#L4683-L4691)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4706](../../wordpress/wp-includes/media.php#L4706-L4714)
 
 ### `get_post_galleries`
 
@@ -49426,7 +49753,7 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4863](../../wordpress/wp-includes/media.php#L4863-L4871)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4886](../../wordpress/wp-includes/media.php#L4886-L4894)
 
 ### `get_post_gallery`
 
@@ -49446,18 +49773,26 @@ Version | Description
 ------- | -----------
 `3.6.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4887](../../wordpress/wp-includes/media.php#L4887-L4896)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4910](../../wordpress/wp-includes/media.php#L4910-L4919)
 
 ### `attachment_url_to_postid`
+
+*Filters an attachment ID found by URL.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_id` |  | 
-`$url` |  | 
+`$post_id` | `int\|null` | The post_id (if any) found by the function.
+`$url` | `string` | The URL being looked up.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5016](../../wordpress/wp-includes/media.php#L5016-L5016)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.2.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5031](../../wordpress/wp-includes/media.php#L5031-L5039)
 
 ### `wp_omit_loading_attr_threshold`
 
@@ -49478,7 +49813,7 @@ Version | Description
 ------- | -----------
 `5.9.0` | 
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5348](../../wordpress/wp-includes/media.php#L5348-L5358)
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5371](../../wordpress/wp-includes/media.php#L5371-L5381)
 
 ### `https_local_ssl_verify`
 
@@ -49605,103 +49940,58 @@ Source: [wordpress/wp-includes/class-wp-customize-widgets.php](../../wordpress/w
 
 ### `http_request_timeout`
 
-*Filters the timeout value for an HTTP request.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `5` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 152](../../wordpress/wp-includes/class-wp-http.php#L152-L161)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 161](../../wordpress/wp-includes/class-wp-http.php#L161-L161)
 
 ### `http_request_redirection_count`
 
-*Filters the number of redirects allowed during an HTTP request.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `5` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 162](../../wordpress/wp-includes/class-wp-http.php#L162-L171)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 171](../../wordpress/wp-includes/class-wp-http.php#L171-L171)
 
 ### `http_request_version`
-
-*Filters the version of the HTTP protocol used in a request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `'1.0'` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 172](../../wordpress/wp-includes/class-wp-http.php#L172-L181)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 181](../../wordpress/wp-includes/class-wp-http.php#L181-L181)
 
 ### `http_headers_useragent`
-
-*Filters the user agent value sent with an HTTP request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `'WordPress/' . get_bloginfo('version') . '; ' . get_bloginfo('url')` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 182](../../wordpress/wp-includes/class-wp-http.php#L182-L191)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 191](../../wordpress/wp-includes/class-wp-http.php#L191-L191)
 
 ### `http_request_reject_unsafe_urls`
-
-*Filters whether to pass URLs through wp_http_validate_url() in an HTTP request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`3.6.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 192](../../wordpress/wp-includes/class-wp-http.php#L192-L201)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 201](../../wordpress/wp-includes/class-wp-http.php#L201-L201)
 
 ### `http_request_args`
 
@@ -50908,8 +51198,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller
 
 ### `get_the_guid`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -50917,7 +51205,7 @@ Argument | Type | Description
 `$post->guid` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1735](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1735-L1736)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1736](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1736-L1736)
 
 ### `the_content`
 
@@ -51425,15 +51713,13 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 ### `the_content`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post->post_content` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 734](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L734-L735)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 735](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L735-L735)
 
 ### `get_the_excerpt`
 
@@ -51616,8 +51902,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-contro
 
 ### `get_the_guid`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -51625,11 +51909,9 @@ Argument | Type | Description
 `$post->guid` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 588](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L588-L589)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 589](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L589-L589)
 
 ### `the_content`
-
-*This filter is documented in wp-includes/post-template.php*
 
 **Arguments**
 
@@ -51637,7 +51919,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post->post_content` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 605](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L605-L606)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 606](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L606-L606)
 
 ### `rest_prepare_revision`
 
@@ -51751,7 +52033,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 323](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L323-L333)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 326](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L326-L336)
 
 ### `rest_prepare_user`
 
@@ -51771,7 +52053,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1077](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1077-L1086)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1080](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1080-L1089)
 
 ### `rest_pre_insert_user`
 
@@ -51790,9 +52072,11 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1178](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1178-L1186)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1181](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1181-L1189)
 
 ### `illegal_user_logins`
+
+*This filter is documented in wp-includes/user.php*
 
 **Arguments**
 
@@ -51800,7 +52084,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1275](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1275-L1275)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1277](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1277-L1278)
 
 ### `rest_user_collection_params`
 
@@ -51822,7 +52106,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1598](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1598-L1609)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1601](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1601-L1612)
 
 ### `rest_{$this->taxonomy}_query`
 
@@ -51851,7 +52135,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 245](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L245-L265)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 298](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L298-L318)
 
 ### `rest_pre_insert_{$this->taxonomy}`
 
@@ -51877,7 +52161,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 788](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L788-L803)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 841](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L841-L856)
 
 ### `rest_prepare_{$this->taxonomy}`
 
@@ -51906,7 +52190,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 864](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L864-L882)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 917](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L917-L935)
 
 ### `rest_{$this->taxonomy}_collection_params`
 
@@ -51932,7 +52216,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 1121](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L1121-L1136)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 1174](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L1174-L1189)
 
 ### `rest_comment_query`
 
@@ -52021,8 +52305,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-control
 
 ### `comment_text`
 
-*This filter is documented in wp-includes/comment-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -52030,7 +52312,7 @@ Argument | Type | Description
 `$comment->comment_content` |  | 
 `$comment` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 1089](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L1089-L1090)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 1090](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L1090-L1090)
 
 ### `rest_prepare_comment`
 
@@ -52259,24 +52541,6 @@ Version | Description
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 317](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L317-L329)
 
-### `rest_send_nocache_headers`
-
-*Filters whether to send nocache headers on a REST API request.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`is_user_logged_in()` |  | 
-
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.4.0` | 
-
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 333](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L333-L340)
-
 ### `rest_enabled`
 
 *Filters whether the REST API is enabled.*
@@ -52300,7 +52564,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 351](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L351-L370)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 333](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L333-L352)
 
 ### `rest_post_dispatch`
 
@@ -52323,7 +52587,7 @@ Version | Description
 `4.5.0` | Applied to embedded responses.
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 425](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L425-L437)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 409](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L409-L421)
 
 ### `rest_pre_serve_request`
 
@@ -52347,7 +52611,26 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 451](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L451-L465)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 435](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L435-L449)
+
+### `rest_send_nocache_headers`
+
+*Filters whether to send nocache headers on a REST API request.*
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`is_user_logged_in()` |  | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`6.x.x` | Moved the block to catch the filter added on rest_cookie_check_errors() from rest-api.php
+`4.4.0` | 
+
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 451](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L451-L459)
 
 ### `rest_pre_echo_response`
 
@@ -52370,7 +52653,7 @@ Version | Description
 ------- | -----------
 `4.8.1` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 476](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L476-L488)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 482](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L482-L494)
 
 ### `rest_post_dispatch`
 
@@ -52384,7 +52667,7 @@ Argument | Type | Description
 `$this` |  | 
 `$request` |  | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 701](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L701-L702)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 707](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L707-L708)
 
 ### `rest_envelope_response`
 
@@ -52403,7 +52686,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 745](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L745-L759)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 751](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L751-L765)
 
 ### `rest_endpoints`
 
@@ -52421,7 +52704,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 840](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L840-L850)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 846](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L846-L856)
 
 ### `rest_pre_dispatch`
 
@@ -52444,7 +52727,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 940](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L940-L953)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 946](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L946-L959)
 
 ### `rest_request_before_callbacks`
 
@@ -52471,7 +52754,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1087](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1087-L1104)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1093](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1093-L1110)
 
 ### `rest_dispatch_request`
 
@@ -52495,7 +52778,7 @@ Version | Description
 `4.5.0` | Added `$route` and `$handler` parameters.
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1122](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1122-L1135)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1128](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1128-L1141)
 
 ### `rest_request_after_callbacks`
 
@@ -52526,7 +52809,7 @@ Version | Description
 ------- | -----------
 `4.7.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1145](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1145-L1166)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1151](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1151-L1172)
 
 ### `rest_index`
 
@@ -52548,7 +52831,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1234](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1234-L1245)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1240](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1240-L1251)
 
 ### `rest_namespace_index`
 
@@ -52570,7 +52853,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1366](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1366-L1377)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1372](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1372-L1383)
 
 ### `rest_endpoints_description`
 
@@ -52588,7 +52871,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1399](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1399-L1406)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1405](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1405-L1412)
 
 ### `rest_route_data`
 
@@ -52611,7 +52894,7 @@ Version | Description
 ------- | -----------
 `4.4.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1409](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1409-L1421)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1415](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1415-L1427)
 
 ### `rest_get_max_batch_size`
 
@@ -52629,7 +52912,7 @@ Version | Description
 ------- | -----------
 `5.6.0` | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1519](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1519-L1526)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1525](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1525-L1532)
 
 ### `rest_pre_dispatch`
 
@@ -52643,7 +52926,7 @@ Argument | Type | Description
 `$this` |  | 
 `$clean_request` |  | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1648](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1648-L1649)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1654](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1654-L1655)
 
 ### `rest_post_dispatch`
 
@@ -52657,7 +52940,7 @@ Argument | Type | Description
 `$this` |  | 
 `$single_request` |  | 
 
-Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1676](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1676-L1677)
+Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1682](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1682-L1683)
 
 ### `rest_request_parameter_order`
 
@@ -54929,6 +55212,8 @@ Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/depre
 
 ### `attachment_icon`
 
+*Retrieve HTML content of icon attachment image element.*
+
 **Arguments**
 
 Argument | Type | Description
@@ -54936,9 +55221,17 @@ Argument | Type | Description
 `$icon` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1978](../../wordpress/wp-includes/deprecated.php#L1978-L1978)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1925](../../wordpress/wp-includes/deprecated.php#L1925-L1978)
 
 ### `attachment_innerHTML`
+
+*Retrieve HTML content of image element.*
 
 **Arguments**
 
@@ -54947,51 +55240,95 @@ Argument | Type | Description
 `$innerHTML` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2004](../../wordpress/wp-includes/deprecated.php#L2004-L2004)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1981](../../wordpress/wp-includes/deprecated.php#L1981-L2004)
 
 ### `the_title`
+
+*Get boundary post relational link.*
+
+Can either be start or end post relational link.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$title` |  | 
+`$title` | `string` | Optional. Link title format. Default '%title'.
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2697](../../wordpress/wp-includes/deprecated.php#L2697-L2697)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2663](../../wordpress/wp-includes/deprecated.php#L2663-L2697)
 
 ### `{$boundary}_post_rel_link`
 
+*Get boundary post relational link.*
+
+Can either be start or end post relational link.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2704](../../wordpress/wp-includes/deprecated.php#L2704-L2704)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2663](../../wordpress/wp-includes/deprecated.php#L2663-L2704)
 
 ### `index_rel_link`
 
+*Get site index relational link.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2735](../../wordpress/wp-includes/deprecated.php#L2735-L2735)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2723](../../wordpress/wp-includes/deprecated.php#L2723-L2735)
 
 ### `the_title`
 
+*Get parent post relational link.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$title` |  | 
+`$title` | `string` | Optional. Link title format. Default '%title'.
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2772](../../wordpress/wp-includes/deprecated.php#L2772-L2772)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2750](../../wordpress/wp-includes/deprecated.php#L2750-L2772)
 
 ### `parent_post_rel_link`
+
+*Get parent post relational link.*
 
 **Arguments**
 
@@ -54999,9 +55336,17 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2778](../../wordpress/wp-includes/deprecated.php#L2778-L2778)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2750](../../wordpress/wp-includes/deprecated.php#L2750-L2778)
 
 ### `extra_theme_headers`
+
+*Retrieve theme data from parsed theme file.*
 
 **Arguments**
 
@@ -55009,7 +55354,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 3085](../../wordpress/wp-includes/deprecated.php#L3085-L3085)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 3057](../../wordpress/wp-includes/deprecated.php#L3057-L3085)
 
 ### `richedit_pre`
 
@@ -55455,15 +55806,29 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 523](../..
 
 ### `admin_email_remind_interval`
 
+*Filters the interval for dismissing the admin email confirmation screen.*
+
+If `0` (zero) is returned, the "Remind me later" link will not be displayed.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `3 * DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 567](../../wordpress/wp-login.php#L567-L567)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.1` | 
+
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 558](../../wordpress/wp-login.php#L558-L567)
 
 ### `admin_email_check_interval`
+
+*Filters the interval for redirecting the user to the admin email confirmation screen.*
+
+If `0` (zero) is returned, the user will not be redirected.
 
 **Arguments**
 
@@ -55471,7 +55836,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `6 * MONTH_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 599](../../wordpress/wp-login.php#L599-L599)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 590](../../wordpress/wp-login.php#L590-L599)
 
 ### `post_password_expires`
 
@@ -55621,13 +55992,15 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1238](../.
 
 ### `admin_email_check_interval`
 
+*This filter is documented in wp-login.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `6 * MONTH_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1282](../../wordpress/wp-login.php#L1282-L1282)
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1281](../../wordpress/wp-login.php#L1281-L1282)
 
 ### `wp_login_errors`
 
@@ -55669,1383 +56042,6 @@ Argument | Type | Description
 `true` |  | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1487](../../wordpress/wp-login.php#L1487-L1487)
-
-### `twentyseventeen_starter_content`
-
-*Filters Twenty Seventeen array of starter content.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$starter_content` | `array` | Array of starter content.
-
-Source: [wordpress/wp-content/themes/twentyseventeen/functions.php](../../wordpress/wp-content/themes/twentyseventeen/functions.php), [line 234](../../wordpress/wp-content/themes/twentyseventeen/functions.php#L234-L241)
-
-### `twentyseventeen_content_width`
-
-*Filters Twenty Seventeen content width of the theme.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$content_width` | `int` | Content width in pixels.
-
-Source: [wordpress/wp-content/themes/twentyseventeen/functions.php](../../wordpress/wp-content/themes/twentyseventeen/functions.php), [line 275](../../wordpress/wp-content/themes/twentyseventeen/functions.php#L275-L282)
-
-### `twentyseventeen_social_links_icons`
-
-*Filters Twenty Seventeen social links icons.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$social_links_icons` | `array` | Array of social links icons.
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/icon-functions.php](../../wordpress/wp-content/themes/twentyseventeen/inc/icon-functions.php), [line 216](../../wordpress/wp-content/themes/twentyseventeen/inc/icon-functions.php#L216-L223)
-
-### `twentyseventeen_front_page_sections`
-
-*Filters the number of front page sections in Twenty Seventeen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`4` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/customizer.php](../../wordpress/wp-content/themes/twentyseventeen/inc/customizer.php), [line 118](../../wordpress/wp-content/themes/twentyseventeen/inc/customizer.php#L118-L125)
-
-### `twentyseventeen_custom_header_args`
-
-*Filters Twenty Seventeen custom-header support arguments.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-image' => get_parent_theme_file_uri('/assets/images/header.jpg'), 'width' => 2000, 'height' => 1200, 'flex-height' => true, 'video' => true, 'wp-head-callback' => 'twentyseventeen_header_style')` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/custom-header.php](../../wordpress/wp-content/themes/twentyseventeen/inc/custom-header.php), [line 21](../../wordpress/wp-content/themes/twentyseventeen/inc/custom-header.php#L21-L48)
-
-### `twentyseventeen_custom_colors_saturation`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`50` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php), [line 23](../../wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php#L23-L23)
-
-### `twentyseventeen_custom_colors_css`
-
-*Filters Twenty Seventeen custom colors CSS.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$css` | `string` | Base theme colors CSS.
-`$hue` | `int` | The user's selected color hue.
-`$saturation` | `string` | Filtered theme color saturation level.
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php), [line 570](../../wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php#L570-L579)
-
-### `twentyseventeen_front_page_sections`
-
-*Filters the number of front page sections in Twenty Seventeen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`4` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/inc/template-functions.php](../../wordpress/wp-content/themes/twentyseventeen/inc/template-functions.php), [line 78](../../wordpress/wp-content/themes/twentyseventeen/inc/template-functions.php#L78-L85)
-
-### `the_content`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`get_the_content()` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php](../../wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php), [line 45](../../wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php#L45-L45)
-
-### `the_content`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`get_the_content()` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-video.php](../../wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-video.php), [line 45](../../wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-video.php#L45-L45)
-
-### `twentyseventeen_front_page_sections`
-
-*Filters the number of front page sections in Twenty Seventeen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`4` |  | 
-
-Source: [wordpress/wp-content/themes/twentyseventeen/front-page.php](../../wordpress/wp-content/themes/twentyseventeen/front-page.php), [line 36](../../wordpress/wp-content/themes/twentyseventeen/front-page.php#L36-L43)
-
-### `twentysixteen_content_width`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`840` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/functions.php](../../wordpress/wp-content/themes/twentysixteen/functions.php), [line 236](../../wordpress/wp-content/themes/twentysixteen/functions.php#L236-L236)
-
-### `twentysixteen_custom_background_args`
-
-*Filters the arguments used when adding 'custom-background' support in Twenty Sixteen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-color' => $default_background_color)` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/inc/customizer.php](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php), [line 24](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php#L24-L40)
-
-### `twentysixteen_custom_header_args`
-
-*Filters the arguments used when adding 'custom-header' support in Twenty Sixteen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-text-color' => $default_text_color, 'width' => 1200, 'height' => 280, 'flex-height' => true, 'wp-head-callback' => 'twentysixteen_header_style')` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/inc/customizer.php](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php), [line 45](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php#L45-L70)
-
-### `twentysixteen_color_schemes`
-
-*Filters the color schemes registered for use with Twenty Sixteen.*
-
-The default schemes include 'default', 'dark', 'gray', 'red', and 'yellow'.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default' => array('label' => __('Default', 'twentysixteen'), 'colors' => array('#1a1a1a', '#ffffff', '#007acc', '#1a1a1a', '#686868')), 'dark' => array('label' => __('Dark', 'twentysixteen'), 'colors' => array('#262626', '#1a1a1a', '#9adffd', '#e5e5e5', '#c1c1c1')), 'gray' => array('label' => __('Gray', 'twentysixteen'), 'colors' => array('#616a73', '#4d545c', '#c7c7c7', '#f2f2f2', '#f2f2f2')), 'red' => array('label' => __('Red', 'twentysixteen'), 'colors' => array('#ffffff', '#ff675f', '#640c1f', '#402b30', '#402b30')), 'yellow' => array('label' => __('Yellow', 'twentysixteen'), 'colors' => array('#3b3721', '#ffef8e', '#774e24', '#3b3721', '#5b4d3e')))` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/inc/customizer.php](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php), [line 293](../../wordpress/wp-content/themes/twentysixteen/inc/customizer.php#L293-L367)
-
-### `twentysixteen_author_avatar_size`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`49` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentysixteen/inc/template-tags.php), [line 22](../../wordpress/wp-content/themes/twentysixteen/inc/template-tags.php#L22-L22)
-
-### `twentysixteen_custom_header_sizes`
-
-*Filters the default twentysixteen custom header sizes attribute.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'(max-width: 709px) 85vw, (max-width: 909px) 81vw, (max-width: 1362px) 88vw, 1200px'` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/header.php](../../wordpress/wp-content/themes/twentysixteen/header.php), [line 87](../../wordpress/wp-content/themes/twentysixteen/header.php#L87-L96)
-
-### `twentysixteen_author_bio_avatar_size`
-
-*Filters the Twenty Sixteen author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`42` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/template-parts/biography.php](../../wordpress/wp-content/themes/twentysixteen/template-parts/biography.php), [line 14](../../wordpress/wp-content/themes/twentysixteen/template-parts/biography.php#L14-L21)
-
-### `twentysixteen_attachment_size`
-
-*Filters the default twentysixteen image attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'large'` |  | 
-
-Source: [wordpress/wp-content/themes/twentysixteen/image.php](../../wordpress/wp-content/themes/twentysixteen/image.php), [line 38](../../wordpress/wp-content/themes/twentysixteen/image.php#L38-L45)
-
-### `twentyeleven_header_image_width`
-
-*Filters the Twenty Eleven default header image width.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`1000` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/functions.php](../../wordpress/wp-content/themes/twentyeleven/functions.php), [line 179](../../wordpress/wp-content/themes/twentyeleven/functions.php#L179-L186)
-
-### `twentyeleven_header_image_height`
-
-*Filters the Twenty Eleven default header image height.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`288` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/functions.php](../../wordpress/wp-content/themes/twentyeleven/functions.php), [line 187](../../wordpress/wp-content/themes/twentyeleven/functions.php#L187-L194)
-
-### `the_permalink`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`get_permalink()` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/functions.php](../../wordpress/wp-content/themes/twentyeleven/functions.php), [line 636](../../wordpress/wp-content/themes/twentyeleven/functions.php#L636-L636)
-
-### `category_archive_meta`
-
-*Filters the default Twenty Eleven category description.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'<div class="category-archive-meta">' . $category_description . '</div>'` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/category.php](../../wordpress/wp-content/themes/twentyeleven/category.php), [line 28](../../wordpress/wp-content/themes/twentyeleven/category.php#L28-L35)
-
-### `twentyeleven_author_bio_avatar_size`
-
-*This filter is documented in author.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`68` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/content-single.php](../../wordpress/wp-content/themes/twentyeleven/content-single.php), [line 73](../../wordpress/wp-content/themes/twentyeleven/content-single.php#L73-L74)
-
-### `widget_title`
-
-*This filter is documented in wp-includes/default-widgets.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`empty($instance['title']) ? __('Ephemera', 'twentyeleven') : $instance['title']` |  | 
-`$instance` |  | 
-`$this->id_base` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/widgets.php](../../wordpress/wp-content/themes/twentyeleven/inc/widgets.php), [line 73](../../wordpress/wp-content/themes/twentyeleven/inc/widgets.php#L73-L74)
-
-### `twentyeleven_color_schemes`
-
-*Filters the Twenty Eleven color scheme options.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$color_scheme_options` | `array` | An associative array of color scheme options.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 164](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L164-L171)
-
-### `twentyeleven_layouts`
-
-*Filters the Twenty Eleven layout options.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$layout_options` | `array` | An associative array of layout options.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 198](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L198-L205)
-
-### `twentyeleven_default_theme_options`
-
-*Filters the Twenty Eleven default options.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$default_theme_options` | `array` | An array of default theme options.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 226](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L226-L233)
-
-### `twentyeleven_theme_options_validate`
-
-*Filters the Twenty Eleven sanitized form input array.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$output` | `array` | An array of sanitized form output.
-`$input` | `array` | An array of un-sanitized form input.
-`$defaults` | `array` | An array of default theme options.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 400](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L400-L409)
-
-### `twentyeleven_layout_classes`
-
-*Filters the Twenty Eleven layout body classes.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$classes` | `array` | An array of body classes.
-`$current_layout` | `string` | The current theme layout.
-
-Source: [wordpress/wp-content/themes/twentyeleven/inc/theme-options.php](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php), [line 510](../../wordpress/wp-content/themes/twentyeleven/inc/theme-options.php#L510-L518)
-
-### `twentyeleven_status_avatar`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`65` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/content-status.php](../../wordpress/wp-content/themes/twentyeleven/content-status.php), [line 44](../../wordpress/wp-content/themes/twentyeleven/content-status.php#L44-L44)
-
-### `tag_archive_meta`
-
-*Filters the default Twenty Eleven tag description.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'<div class="tag-archive-meta">' . $tag_description . '</div>'` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/tag.php](../../wordpress/wp-content/themes/twentyeleven/tag.php), [line 28](../../wordpress/wp-content/themes/twentyeleven/tag.php#L28-L35)
-
-### `twentyeleven_author_bio_avatar_size`
-
-*Filters the Twenty Eleven author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`60` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/author.php](../../wordpress/wp-content/themes/twentyeleven/author.php), [line 55](../../wordpress/wp-content/themes/twentyeleven/author.php#L55-L62)
-
-### `twentyeleven_attachment_size`
-
-*Filters the Twenty Eleven default attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`848` |  | 
-
-Source: [wordpress/wp-content/themes/twentyeleven/image.php](../../wordpress/wp-content/themes/twentyeleven/image.php), [line 95](../../wordpress/wp-content/themes/twentyeleven/image.php#L95-L102)
-
-### `twentythirteen_attachment_size`
-
-*Filters the image attachment size to use.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array(724, 724)` |  | 
-
-Source: [wordpress/wp-content/themes/twentythirteen/functions.php](../../wordpress/wp-content/themes/twentythirteen/functions.php), [line 561](../../wordpress/wp-content/themes/twentythirteen/functions.php#L561-L571)
-
-### `the_permalink`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`get_permalink()` |  | 
-
-Source: [wordpress/wp-content/themes/twentythirteen/functions.php](../../wordpress/wp-content/themes/twentythirteen/functions.php), [line 637](../../wordpress/wp-content/themes/twentythirteen/functions.php#L637-L637)
-
-### `twentythirteen_author_bio_avatar_size`
-
-*Filters the author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`74` |  | 
-
-Source: [wordpress/wp-content/themes/twentythirteen/author-bio.php](../../wordpress/wp-content/themes/twentythirteen/author-bio.php), [line 14](../../wordpress/wp-content/themes/twentythirteen/author-bio.php#L14-L21)
-
-### `twentynineteen_content_width`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`640` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/functions.php](../../wordpress/wp-content/themes/twentynineteen/functions.php), [line 242](../../wordpress/wp-content/themes/twentynineteen/functions.php#L242-L242)
-
-### `twentynineteen_can_show_post_thumbnail`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`!post_password_required() && !is_attachment() && has_post_thumbnail()` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/helper-functions.php](../../wordpress/wp-content/themes/twentynineteen/inc/helper-functions.php), [line 14](../../wordpress/wp-content/themes/twentynineteen/inc/helper-functions.php#L14-L14)
-
-### `twentynineteen_custom_colors_saturation`
-
-*Filters Twenty Nineteen default saturation level.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`100` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 20](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L20-L27)
-
-### `twentynineteen_custom_colors_saturation_selection`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`50` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 37](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L37-L37)
-
-### `twentynineteen_custom_colors_lightness`
-
-*Filters Twenty Nineteen default lightness level.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`33` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 40](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L40-L47)
-
-### `twentynineteen_custom_colors_lightness_hover`
-
-*Filters Twenty Nineteen default hover lightness level.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`23` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 50](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L50-L57)
-
-### `twentynineteen_custom_colors_lightness_selection`
-
-*Filters Twenty Nineteen default selection lightness level.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`90` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 60](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L60-L67)
-
-### `twentynineteen_custom_colors_css`
-
-*Filters Twenty Nineteen custom colors CSS.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$theme_css` |  | 
-`$primary_color` | `int` | The user's selected color hue.
-`$saturation` | `string` | Filtered theme color saturation level.
-
-Source: [wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php), [line 261](../../wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php#L261-L270)
-
-### `twentynineteen_attachment_size`
-
-*Filters the default twentynineteen image attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'full'` |  | 
-
-Source: [wordpress/wp-content/themes/twentynineteen/image.php](../../wordpress/wp-content/themes/twentynineteen/image.php), [line 32](../../wordpress/wp-content/themes/twentynineteen/image.php#L32-L39)
-
-### `twentyfifteen_custom_background_args`
-
-*Filters Twenty Fifteen custom-background support arguments.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-color' => $default_color, 'default-attachment' => 'fixed')` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/functions.php](../../wordpress/wp-content/themes/twentyfifteen/functions.php), [line 150](../../wordpress/wp-content/themes/twentyfifteen/functions.php#L150-L168)
-
-### `twentyfifteen_color_schemes`
-
-*Filters the color schemes registered for use with Twenty Fifteen.*
-
-The default schemes include 'default', 'dark', 'yellow', 'pink', 'purple', and 'blue'.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default' => array('label' => __('Default', 'twentyfifteen'), 'colors' => array('#f1f1f1', '#ffffff', '#ffffff', '#333333', '#333333', '#f7f7f7')), 'dark' => array('label' => __('Dark', 'twentyfifteen'), 'colors' => array('#111111', '#202020', '#202020', '#bebebe', '#bebebe', '#1b1b1b')), 'yellow' => array('label' => __('Yellow', 'twentyfifteen'), 'colors' => array('#f4ca16', '#ffdf00', '#ffffff', '#111111', '#111111', '#f1f1f1')), 'pink' => array('label' => __('Pink', 'twentyfifteen'), 'colors' => array('#ffe5d1', '#e53b51', '#ffffff', '#352712', '#ffffff', '#f1f1f1')), 'purple' => array('label' => __('Purple', 'twentyfifteen'), 'colors' => array('#674970', '#2e2256', '#ffffff', '#2e2256', '#ffffff', '#f1f1f1')), 'blue' => array('label' => __('Blue', 'twentyfifteen'), 'colors' => array('#e9f2f9', '#55c3dc', '#ffffff', '#22313f', '#ffffff', '#f1f1f1')))` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/inc/customizer.php](../../wordpress/wp-content/themes/twentyfifteen/inc/customizer.php), [line 159](../../wordpress/wp-content/themes/twentyfifteen/inc/customizer.php#L159-L250)
-
-### `twentyfifteen_custom_header_args`
-
-*Filters Twenty Fifteen custom-header support arguments.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-text-color' => $default_text_color, 'width' => 954, 'height' => 1300, 'wp-head-callback' => 'twentyfifteen_header_style')` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/inc/custom-header.php](../../wordpress/wp-content/themes/twentyfifteen/inc/custom-header.php), [line 21](../../wordpress/wp-content/themes/twentyfifteen/inc/custom-header.php#L21-L44)
-
-### `the_permalink`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`get_permalink()` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php](../../wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php), [line 235](../../wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php#L235-L235)
-
-### `twentyfifteen_author_bio_avatar_size`
-
-*Filters the author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`56` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/author-bio.php](../../wordpress/wp-content/themes/twentyfifteen/author-bio.php), [line 15](../../wordpress/wp-content/themes/twentyfifteen/author-bio.php#L15-L22)
-
-### `twentyfifteen_attachment_size`
-
-*Filters the default Twenty Fifteen image attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'large'` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfifteen/image.php](../../wordpress/wp-content/themes/twentyfifteen/image.php), [line 37](../../wordpress/wp-content/themes/twentyfifteen/image.php#L37-L44)
-
-### `twenty_twenty_one_content_width`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`750` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/functions.php](../../wordpress/wp-content/themes/twentytwentyone/functions.php), [line 388](../../wordpress/wp-content/themes/twentytwentyone/functions.php#L388-L388)
-
-### `twentytwentyone_html_classes`
-
-*Filters the classes for the main <html> element.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`''` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/functions.php](../../wordpress/wp-content/themes/twentytwentyone/functions.php), [line 612](../../wordpress/wp-content/themes/twentytwentyone/functions.php#L612-L619)
-
-### `twenty_twenty_one_starter_content`
-
-*Filters the array of starter content.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$starter_content` | `array` | Array of starter content.
-
-Source: [wordpress/wp-content/themes/twentytwentyone/inc/starter-content.php](../../wordpress/wp-content/themes/twentytwentyone/inc/starter-content.php), [line 176](../../wordpress/wp-content/themes/twentytwentyone/inc/starter-content.php#L176-L183)
-
-### `twenty_twenty_one_can_show_post_thumbnail`
-
-*Filters whether post thumbnail can be displayed.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`!post_password_required() && !is_attachment() && has_post_thumbnail()` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php), [line 106](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php#L106-L116)
-
-### `twenty_twenty_one_get_localized_font_family_types`
-
-*Filters the fallback fonts for non-latin languages.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array(
-    // Arabic.
-    'ar' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ary' => array('Tahoma', 'Arial', 'sans-serif'),
-    'azb' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ckb' => array('Tahoma', 'Arial', 'sans-serif'),
-    'fa-IR' => array('Tahoma', 'Arial', 'sans-serif'),
-    'haz' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ps' => array('Tahoma', 'Arial', 'sans-serif'),
-    // Chinese Simplified (China) - Noto Sans SC.
-    'zh-CN' => array('\'PingFang SC\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Chinese Traditional (Taiwan) - Noto Sans TC.
-    'zh-TW' => array('\'PingFang TC\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Chinese (Hong Kong) - Noto Sans HK.
-    'zh-HK' => array('\'PingFang HK\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Cyrillic.
-    'bel' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'bg-BG' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'kk' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'mk-MK' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'mn' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'ru-RU' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'sah' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'sr-RS' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'tt-RU' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'uk' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    // Devanagari.
-    'bn-BD' => array('Arial', 'sans-serif'),
-    'hi-IN' => array('Arial', 'sans-serif'),
-    'mr' => array('Arial', 'sans-serif'),
-    'ne-NP' => array('Arial', 'sans-serif'),
-    // Greek.
-    'el' => array('\'Helvetica Neue\', Helvetica, Arial, sans-serif'),
-    // Gujarati.
-    'gu' => array('Arial', 'sans-serif'),
-    // Hebrew.
-    'he-IL' => array('\'Arial Hebrew\'', 'Arial', 'sans-serif'),
-    // Japanese.
-    'ja' => array('sans-serif'),
-    // Korean.
-    'ko-KR' => array('\'Apple SD Gothic Neo\'', '\'Malgun Gothic\'', '\'Nanum Gothic\'', 'Dotum', 'sans-serif'),
-    // Thai.
-    'th' => array('\'Sukhumvit Set\'', '\'Helvetica Neue\'', 'Helvetica', 'Arial', 'sans-serif'),
-    // Vietnamese.
-    'vi' => array('\'Libre Franklin\'', 'sans-serif'),
-)` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php), [line 232](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php#L232-L301)
-
-### `twenty_twenty_one_get_localized_font_family_elements`
-
-*Filters the elements to apply fallback fonts to.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('front-end' => array('body', 'input', 'textarea', 'button', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file__button', '.has-drop-cap:not(:focus)::first-letter', '.entry-content .wp-block-archives', '.entry-content .wp-block-categories', '.entry-content .wp-block-cover-image', '.entry-content .wp-block-latest-comments', '.entry-content .wp-block-latest-posts', '.entry-content .wp-block-pullquote', '.entry-content .wp-block-quote.is-large', '.entry-content .wp-block-quote.is-style-large', '.entry-content .wp-block-archives *', '.entry-content .wp-block-categories *', '.entry-content .wp-block-latest-posts *', '.entry-content .wp-block-latest-comments *', '.entry-content p', '.entry-content ol', '.entry-content ul', '.entry-content dl', '.entry-content dt', '.entry-content cite', '.entry-content figcaption', '.entry-content .wp-caption-text', '.comment-content p', '.comment-content ol', '.comment-content ul', '.comment-content dl', '.comment-content dt', '.comment-content cite', '.comment-content figcaption', '.comment-content .wp-caption-text', '.widget_text p', '.widget_text ol', '.widget_text ul', '.widget_text dl', '.widget_text dt', '.widget-content .rssSummary', '.widget-content cite', '.widget-content figcaption', '.widget-content .wp-caption-text'), 'block-editor' => array('.editor-styles-wrapper > *', '.editor-styles-wrapper p', '.editor-styles-wrapper ol', '.editor-styles-wrapper ul', '.editor-styles-wrapper dl', '.editor-styles-wrapper dt', '.editor-post-title__block .editor-post-title__input', '.editor-styles-wrapper .wp-block h1', '.editor-styles-wrapper .wp-block h2', '.editor-styles-wrapper .wp-block h3', '.editor-styles-wrapper .wp-block h4', '.editor-styles-wrapper .wp-block h5', '.editor-styles-wrapper .wp-block h6', '.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter', '.editor-styles-wrapper cite', '.editor-styles-wrapper figcaption', '.editor-styles-wrapper .wp-caption-text'), 'classic-editor' => array('body#tinymce.wp-editor', 'body#tinymce.wp-editor p', 'body#tinymce.wp-editor ol', 'body#tinymce.wp-editor ul', 'body#tinymce.wp-editor dl', 'body#tinymce.wp-editor dt', 'body#tinymce.wp-editor figcaption', 'body#tinymce.wp-editor .wp-caption-text', 'body#tinymce.wp-editor .wp-caption-dd', 'body#tinymce.wp-editor cite', 'body#tinymce.wp-editor table'))` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php), [line 308](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php#L308-L322)
-
-### `the_content`
-
-*This filter is documented in wp-includes/post-template.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$blocks_content` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php), [line 400](../../wordpress/wp-content/themes/twentytwentyone/inc/template-functions.php#L400-L401)
-
-### `twenty_twenty_one_svg_icons_{$group}`
-
-*Filters Twenty Twenty-Ones's array of icons.*
-
-The dynamic portion of the hook name, `$group`, refers to
-the name of the group of icons, either "ui" or "social".
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$arr` | `array` | Array of icons.
-
-Source: [wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php), [line 164](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php#L164-L174)
-
-### `twenty_twenty_one_social_icons_map`
-
-*Filters Twenty Twenty-Ones's array of domain mappings for social icons.*
-
-By default, each Icon ID is matched against a .com TLD. To override this behavior,
-specify all the domains it covers (including the .com TLD too, if applicable).
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`self::$social_icons_map` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php), [line 204](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php#L204-L214)
-
-### `twenty_twenty_one_svg_icons_social`
-
-*Filters Twenty Twenty-One's array of social icons.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`self::$social_icons` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php), [line 216](../../wordpress/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-svg-icons.php#L216-L223)
-
-### `twenty_twenty_one_attachment_size`
-
-*Filter the default image attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'full'` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwentyone/image.php](../../wordpress/wp-content/themes/twentytwentyone/image.php), [line 24](../../wordpress/wp-content/themes/twentytwentyone/image.php#L24-L31)
-
-### `twentytwentytwo_block_pattern_categories`
-
-*Filters the theme block pattern categories.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$block_pattern_categories` | `array[]` | {<br>    An associative array of block pattern categories, keyed by category name.<br><br>    @type array[] $properties {<br>        An array of block category properties.<br><br>        @type string $label A human-readable label for the pattern category.<br>    }<br>}
-
-Source: [wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php](../../wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php), [line 24](../../wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php#L24-L39)
-
-### `twentytwentytwo_block_patterns`
-
-*Filters the theme block patterns.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$block_patterns` | `array` | List of block patterns by name.
-
-Source: [wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php](../../wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php), [line 117](../../wordpress/wp-content/themes/twentytwentytwo/inc/block-patterns.php#L117-L124)
-
-### `twentyfourteen_custom_background_args`
-
-*Filters Twenty Fourteen custom-background support arguments.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-color' => 'f5f5f5')` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/functions.php](../../wordpress/wp-content/themes/twentyfourteen/functions.php), [line 173](../../wordpress/wp-content/themes/twentyfourteen/functions.php#L173-L189)
-
-### `twentyfourteen_get_featured_posts`
-
-*Filters the featured posts to return in Twenty Fourteen.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array()` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/functions.php](../../wordpress/wp-content/themes/twentyfourteen/functions.php), [line 230](../../wordpress/wp-content/themes/twentyfourteen/functions.php#L230-L237)
-
-### `twentyfourteen_attachment_size`
-
-*Filters the default Twenty Fourteen attachment size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array(810, 810)` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/functions.php](../../wordpress/wp-content/themes/twentyfourteen/functions.php), [line 427](../../wordpress/wp-content/themes/twentyfourteen/functions.php#L427-L439)
-
-### `twentyfourteen_list_authors_query_args`
-
-*Filters query arguments for listing authors.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$args` | `array` | Query arguments.
-
-**Changelog**
-
-Version | Description
-------- | -----------
-`3.3` | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/functions.php](../../wordpress/wp-content/themes/twentyfourteen/functions.php), [line 507](../../wordpress/wp-content/themes/twentyfourteen/functions.php#L507-L514)
-
-### `wp_audio_shortcode_library`
-
-*This filter is documented in wp-includes/media.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'mediaelement'` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/inc/widgets.php](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php), [line 54](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php#L54-L55)
-
-### `wp_video_shortcode_library`
-
-*This filter is documented in wp-includes/media.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`'mediaelement'` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/inc/widgets.php](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php), [line 56](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php#L56-L57)
-
-### `widget_title`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$title` |  | 
-`$instance` |  | 
-`$this->id_base` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/inc/widgets.php](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php), [line 114](../../wordpress/wp-content/themes/twentyfourteen/inc/widgets.php#L114-L114)
-
-### `twentyfourteen_custom_header_args`
-
-*Filters Twenty Fourteen custom-header support arguments.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('default-text-color' => 'fff', 'width' => 1260, 'height' => 240, 'flex-height' => true, 'wp-head-callback' => 'twentyfourteen_header_style', 'admin-head-callback' => 'twentyfourteen_admin_header_style', 'admin-preview-callback' => 'twentyfourteen_admin_header_image')` |  | 
-
-Source: [wordpress/wp-content/themes/twentyfourteen/inc/custom-header.php](../../wordpress/wp-content/themes/twentyfourteen/inc/custom-header.php), [line 22](../../wordpress/wp-content/themes/twentyfourteen/inc/custom-header.php#L22-L51)
-
-### `twentytwelve_status_avatar`
-
-*Filters the status avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`48` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwelve/content-status.php](../../wordpress/wp-content/themes/twentytwelve/content-status.php), [line 21](../../wordpress/wp-content/themes/twentytwelve/content-status.php#L21-L28)
-
-### `twentytwelve_author_bio_avatar_size`
-
-*This filter is documented in author.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`68` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwelve/content.php](../../wordpress/wp-content/themes/twentytwelve/content.php), [line 68](../../wordpress/wp-content/themes/twentytwelve/content.php#L68-L69)
-
-### `twentytwelve_author_bio_avatar_size`
-
-*Filters the author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`68` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwelve/author.php](../../wordpress/wp-content/themes/twentytwelve/author.php), [line 59](../../wordpress/wp-content/themes/twentytwelve/author.php#L59-L66)
-
-### `twentytwelve_attachment_size`
-
-*Filters the image attachment size to use.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array(960, 960)` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwelve/image.php](../../wordpress/wp-content/themes/twentytwelve/image.php), [line 95](../../wordpress/wp-content/themes/twentytwelve/image.php#L95-L105)
-
-### `twentyten_header_image_width`
-
-*Filters the Twenty Ten default header image width.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`940` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/functions.php](../../wordpress/wp-content/themes/twentyten/functions.php), [line 159](../../wordpress/wp-content/themes/twentyten/functions.php#L159-L166)
-
-### `twentyten_header_image_height`
-
-*Filters the Twenty Ten defaul header image height.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`198` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/functions.php](../../wordpress/wp-content/themes/twentyten/functions.php), [line 167](../../wordpress/wp-content/themes/twentyten/functions.php#L167-L174)
-
-### `twentyten_author_bio_avatar_size`
-
-*This filter is documented in author.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`60` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/loop-single.php](../../wordpress/wp-content/themes/twentyten/loop-single.php), [line 52](../../wordpress/wp-content/themes/twentyten/loop-single.php#L52-L53)
-
-### `twentyten_attachment_size`
-
-*Filters the Twenty Ten default attachment width.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`900` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/loop-attachment.php](../../wordpress/wp-content/themes/twentyten/loop-attachment.php), [line 125](../../wordpress/wp-content/themes/twentyten/loop-attachment.php#L125-L132)
-
-### `twentyten_attachment_height`
-
-*Filters the Twenty Ten default attachment height.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`900` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/loop-attachment.php](../../wordpress/wp-content/themes/twentyten/loop-attachment.php), [line 133](../../wordpress/wp-content/themes/twentyten/loop-attachment.php#L133-L140)
-
-### `twentyten_author_bio_avatar_size`
-
-*Filters the Twenty Ten author bio avatar size.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`60` |  | 
-
-Source: [wordpress/wp-content/themes/twentyten/author.php](../../wordpress/wp-content/themes/twentyten/author.php), [line 43](../../wordpress/wp-content/themes/twentyten/author.php#L43-L50)
-
-### `twentytwenty_get_elements_array`
-
-*Filters Twenty Twenty theme elements.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$elements` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/functions.php](../../wordpress/wp-content/themes/twentytwenty/functions.php), [line 780](../../wordpress/wp-content/themes/twentytwenty/functions.php#L780-L787)
-
-### `twentytwenty_site_logo_args`
-
-*Filters the arguments for `twentytwenty_site_logo()`.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$args` | `array` | Parsed arguments.
-`$defaults` | `array` | Function's default arguments.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 52](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L52-L60)
-
-### `twentytwenty_site_logo`
-
-*Filters the arguments for `twentytwenty_site_logo()`.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$html` | `string` | Compiled HTML based on our arguments.
-`$args` | `array` | Parsed arguments.
-`$classname` | `string` | Class name based on current view, home or single.
-`$contents` | `string` | HTML for site title or logo.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 74](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L74-L84)
-
-### `twentytwenty_site_description`
-
-*Filters the HTML for the site description.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$html` | `string` | The HTML to display.
-`$description` | `string` | Site description via `bloginfo()`.
-`$wrapper` | `string` | The format used in case you want to reuse it in a `sprintf()`.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 113](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L113-L122)
-
-### `twentytwenty_disallowed_post_types_for_meta_output`
-
-*Filters post types array.*
-
-This filter can be used to hide post meta information of post, page or custom post type
-registered by child themes or plugins.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('page')` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 254](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L254-L264)
-
-### `twentytwenty_post_meta_location_single_top`
-
-*Filters post meta info visibility.*
-
-Use this filter to hide post meta information like Author, Post date, Comments, Is sticky status.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('author', 'post-date', 'comments', 'sticky')` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 276](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L276-L298)
-
-### `twentytwenty_post_meta_location_single_bottom`
-
-*Filters post tags visibility.*
-
-Use this filter to hide post tags.
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('tags')` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 304](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L304-L320)
-
-### `twentytwenty_get_the_archive_title_regex`
-
-*Filters the regular expression used to style the word before the first colon.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('pattern' => '/(\\A[^\\:]+\\:)/', 'replacement' => '<span class="color-accent">$1</span>')` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 762](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L762-L775)
-
-### `twentytwenty_toggle_duration`
-
-*Filters the animation duration/speed used usually for submenu toggles.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`250` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 801](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L801-L808)
-
-### `twentytwenty_starter_content`
-
-*Filters Twenty Twenty array of starter content.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$starter_content` | `array` | Array of starter content.
-
-Source: [wordpress/wp-content/themes/twentytwenty/inc/starter-content.php](../../wordpress/wp-content/themes/twentytwenty/inc/starter-content.php), [line 209](../../wordpress/wp-content/themes/twentytwenty/inc/starter-content.php#L209-L216)
-
-### `page_css_class`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$css_class` |  | 
-`$page` |  | 
-`$depth` |  | 
-`$args` |  | 
-`$current_page_id` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php), [line 73](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php#L73-L73)
-
-### `page_menu_link_attributes`
-
-*This filter is documented in wp-includes/class-walker-page.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$atts` |  | 
-`$page` |  | 
-`$depth` |  | 
-`$args` |  | 
-`$current_page_id` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php), [line 88](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php#L88-L89)
-
-### `the_title`
-
-*This filter is documented in wp-includes/post-template.php*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$page->post_title` |  | 
-`$page->ID` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php), [line 136](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php#L136-L137)
-
-### `twentytwenty_svg_icons_{$group}`
-
-*Filters Twenty Twenty's array of icons.*
-
-The dynamic portion of the hook name, `$group`, refers to
-the name of the group of icons, either "ui" or "social".
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$arr` | `array` | Array of icons.
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php), [line 37](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php#L37-L47)
-
-### `twentytwenty_svg_icon_color`
-
-*Filters an SVG icon's color.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$color` | `string` | The icon color.
-`$icon` | `string` | The icon name.
-`$group` | `string` | The icon group.
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php), [line 49](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php#L49-L58)
-
-### `twentytwenty_social_icons_map`
-
-*Filters Twenty Twenty's array of domain mappings for social icons.*
-
-By default, each Icon ID is matched against a .com TLD. To override this behavior,
-specify all the domains it covers (including the .com TLD too, if applicable).
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`self::$social_icons_map` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php), [line 85](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php#L85-L95)
-
-### `twentytwenty_svg_icons_social`
-
-*Filters Twenty Twenty's array of social icons.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`self::$social_icons` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php), [line 97](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-svg-icons.php#L97-L104)
-
-### `twentytwenty_customize_opacity_range`
-
-*Filters the input attributes for opacity.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('min' => 0, 'max' => 90, 'step' => 5)` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-customize.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-customize.php), [line 521](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-customize.php#L521-L541)
-
-### `twentytwenty_get_localized_font_family_types`
-
-*Filters the fallback fonts for non-latin languages.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array(
-    // Arabic.
-    'ar' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ary' => array('Tahoma', 'Arial', 'sans-serif'),
-    'azb' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ckb' => array('Tahoma', 'Arial', 'sans-serif'),
-    'fa-IR' => array('Tahoma', 'Arial', 'sans-serif'),
-    'haz' => array('Tahoma', 'Arial', 'sans-serif'),
-    'ps' => array('Tahoma', 'Arial', 'sans-serif'),
-    // Chinese Simplified (China) - Noto Sans SC.
-    'zh-CN' => array('\'PingFang SC\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Chinese Traditional (Taiwan) - Noto Sans TC.
-    'zh-TW' => array('\'PingFang TC\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Chinese (Hong Kong) - Noto Sans HK.
-    'zh-HK' => array('\'PingFang HK\'', '\'Helvetica Neue\'', '\'Microsoft YaHei New\'', '\'STHeiti Light\'', 'sans-serif'),
-    // Cyrillic.
-    'bel' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'bg-BG' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'kk' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'mk-MK' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'mn' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'ru-RU' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'sah' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'sr-RS' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'tt-RU' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    'uk' => array('\'Helvetica Neue\'', 'Helvetica', '\'Segoe UI\'', 'Arial', 'sans-serif'),
-    // Devanagari.
-    'bn-BD' => array('Arial', 'sans-serif'),
-    'hi-IN' => array('Arial', 'sans-serif'),
-    'mr' => array('Arial', 'sans-serif'),
-    'ne-NP' => array('Arial', 'sans-serif'),
-    // Greek.
-    'el' => array('\'Helvetica Neue\', Helvetica, Arial, sans-serif'),
-    // Gujarati.
-    'gu' => array('Arial', 'sans-serif'),
-    // Hebrew.
-    'he-IL' => array('\'Arial Hebrew\'', 'Arial', 'sans-serif'),
-    // Japanese.
-    'ja' => array('sans-serif'),
-    // Korean.
-    'ko-KR' => array('\'Apple SD Gothic Neo\'', '\'Malgun Gothic\'', '\'Nanum Gothic\'', 'Dotum', 'sans-serif'),
-    // Thai.
-    'th' => array('\'Sukhumvit Set\'', '\'Helvetica Neue\'', 'Helvetica', 'Arial', 'sans-serif'),
-    // Vietnamese.
-    'vi' => array('\'Libre Franklin\'', 'sans-serif'),
-)` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php), [line 35](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php#L35-L104)
-
-### `twentytwenty_get_localized_font_family_elements`
-
-*Filters the elements to apply fallback fonts to.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`array('front-end' => array('body', 'input', 'textarea', 'button', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file__button', '.has-drop-cap:not(:focus)::first-letter', '.entry-content .wp-block-archives', '.entry-content .wp-block-categories', '.entry-content .wp-block-cover-image', '.entry-content .wp-block-latest-comments', '.entry-content .wp-block-latest-posts', '.entry-content .wp-block-pullquote', '.entry-content .wp-block-quote.is-large', '.entry-content .wp-block-quote.is-style-large', '.entry-content .wp-block-archives *', '.entry-content .wp-block-categories *', '.entry-content .wp-block-latest-posts *', '.entry-content .wp-block-latest-comments *', '.entry-content p', '.entry-content ol', '.entry-content ul', '.entry-content dl', '.entry-content dt', '.entry-content cite', '.entry-content figcaption', '.entry-content .wp-caption-text', '.comment-content p', '.comment-content ol', '.comment-content ul', '.comment-content dl', '.comment-content dt', '.comment-content cite', '.comment-content figcaption', '.comment-content .wp-caption-text', '.widget_text p', '.widget_text ol', '.widget_text ul', '.widget_text dl', '.widget_text dt', '.widget-content .rssSummary', '.widget-content cite', '.widget-content figcaption', '.widget-content .wp-caption-text'), 'block-editor' => array('.editor-styles-wrapper > *', '.editor-styles-wrapper p', '.editor-styles-wrapper ol', '.editor-styles-wrapper ul', '.editor-styles-wrapper dl', '.editor-styles-wrapper dt', '.editor-post-title__block .editor-post-title__input', '.editor-styles-wrapper .wp-block-post-title', '.editor-styles-wrapper .wp-block h1', '.editor-styles-wrapper .wp-block h2', '.editor-styles-wrapper .wp-block h3', '.editor-styles-wrapper .wp-block h4', '.editor-styles-wrapper .wp-block h5', '.editor-styles-wrapper .wp-block h6', '.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter', '.editor-styles-wrapper cite', '.editor-styles-wrapper figcaption', '.editor-styles-wrapper .wp-caption-text'), 'classic-editor' => array('body#tinymce.wp-editor', 'body#tinymce.wp-editor p', 'body#tinymce.wp-editor ol', 'body#tinymce.wp-editor ul', 'body#tinymce.wp-editor dl', 'body#tinymce.wp-editor dt', 'body#tinymce.wp-editor figcaption', 'body#tinymce.wp-editor .wp-caption-text', 'body#tinymce.wp-editor .wp-caption-dd', 'body#tinymce.wp-editor cite', 'body#tinymce.wp-editor table'))` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php), [line 111](../../wordpress/wp-content/themes/twentytwenty/classes/class-twentytwenty-non-latin-languages.php#L111-L125)
-
-### `twentytwenty_show_categories_in_entry_header`
-
-*Allow child themes and plugins to filter the display of the categories in the entry header.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`true` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/template-parts/entry-header.php](../../wordpress/wp-content/themes/twentytwenty/template-parts/entry-header.php), [line 23](../../wordpress/wp-content/themes/twentytwenty/template-parts/entry-header.php#L23-L30)
-
-### `twentytwenty_show_categories_in_entry_header`
-
-*Allow child themes and plugins to filter the display of the categories in the article header.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`true` |  | 
-
-Source: [wordpress/wp-content/themes/twentytwenty/template-parts/content-cover.php](../../wordpress/wp-content/themes/twentytwenty/template-parts/content-cover.php), [line 57](../../wordpress/wp-content/themes/twentytwenty/template-parts/content-cover.php#L57-L64)
 
 ### `signup_another_blog_init`
 
@@ -57159,13 +56155,26 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 806](../
 
 ### `signup_get_available_languages`
 
+*Filters the list of available languages for front-end site sign-ups.*
+
+Passing an empty array to this hook will disable output of the setting on the
+sign-up form, and the default language will be used when creating the site.
+
+Languages not already installed will be stripped.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `get_available_languages()` |  | 
 
-Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 886](../../wordpress/wp-signup.php#L886-L886)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | 
+
+Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 873](../../wordpress/wp-signup.php#L873-L886)
 
 ### `wpmu_active_signup`
 

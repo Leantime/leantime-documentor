@@ -4,5 +4,8 @@
 # Composer
 /vendor/
 
+# WordPress
+/wordpress/
+
 # Composer bin plugin
 /vendor-bin/**/vendor

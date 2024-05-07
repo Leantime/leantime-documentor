@@ -26,6 +26,27 @@ class TemplatePrinter {
     public $template;
 
 	/**
+	 * Documentor.
+	 * 
+	 * @var Documentor
+	 */
+	public $documentor;
+
+	/**
+	 * Output.
+	 * 
+	 * @var OutputInterface
+	 */
+	public $output;
+
+	/**
+	 * Template file.
+	 * 
+	 * @var string
+	 */
+	public $template;
+
+	/**
 	 * Constrcuct default printer.
 	 *
 	 * @param Documentor      $documentor Documentor.

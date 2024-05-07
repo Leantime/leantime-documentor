@@ -8,7 +8,7 @@
  * @package   DigitalJoeCo\Leantime\Documentor
  */
 
-echo '### `leantime.', $hook->get_hook(), '`', $eol;
+echo '### `Leantime.', $hook->get_hook(), '`', $eol;
 echo $eol;
 
 $summary = $hook->get_summary();

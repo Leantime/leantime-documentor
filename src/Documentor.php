@@ -419,7 +419,7 @@ class Documentor {
                 continue;
             }
 
-			$this->hooks[] = "leantime".$hook;
+			$this->hooks[] = $hook;
 		}
 	}
 }

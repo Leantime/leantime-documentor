@@ -21,27 +21,24 @@ use Symfony\Component\Console\Output\OutputInterface;
  * @since   1.0.0
  */
 class TemplatePrinter {
-    public Documentor $documentor;
-    public OutputInterface $output;
-    public $template;
 
 	/**
 	 * Documentor.
-	 * 
+	 *
 	 * @var Documentor
 	 */
 	public $documentor;
 
 	/**
 	 * Output.
-	 * 
+	 *
 	 * @var OutputInterface
 	 */
 	public $output;
 
 	/**
 	 * Template file.
-	 * 
+	 *
 	 * @var string
 	 */
 	public $template;

@@ -361,6 +361,6 @@ class Hook {
             $specific_hook = '{$method}.' . $parts[1];
         }
 
-        return "leantime.$hook_context.$specific_hook";
+        return "$hook_context.$specific_hook";
     }
 }

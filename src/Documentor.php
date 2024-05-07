@@ -313,7 +313,7 @@ class Documentor {
 		);
 
 		foreach ( $statements as $statement ) {
-            $this->output->writeln(get_class($statement));
+            //$this->output->writeln(get_class($statement));
 
             $method = $this->findParentMethod($statement);
 
@@ -419,7 +419,7 @@ class Documentor {
                 continue;
             }
 
-			$this->hooks[] = $hook;
+			$this->hooks[] = "leantime".$hook;
 		}
 	}
 }

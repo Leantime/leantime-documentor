@@ -42,22 +42,18 @@ class Documentor {
 	 */
 	public $prefixes;
 
-    public $type;
-
-    public $relative;
-
     public $output;
 
 	/**
 	 * Document type 'actions' or 'filters'.
-	 * 
+	 *
 	 * @var string
 	 */
 	public $type;
 
 	/**
 	 * Relative path.
-	 * 
+	 *
 	 * @var string
 	 */
 	public $relative;
@@ -160,7 +156,7 @@ class Documentor {
 
 	/**
 	 * Get statement doc document.
-	 * 
+	 *
 	 * @param Node $statement Statement.
 	 * @return string|null
 	 */
@@ -175,11 +171,11 @@ class Documentor {
 
 		/**
 		 * This handles a assignment before a hook function call:
-		 * 
+		 *
 		 * ```php
 		 * $some_variable = apply_filters( 'my_plugin_filter_1', $first_param, $second_param );
 		 * ```
-		 * 
+		 *
 		 * @link https://github.com/pronamic/wp-documentor/issues/11
 		 */
 		if ( $parent instanceof \PhpParser\Node\Expr\Assign ) {
@@ -188,11 +184,11 @@ class Documentor {
 
 		/**
 		 * This handles a cast before a hook function call:
-		 * 
+		 *
 		 * ```php
 		 * $should_do = (bool) apply_filters( 'should_we_do_it', true, $some_value );
 		 * ```
-		 * 
+		 *
 		 * @link https://github.com/pronamic/wp-documentor/issues/18
 		 */
 		if ( $parent instanceof \PhpParser\Node\Expr\Cast ) {
@@ -201,13 +197,13 @@ class Documentor {
 
 		/**
 		 * This handles a hook function call in a `if` statement (`\PhpParser\Node\Stmt\If_`):
-		 * 
+		 *
 		 * ```php
 		 * if ( (bool) apply_filters( 'some_condition_filter', $some_condition, $some_other_parameter ) )
 		 * ```
-		 * 
+		 *
 		 * And also a `return` statement (`PhpParser\Node\Stmt\Return_`):
-		 * 
+		 *
 		 * ```php
 		 * return apply_filters( 'test_issue_13_file_exclude_2', $first_param, $second_param );
 		 * ```
@@ -317,7 +313,7 @@ class Documentor {
 		);
 
 		foreach ( $statements as $statement ) {
-            //$this->output->writeln(get_class($statement));
+            $this->output->writeln(get_class($statement));
 
             $method = $this->findParentMethod($statement);
 

@@ -45,7 +45,7 @@ class Hook {
 
 	/**
 	 * Arguments.
-	 * 
+	 *
 	 * @var Argument[]
 	 */
 	public $arguments;
@@ -73,8 +73,6 @@ class Hook {
 	 * @var Changelog|null
 	 */
 	private $changelog;
-
-    public array $arguments;
 
     public $parent;
 

@@ -295,7 +295,10 @@ class Documentor {
 					\strval( $node->name ),
 					array(
 						'dispatch_event',
+						'dispatchEvent',
+						'dispatch',
 						'dispatch_filter',
+						'dispatchFilter',
                         'dispatchTplEvent',
                         'dispatchTplHook',
                         'dispatchMailerEvent',

@@ -214,7 +214,8 @@ class Hook {
 			array(
 				'dispatch_filter',
                 'dispatchTplFilter',
-                'dispatchMailerFilter'
+                'dispatchMailerFilter',
+				'dispatchFilter'
 			),
 			true
 		);
@@ -231,7 +232,9 @@ class Hook {
 			array(
 				'dispatch_event',
                 'dispatchTplEvent',
-                'dispatchMailerFilter'
+                'dispatchMailerFilter',
+				'dispatchEvent',
+				'dispatch'
 			),
 			true
 		);

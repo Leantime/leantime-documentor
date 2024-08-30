@@ -24,6 +24,11 @@
 				<path>src</path>
 			</source>
 		</api>
+		<api>
+			<source dsn=".">
+				<path>src</path>
+			</source>
+		</api>
 		<guide>
 			<source dsn=".">
 				<path>docs</path>

@@ -13,13 +13,17 @@
 		<cache>build/cache</cache>
 	</paths>
 
-	<version number="1.0.0">
+	<version number="latest">
 		<api>
 			<source dsn=".">
 				<path>src</path>
 			</source>
 		</api>
-
+		<api>
+			<source dsn=".">
+				<path>src</path>
+			</source>
+		</api>
 		<guide>
 			<source dsn=".">
 				<path>docs</path>

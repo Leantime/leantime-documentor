@@ -2,7 +2,7 @@
     "name": "leantime/leantime-documentor",
     "description": "Documentation Generator for Leantime.",
     "keywords": ["documentation", "api", "dga", "application", "phpdoc", "leantime"],
-	"version": "1.0",
+	"version": "1.0.0",
     "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
